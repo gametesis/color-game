@@ -155,7 +155,7 @@
 
                             localStorage["color game"] = JSON.stringify(data)
                             setTimeout(() => {
-                                window.location.href = window.location.origin + "/level_creation_form.html?continue"
+                                window.location.href = window.location.origin + "/color-game/level_creation_form.html?continue"
                             }, 100);
                         })
 
@@ -170,7 +170,7 @@
                 try {
                     data.created_level_info = JSON.parse(text_area.value)
                     localStorage["color game"] = JSON.stringify(data)
-                    window.location.href = window.location.origin + "/level_creation_form.html?continue"
+                    window.location.href = window.location.origin + "/color-game/level_creation_form.html?continue"
                 } catch {
                     alert("Error: probably not valid json")
                 }
@@ -191,7 +191,7 @@
 
                             localStorage["color game"] = JSON.stringify(data)
                             setTimeout(() => {
-                                window.location.href = window.location.origin + "/game.html#level=community"
+                                window.location.href = window.location.origin + "/color-game/game.html#level=community"
                             }, 100);
                         })
 
@@ -204,7 +204,7 @@
                 try {
                     data.community = JSON.parse(text_area.value)
                     localStorage["color game"] = JSON.stringify(data)
-                    window.location.href = window.location.origin + "/game.html#level=community"
+                    window.location.href = window.location.origin + "/color-game/game.html#level=community"
                 } catch {
                     alert("Error: probably not valid json")
                 }

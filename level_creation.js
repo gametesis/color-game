@@ -632,7 +632,7 @@ function createReturnButton() {
   user-select:none;`;
   btn.innerText = "Return";
   btn.addEventListener("click", () => {
-    window.location.href = window.location.origin + "/level_creation_form.html?continue"
+    window.location.href = window.location.origin + "/color-game/level_creation_form.html?continue"
   });
   getElement("game_window").appendChild(btn);
 }
