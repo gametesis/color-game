@@ -1,0 +1,2 @@
+The software used to create the game under  https://gametesis.github.io/color-game/ is property of the respective domain (https://gametesis.github.io/), so any usage,
+redistribution or sublicense of the software is strictly prohibited!
