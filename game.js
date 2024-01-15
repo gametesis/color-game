@@ -1223,7 +1223,7 @@ async function initGloabalVars() {
 
     url = url
       .replace("#level=", "")
-      .replace("{{home}}", window.location.origin + "/levels");
+      .replace("{{home}}", window.location.origin + "/color-game/levels");
     data = await fetchJson(url);
 
     //update actual_level playing in store
@@ -1287,12 +1287,12 @@ async function initGloabalVars() {
 function goToNextLevel() {
   if (window.location.origin === "https://gametesis.github.io") {
     window.location.href =
-      window.location.origin + "/game.html#level=" + next_level_pointer;
+      window.location.origin + "/color-game/game.html#level=" + next_level_pointer;
     reloadGame()
   }else{
     let level = parseInt(window.location.hash.split("#level={{home}}/")[1].split(".json")[0])
     window.location.href =
-      window.location.origin + "/game.html#level=" + next_level_pointer;
+      window.location.origin + "/color-game/game.html#level=" + next_level_pointer;
     setTimeout(reloadGame,level*100)
   }
 
@@ -1734,7 +1734,7 @@ function createInputButtons() {
       blue_key = true;
       first_user_interaction_global = true;
       if (["menu", "win", "loose"].includes(buttons_menu_state)) {
-        window.location.href = window.location.origin + "/index.html";
+        window.location.href = window.location.origin + "/color-game/index.html";
       }
     }
     is_pressing_key = true;
