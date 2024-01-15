@@ -70,12 +70,12 @@ let lose_flag = false;
 
 //audio----
 function loadAudioSounds() {
-  let sound1 = new Audio("../audio/Water Plop - Sound Effect (HD).mp3");
-  let sound2 = new Audio("../audio/machete-26994.mp3");
+  let sound1 = new Audio("/color-game/audio/Water Plop - Sound Effect (HD).mp3");
+  let sound2 = new Audio("/color-game/audio/machete-26994.mp3");
   let sound3 = new Audio(
     "../audio/Lightsaber Ignition (Laser Sword) - Sound Effect for editing.mp3"
   );
-  let sound4 = new Audio("../audio/Lightsaber Off.mp3");
+  let sound4 = new Audio("/color-game/audio/Lightsaber Off.mp3");
 
   sound1.volume = 0;
   sound1.load();
@@ -107,7 +107,7 @@ function playCatchAudio() {
     // Check if the maximum plays have been reached
     if (playCount < maxPlays) {
       // Play the sound
-      let sound = new Audio("../audio/Water Plop - Sound Effect (HD).mp3");
+      let sound = new Audio("/color-game/audio/Water Plop - Sound Effect (HD).mp3");
       sound.volume = 1;
       sound.play();
 
@@ -142,7 +142,7 @@ function playRebounceAudio() {
     // Check if the maximum plays have been reached
     if (playCount < maxPlays) {
       // Play the sound
-      let sound = new Audio("../audio/machete-26994.mp3");
+      let sound = new Audio("/color-game/audio/machete-26994.mp3");
       sound.volume = 0.1;
       sound.play();
 
@@ -178,7 +178,7 @@ function playColorEvolutionAudio() {
     if (playCount < maxPlays) {
       // Play the sound
       let sound = new Audio(
-        "../audio/Lightsaber Ignition (Laser Sword) - Sound Effect for editing.mp3"
+        "/color-game/audio/Lightsaber Ignition (Laser Sword) - Sound Effect for editing.mp3"
       );
       sound.volume = 0.5;
       sound.play();
@@ -214,7 +214,7 @@ function playColorDowngradeAudio() {
     // Check if the maximum plays have been reached
     if (playCount < maxPlays) {
       // Play the sound
-      let sound = new Audio("../audio/Lightsaber Off.mp3");
+      let sound = new Audio("/color-game/audio/Lightsaber Off.mp3");
       sound.volume = 0.5;
       sound.play();
 
