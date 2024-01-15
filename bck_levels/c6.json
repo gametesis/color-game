@@ -1,0 +1,88 @@
+{
+    "map": {
+        "2000:2002": {
+            "x": 2000,
+            "y": 2002,
+            "object_code": "black_ball"
+        },
+        "1996:1991": {
+            "x": 1996,
+            "y": 1991,
+            "object_code": "white_ball"
+        },
+        "1996:1988": {
+            "x": 1996,
+            "y": 1988,
+            "object_code": "green_ball"
+        },
+        "1995:1988": {
+            "x": 1995,
+            "y": 1988,
+            "object_code": "green_ball"
+        },
+        "1994:1988": {
+            "x": 1994,
+            "y": 1988,
+            "object_code": "green_ball"
+        },
+        "1994:1989": {
+            "x": 1994,
+            "y": 1989,
+            "object_code": "green_ball"
+        },
+        "1975:1984": {
+            "x": 1975,
+            "y": 1984,
+            "object_code": "white_ball"
+        },
+        "1972:1984": {
+            "x": 1972,
+            "y": 1984,
+            "object_code": "green_ball"
+        },
+        "1972:1982": {
+            "x": 1972,
+            "y": 1982,
+            "object_code": "green_ball"
+        },
+        "1974:1981": {
+            "x": 1974,
+            "y": 1981,
+            "object_code": "green_ball"
+        },
+        "1976:1981": {
+            "x": 1976,
+            "y": 1981,
+            "object_code": "green_ball"
+        },
+        "1978:1984": {
+            "x": 1978,
+            "y": 1984,
+            "object_code": "green_ball"
+        },
+        "1978:1982": {
+            "x": 1978,
+            "y": 1982,
+            "object_code": "green_ball"
+        }
+    },
+    "player_position": {
+        "x": 2000,
+        "y": 2000
+    },
+    "min_score_to_win": 9,
+    "time_limit": null,
+    "acceleration": 12,
+    "max_speed": 250,
+    "zoom_value": 39,
+    "add_powers": false,
+    "map_edge_type": "deadly",
+    "edge_distance": 300,
+    "next_level": "{{home}}/t30.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}

@@ -1,0 +1,833 @@
+{
+    "map": {
+        "1663:1663": {
+            "x": 1663,
+            "y": 1663,
+            "object_code": "green_ball"
+        },
+        "1649:1654": {
+            "x": 1649,
+            "y": 1654,
+            "object_code": "red_ball"
+        },
+        "1679:1651": {
+            "x": 1679,
+            "y": 1651,
+            "object_code": "purple_ball"
+        },
+        "1680:1651": {
+            "x": 1680,
+            "y": 1651,
+            "object_code": "purple_ball"
+        },
+        "1681:1651": {
+            "x": 1681,
+            "y": 1651,
+            "object_code": "purple_ball"
+        },
+        "1682:1651": {
+            "x": 1682,
+            "y": 1651,
+            "object_code": "purple_ball"
+        },
+        "1683:1651": {
+            "x": 1683,
+            "y": 1651,
+            "object_code": "purple_ball"
+        },
+        "1684:1651": {
+            "x": 1684,
+            "y": 1651,
+            "object_code": "purple_ball"
+        },
+        "1684:1652": {
+            "x": 1684,
+            "y": 1652,
+            "object_code": "purple_ball"
+        },
+        "1684:1653": {
+            "x": 1684,
+            "y": 1653,
+            "object_code": "purple_ball"
+        },
+        "1684:1654": {
+            "x": 1684,
+            "y": 1654,
+            "object_code": "purple_ball"
+        },
+        "1684:1655": {
+            "x": 1684,
+            "y": 1655,
+            "object_code": "purple_ball"
+        },
+        "1684:1656": {
+            "x": 1684,
+            "y": 1656,
+            "object_code": "purple_ball"
+        },
+        "1683:1656": {
+            "x": 1683,
+            "y": 1656,
+            "object_code": "purple_ball"
+        },
+        "1682:1656": {
+            "x": 1682,
+            "y": 1656,
+            "object_code": "purple_ball"
+        },
+        "1681:1656": {
+            "x": 1681,
+            "y": 1656,
+            "object_code": "purple_ball"
+        },
+        "1680:1656": {
+            "x": 1680,
+            "y": 1656,
+            "object_code": "purple_ball"
+        },
+        "1679:1656": {
+            "x": 1679,
+            "y": 1656,
+            "object_code": "purple_ball"
+        },
+        "1679:1655": {
+            "x": 1679,
+            "y": 1655,
+            "object_code": "purple_ball"
+        },
+        "1679:1654": {
+            "x": 1679,
+            "y": 1654,
+            "object_code": "purple_ball"
+        },
+        "1679:1653": {
+            "x": 1679,
+            "y": 1653,
+            "object_code": "purple_ball"
+        },
+        "1679:1652": {
+            "x": 1679,
+            "y": 1652,
+            "object_code": "purple_ball"
+        },
+        "1682:1652": {
+            "x": 1682,
+            "y": 1652,
+            "object_code": "purple_ball"
+        },
+        "1683:1652": {
+            "x": 1683,
+            "y": 1652,
+            "object_code": "purple_ball"
+        },
+        "1681:1652": {
+            "x": 1681,
+            "y": 1652,
+            "object_code": "purple_ball"
+        },
+        "1680:1652": {
+            "x": 1680,
+            "y": 1652,
+            "object_code": "purple_ball"
+        },
+        "1680:1653": {
+            "x": 1680,
+            "y": 1653,
+            "object_code": "purple_ball"
+        },
+        "1680:1654": {
+            "x": 1680,
+            "y": 1654,
+            "object_code": "purple_ball"
+        },
+        "1680:1655": {
+            "x": 1680,
+            "y": 1655,
+            "object_code": "purple_ball"
+        },
+        "1681:1655": {
+            "x": 1681,
+            "y": 1655,
+            "object_code": "purple_ball"
+        },
+        "1682:1655": {
+            "x": 1682,
+            "y": 1655,
+            "object_code": "purple_ball"
+        },
+        "1683:1655": {
+            "x": 1683,
+            "y": 1655,
+            "object_code": "purple_ball"
+        },
+        "1683:1654": {
+            "x": 1683,
+            "y": 1654,
+            "object_code": "purple_ball"
+        },
+        "1683:1653": {
+            "x": 1683,
+            "y": 1653,
+            "object_code": "purple_ball"
+        },
+        "1682:1653": {
+            "x": 1682,
+            "y": 1653,
+            "object_code": "purple_ball"
+        },
+        "1681:1653": {
+            "x": 1681,
+            "y": 1653,
+            "object_code": "purple_ball"
+        },
+        "1681:1654": {
+            "x": 1681,
+            "y": 1654,
+            "object_code": "purple_ball"
+        },
+        "1682:1654": {
+            "x": 1682,
+            "y": 1654,
+            "object_code": "purple_ball"
+        },
+        "1679:1650": {
+            "x": 1679,
+            "y": 1650,
+            "object_code": "purple_ball"
+        },
+        "1680:1650": {
+            "x": 1680,
+            "y": 1650,
+            "object_code": "purple_ball"
+        },
+        "1681:1650": {
+            "x": 1681,
+            "y": 1650,
+            "object_code": "purple_ball"
+        },
+        "1682:1650": {
+            "x": 1682,
+            "y": 1650,
+            "object_code": "purple_ball"
+        },
+        "1683:1650": {
+            "x": 1683,
+            "y": 1650,
+            "object_code": "purple_ball"
+        },
+        "1684:1650": {
+            "x": 1684,
+            "y": 1650,
+            "object_code": "purple_ball"
+        },
+        "1683:1649": {
+            "x": 1683,
+            "y": 1649,
+            "object_code": "purple_ball"
+        },
+        "1682:1649": {
+            "x": 1682,
+            "y": 1649,
+            "object_code": "purple_ball"
+        },
+        "1681:1649": {
+            "x": 1681,
+            "y": 1649,
+            "object_code": "purple_ball"
+        },
+        "1680:1649": {
+            "x": 1680,
+            "y": 1649,
+            "object_code": "purple_ball"
+        },
+        "1679:1649": {
+            "x": 1679,
+            "y": 1649,
+            "object_code": "purple_ball"
+        },
+        "1684:1649": {
+            "x": 1684,
+            "y": 1649,
+            "object_code": "purple_ball"
+        },
+        "1681:1671": {
+            "x": 1681,
+            "y": 1671,
+            "object_code": "red_ball"
+        },
+        "1646:1671": {
+            "x": 1646,
+            "y": 1671,
+            "object_code": "yellow_ball"
+        },
+        "1646:1672": {
+            "x": 1646,
+            "y": 1672,
+            "object_code": "yellow_ball"
+        },
+        "1646:1673": {
+            "x": 1646,
+            "y": 1673,
+            "object_code": "yellow_ball"
+        },
+        "1646:1674": {
+            "x": 1646,
+            "y": 1674,
+            "object_code": "yellow_ball"
+        },
+        "1646:1675": {
+            "x": 1646,
+            "y": 1675,
+            "object_code": "yellow_ball"
+        },
+        "1646:1676": {
+            "x": 1646,
+            "y": 1676,
+            "object_code": "yellow_ball"
+        },
+        "1646:1677": {
+            "x": 1646,
+            "y": 1677,
+            "object_code": "yellow_ball"
+        },
+        "1646:1678": {
+            "x": 1646,
+            "y": 1678,
+            "object_code": "yellow_ball"
+        },
+        "1646:1679": {
+            "x": 1646,
+            "y": 1679,
+            "object_code": "yellow_ball"
+        },
+        "1646:1680": {
+            "x": 1646,
+            "y": 1680,
+            "object_code": "yellow_ball"
+        },
+        "1647:1680": {
+            "x": 1647,
+            "y": 1680,
+            "object_code": "yellow_ball"
+        },
+        "1648:1680": {
+            "x": 1648,
+            "y": 1680,
+            "object_code": "yellow_ball"
+        },
+        "1649:1680": {
+            "x": 1649,
+            "y": 1680,
+            "object_code": "yellow_ball"
+        },
+        "1650:1680": {
+            "x": 1650,
+            "y": 1680,
+            "object_code": "yellow_ball"
+        },
+        "1651:1680": {
+            "x": 1651,
+            "y": 1680,
+            "object_code": "yellow_ball"
+        },
+        "1652:1680": {
+            "x": 1652,
+            "y": 1680,
+            "object_code": "yellow_ball"
+        },
+        "1652:1679": {
+            "x": 1652,
+            "y": 1679,
+            "object_code": "yellow_ball"
+        },
+        "1652:1678": {
+            "x": 1652,
+            "y": 1678,
+            "object_code": "yellow_ball"
+        },
+        "1652:1677": {
+            "x": 1652,
+            "y": 1677,
+            "object_code": "yellow_ball"
+        },
+        "1652:1676": {
+            "x": 1652,
+            "y": 1676,
+            "object_code": "yellow_ball"
+        },
+        "1653:1676": {
+            "x": 1653,
+            "y": 1676,
+            "object_code": "yellow_ball"
+        },
+        "1653:1675": {
+            "x": 1653,
+            "y": 1675,
+            "object_code": "yellow_ball"
+        },
+        "1653:1674": {
+            "x": 1653,
+            "y": 1674,
+            "object_code": "yellow_ball"
+        },
+        "1653:1673": {
+            "x": 1653,
+            "y": 1673,
+            "object_code": "yellow_ball"
+        },
+        "1653:1672": {
+            "x": 1653,
+            "y": 1672,
+            "object_code": "yellow_ball"
+        },
+        "1653:1671": {
+            "x": 1653,
+            "y": 1671,
+            "object_code": "yellow_ball"
+        },
+        "1652:1671": {
+            "x": 1652,
+            "y": 1671,
+            "object_code": "yellow_ball"
+        },
+        "1651:1671": {
+            "x": 1651,
+            "y": 1671,
+            "object_code": "yellow_ball"
+        },
+        "1650:1671": {
+            "x": 1650,
+            "y": 1671,
+            "object_code": "yellow_ball"
+        },
+        "1649:1671": {
+            "x": 1649,
+            "y": 1671,
+            "object_code": "yellow_ball"
+        },
+        "1648:1671": {
+            "x": 1648,
+            "y": 1671,
+            "object_code": "yellow_ball"
+        },
+        "1647:1671": {
+            "x": 1647,
+            "y": 1671,
+            "object_code": "yellow_ball"
+        },
+        "1647:1672": {
+            "x": 1647,
+            "y": 1672,
+            "object_code": "yellow_ball"
+        },
+        "1647:1673": {
+            "x": 1647,
+            "y": 1673,
+            "object_code": "yellow_ball"
+        },
+        "1647:1674": {
+            "x": 1647,
+            "y": 1674,
+            "object_code": "yellow_ball"
+        },
+        "1647:1675": {
+            "x": 1647,
+            "y": 1675,
+            "object_code": "yellow_ball"
+        },
+        "1647:1676": {
+            "x": 1647,
+            "y": 1676,
+            "object_code": "yellow_ball"
+        },
+        "1647:1677": {
+            "x": 1647,
+            "y": 1677,
+            "object_code": "yellow_ball"
+        },
+        "1647:1678": {
+            "x": 1647,
+            "y": 1678,
+            "object_code": "yellow_ball"
+        },
+        "1647:1679": {
+            "x": 1647,
+            "y": 1679,
+            "object_code": "yellow_ball"
+        },
+        "1648:1679": {
+            "x": 1648,
+            "y": 1679,
+            "object_code": "yellow_ball"
+        },
+        "1653:1680": {
+            "x": 1653,
+            "y": 1680,
+            "object_code": "yellow_ball"
+        },
+        "1653:1679": {
+            "x": 1653,
+            "y": 1679,
+            "object_code": "yellow_ball"
+        },
+        "1653:1678": {
+            "x": 1653,
+            "y": 1678,
+            "object_code": "yellow_ball"
+        },
+        "1653:1677": {
+            "x": 1653,
+            "y": 1677,
+            "object_code": "yellow_ball"
+        },
+        "1652:1673": {
+            "x": 1652,
+            "y": 1673,
+            "object_code": "yellow_ball"
+        },
+        "1652:1672": {
+            "x": 1652,
+            "y": 1672,
+            "object_code": "yellow_ball"
+        },
+        "1652:1674": {
+            "x": 1652,
+            "y": 1674,
+            "object_code": "yellow_ball"
+        },
+        "1652:1675": {
+            "x": 1652,
+            "y": 1675,
+            "object_code": "yellow_ball"
+        },
+        "1651:1678": {
+            "x": 1651,
+            "y": 1678,
+            "object_code": "yellow_ball"
+        },
+        "1651:1679": {
+            "x": 1651,
+            "y": 1679,
+            "object_code": "yellow_ball"
+        },
+        "1650:1679": {
+            "x": 1650,
+            "y": 1679,
+            "object_code": "yellow_ball"
+        },
+        "1649:1679": {
+            "x": 1649,
+            "y": 1679,
+            "object_code": "yellow_ball"
+        },
+        "1648:1678": {
+            "x": 1648,
+            "y": 1678,
+            "object_code": "yellow_ball"
+        },
+        "1649:1678": {
+            "x": 1649,
+            "y": 1678,
+            "object_code": "yellow_ball"
+        },
+        "1650:1678": {
+            "x": 1650,
+            "y": 1678,
+            "object_code": "yellow_ball"
+        },
+        "1650:1677": {
+            "x": 1650,
+            "y": 1677,
+            "object_code": "yellow_ball"
+        },
+        "1650:1676": {
+            "x": 1650,
+            "y": 1676,
+            "object_code": "yellow_ball"
+        },
+        "1651:1676": {
+            "x": 1651,
+            "y": 1676,
+            "object_code": "yellow_ball"
+        },
+        "1651:1675": {
+            "x": 1651,
+            "y": 1675,
+            "object_code": "yellow_ball"
+        },
+        "1651:1674": {
+            "x": 1651,
+            "y": 1674,
+            "object_code": "yellow_ball"
+        },
+        "1651:1673": {
+            "x": 1651,
+            "y": 1673,
+            "object_code": "yellow_ball"
+        },
+        "1651:1672": {
+            "x": 1651,
+            "y": 1672,
+            "object_code": "yellow_ball"
+        },
+        "1651:1677": {
+            "x": 1651,
+            "y": 1677,
+            "object_code": "yellow_ball"
+        },
+        "1650:1675": {
+            "x": 1650,
+            "y": 1675,
+            "object_code": "yellow_ball"
+        },
+        "1650:1674": {
+            "x": 1650,
+            "y": 1674,
+            "object_code": "yellow_ball"
+        },
+        "1650:1673": {
+            "x": 1650,
+            "y": 1673,
+            "object_code": "yellow_ball"
+        },
+        "1650:1672": {
+            "x": 1650,
+            "y": 1672,
+            "object_code": "yellow_ball"
+        },
+        "1649:1675": {
+            "x": 1649,
+            "y": 1675,
+            "object_code": "yellow_ball"
+        },
+        "1649:1676": {
+            "x": 1649,
+            "y": 1676,
+            "object_code": "yellow_ball"
+        },
+        "1649:1677": {
+            "x": 1649,
+            "y": 1677,
+            "object_code": "yellow_ball"
+        },
+        "1649:1674": {
+            "x": 1649,
+            "y": 1674,
+            "object_code": "yellow_ball"
+        },
+        "1648:1673": {
+            "x": 1648,
+            "y": 1673,
+            "object_code": "yellow_ball"
+        },
+        "1648:1672": {
+            "x": 1648,
+            "y": 1672,
+            "object_code": "yellow_ball"
+        },
+        "1649:1672": {
+            "x": 1649,
+            "y": 1672,
+            "object_code": "yellow_ball"
+        },
+        "1649:1673": {
+            "x": 1649,
+            "y": 1673,
+            "object_code": "yellow_ball"
+        },
+        "1648:1675": {
+            "x": 1648,
+            "y": 1675,
+            "object_code": "yellow_ball"
+        },
+        "1648:1676": {
+            "x": 1648,
+            "y": 1676,
+            "object_code": "yellow_ball"
+        },
+        "1648:1677": {
+            "x": 1648,
+            "y": 1677,
+            "object_code": "yellow_ball"
+        },
+        "1648:1674": {
+            "x": 1648,
+            "y": 1674,
+            "object_code": "yellow_ball"
+        },
+        "1670:1669": {
+            "x": 1670,
+            "y": 1669,
+            "object_code": "blue_ball"
+        },
+        "1679:1657": {
+            "x": 1679,
+            "y": 1657,
+            "object_code": "purple_ball"
+        },
+        "1679:1658": {
+            "x": 1679,
+            "y": 1658,
+            "object_code": "purple_ball"
+        },
+        "1679:1659": {
+            "x": 1679,
+            "y": 1659,
+            "object_code": "purple_ball"
+        },
+        "1679:1660": {
+            "x": 1679,
+            "y": 1660,
+            "object_code": "purple_ball"
+        },
+        "1679:1661": {
+            "x": 1679,
+            "y": 1661,
+            "object_code": "purple_ball"
+        },
+        "1680:1661": {
+            "x": 1680,
+            "y": 1661,
+            "object_code": "purple_ball"
+        },
+        "1681:1661": {
+            "x": 1681,
+            "y": 1661,
+            "object_code": "purple_ball"
+        },
+        "1682:1661": {
+            "x": 1682,
+            "y": 1661,
+            "object_code": "purple_ball"
+        },
+        "1683:1661": {
+            "x": 1683,
+            "y": 1661,
+            "object_code": "purple_ball"
+        },
+        "1684:1661": {
+            "x": 1684,
+            "y": 1661,
+            "object_code": "purple_ball"
+        },
+        "1684:1660": {
+            "x": 1684,
+            "y": 1660,
+            "object_code": "purple_ball"
+        },
+        "1684:1659": {
+            "x": 1684,
+            "y": 1659,
+            "object_code": "purple_ball"
+        },
+        "1684:1658": {
+            "x": 1684,
+            "y": 1658,
+            "object_code": "purple_ball"
+        },
+        "1684:1657": {
+            "x": 1684,
+            "y": 1657,
+            "object_code": "purple_ball"
+        },
+        "1683:1657": {
+            "x": 1683,
+            "y": 1657,
+            "object_code": "purple_ball"
+        },
+        "1682:1657": {
+            "x": 1682,
+            "y": 1657,
+            "object_code": "purple_ball"
+        },
+        "1681:1657": {
+            "x": 1681,
+            "y": 1657,
+            "object_code": "purple_ball"
+        },
+        "1680:1657": {
+            "x": 1680,
+            "y": 1657,
+            "object_code": "purple_ball"
+        },
+        "1680:1658": {
+            "x": 1680,
+            "y": 1658,
+            "object_code": "purple_ball"
+        },
+        "1680:1659": {
+            "x": 1680,
+            "y": 1659,
+            "object_code": "purple_ball"
+        },
+        "1680:1660": {
+            "x": 1680,
+            "y": 1660,
+            "object_code": "purple_ball"
+        },
+        "1681:1660": {
+            "x": 1681,
+            "y": 1660,
+            "object_code": "purple_ball"
+        },
+        "1682:1660": {
+            "x": 1682,
+            "y": 1660,
+            "object_code": "purple_ball"
+        },
+        "1683:1660": {
+            "x": 1683,
+            "y": 1660,
+            "object_code": "purple_ball"
+        },
+        "1683:1659": {
+            "x": 1683,
+            "y": 1659,
+            "object_code": "purple_ball"
+        },
+        "1683:1658": {
+            "x": 1683,
+            "y": 1658,
+            "object_code": "purple_ball"
+        },
+        "1682:1658": {
+            "x": 1682,
+            "y": 1658,
+            "object_code": "purple_ball"
+        },
+        "1681:1658": {
+            "x": 1681,
+            "y": 1658,
+            "object_code": "purple_ball"
+        },
+        "1681:1659": {
+            "x": 1681,
+            "y": 1659,
+            "object_code": "purple_ball"
+        },
+        "1682:1659": {
+            "x": 1682,
+            "y": 1659,
+            "object_code": "purple_ball"
+        }
+    },
+    "player_position": {
+        "x": 1666,
+        "y": 1666
+    },
+    "min_score_to_win": 150,
+    "time_limit": 10,
+    "acceleration": 12,
+    "max_speed": 250,
+    "zoom_value": 10,
+    "add_powers": false,
+    "map_edge_type": "normal",
+    "edge_distance": 300,
+    "next_level": "{{home}}/t23.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}

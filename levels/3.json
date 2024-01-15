@@ -1,0 +1,488 @@
+{
+    "map": {
+        "995:991": {
+            "x": 995,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "995:992": {
+            "x": 995,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "995:993": {
+            "x": 995,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "995:994": {
+            "x": 995,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "995:995": {
+            "x": 995,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "996:995": {
+            "x": 996,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "997:995": {
+            "x": 997,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "998:995": {
+            "x": 998,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "999:995": {
+            "x": 999,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "1000:995": {
+            "x": 1000,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "1001:995": {
+            "x": 1001,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "1002:995": {
+            "x": 1002,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "1003:995": {
+            "x": 1003,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "1004:995": {
+            "x": 1004,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "1005:995": {
+            "x": 1005,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "1006:995": {
+            "x": 1006,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "1006:994": {
+            "x": 1006,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "1006:993": {
+            "x": 1006,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "1006:992": {
+            "x": 1006,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "1006:991": {
+            "x": 1006,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "1005:991": {
+            "x": 1005,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "1005:990": {
+            "x": 1005,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "1006:989": {
+            "x": 1006,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "1006:990": {
+            "x": 1006,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "1005:989": {
+            "x": 1005,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "1004:989": {
+            "x": 1004,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "1003:989": {
+            "x": 1003,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "1002:989": {
+            "x": 1002,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "1001:989": {
+            "x": 1001,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "1000:989": {
+            "x": 1000,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "999:989": {
+            "x": 999,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "998:989": {
+            "x": 998,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "997:989": {
+            "x": 997,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "996:989": {
+            "x": 996,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "995:989": {
+            "x": 995,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "995:990": {
+            "x": 995,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "996:990": {
+            "x": 996,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "997:990": {
+            "x": 997,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "998:990": {
+            "x": 998,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "999:990": {
+            "x": 999,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "1000:990": {
+            "x": 1000,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "1001:990": {
+            "x": 1001,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "1002:990": {
+            "x": 1002,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "1003:990": {
+            "x": 1003,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "1004:990": {
+            "x": 1004,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "1004:991": {
+            "x": 1004,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "1005:992": {
+            "x": 1005,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "1005:993": {
+            "x": 1005,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "1005:994": {
+            "x": 1005,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "1004:994": {
+            "x": 1004,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "1004:993": {
+            "x": 1004,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "1003:993": {
+            "x": 1003,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "1003:992": {
+            "x": 1003,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "1003:991": {
+            "x": 1003,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "1004:992": {
+            "x": 1004,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "1003:994": {
+            "x": 1003,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "1002:994": {
+            "x": 1002,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "1001:994": {
+            "x": 1001,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "1000:994": {
+            "x": 1000,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "999:994": {
+            "x": 999,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "998:994": {
+            "x": 998,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "997:994": {
+            "x": 997,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "996:994": {
+            "x": 996,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "996:993": {
+            "x": 996,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "996:992": {
+            "x": 996,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "996:991": {
+            "x": 996,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "997:991": {
+            "x": 997,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "998:991": {
+            "x": 998,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "999:991": {
+            "x": 999,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "1000:991": {
+            "x": 1000,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "1001:991": {
+            "x": 1001,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "1001:992": {
+            "x": 1001,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "1002:992": {
+            "x": 1002,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "1002:993": {
+            "x": 1002,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "1001:993": {
+            "x": 1001,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "1000:993": {
+            "x": 1000,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "999:993": {
+            "x": 999,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "998:993": {
+            "x": 998,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "997:993": {
+            "x": 997,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "997:992": {
+            "x": 997,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "998:992": {
+            "x": 998,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "999:992": {
+            "x": 999,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "1000:992": {
+            "x": 1000,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "1002:991": {
+            "x": 1002,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "994:995": {
+            "x": 994,
+            "y": 995,
+            "object_code": "green_ball"
+        },
+        "994:994": {
+            "x": 994,
+            "y": 994,
+            "object_code": "green_ball"
+        },
+        "994:993": {
+            "x": 994,
+            "y": 993,
+            "object_code": "green_ball"
+        },
+        "994:992": {
+            "x": 994,
+            "y": 992,
+            "object_code": "green_ball"
+        },
+        "994:991": {
+            "x": 994,
+            "y": 991,
+            "object_code": "green_ball"
+        },
+        "994:990": {
+            "x": 994,
+            "y": 990,
+            "object_code": "green_ball"
+        },
+        "994:989": {
+            "x": 994,
+            "y": 989,
+            "object_code": "green_ball"
+        },
+        "999:1043": {
+            "x": 999,
+            "y": 1043,
+            "object_code": "red_ball"
+        },
+        "1000:1002": {
+            "x": 1000,
+            "y": 1002,
+            "object_code": "red_ball"
+        }
+    },
+    "player_position": {
+        "x": 1000,
+        "y": 1000
+    },
+    "min_score_to_win": 35,
+    "time_limit": 7,
+    "max_speed": 400,
+    "acceleration": 12,
+    "zoom_value": 100,
+    "add_powers": false,
+    "map_edge_type": "normal",
+    "edge_distance": 300,
+    "next_level":"{{home}}/4.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}

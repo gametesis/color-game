@@ -1,0 +1,38 @@
+{
+    "map": {
+        "1925:1921": {
+            "x": 1925,
+            "y": 1921,
+            "object_code": "red_ball"
+        },
+        "1925:1918": {
+            "x": 1925,
+            "y": 1918,
+            "object_code": "white_ball"
+        },
+        "1917:1913": {
+            "x": 1917,
+            "y": 1913,
+            "object_code": "green_ball"
+        }
+    },
+    "player_position": {
+        "x": 1923,
+        "y": 1923
+    },
+    "min_score_to_win": 10,
+    "time_limit": 10,
+    "max_speed": 250,
+    "acceleration": 12,
+    "zoom_value": 30,
+    "add_powers": false,
+    "map_edge_type": "normal",
+    "edge_distance": 300,
+    "next_level":"{{home}}/32.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}

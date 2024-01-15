@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color-game</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            /* Dark background color */
+            color: #fff;
+            /* White text color */
+            font-family: Arial;
+            height: 80vh;
+            /* Set to 2/5 of the window height */
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            width: 80%;
+            height: 30vh;
+            padding: 10px;
+            box-sizing: border-box;
+            resize: none;
+            color: #fff;
+            /* White text color */
+            background-color: #000;
+            /* Black background color */
+            font-size: 16px;
+            /* Adjust the font size as needed */
+        }
+
+        ::placeholder {
+            color: #fff;
+            /* White placeholder text color */
+            opacity: 0.7;
+            /* Placeholder opacity */
+        }
+
+        /* Exit button styles */
+        #exitButton {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: black;
+            /* Red background color */
+            color: #ccc;
+            /* White text color */
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: #ccc solid 1px;
+            font-size: 15px;
+        }
+
+        /* Import button styles */
+        #importButton {
+            background-color: black;
+            /* Black background color */
+            color: #fff;
+            /* White text color */
+            border: #ccc solid 1px;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            /* Adjust the margin as needed */
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="/index.html"><button id="exitButton" onclick="exitFullscreen()">Return</button></a>
+    <h1>Import Level</h1>
+    <textarea placeholder="Json or url goes here..."></textarea>
+    <button id="importButton" onclick="textAreaBehaviour()">Import</button>
+</body>
+<script>
+    const text_area = document.getElementsByTagName("textarea")[0]
+
+    // Define the fullscreen function
+    function fullscreen() {
+        // Check if the document is currently in fullscreen mode
+        if (
+            document.fullscreenElement ||
+            document.webkitFullscreenElement ||
+            document.mozFullScreenElement ||
+            document.msFullscreenElement
+        ) {
+            // Exit fullscreen mode
+            //exitFullscreen();
+        } else {
+            // Enter fullscreen mode
+            enterFullscreen();
+        }
+    }
+
+    // Function to enter fullscreen mode
+    function enterFullscreen() {
+        const element = document.documentElement; // You can use any element to go fullscreen
+
+        if (element.requestFullscreen) {
+            element.requestFullscreen();
+        } else if (element.webkitRequestFullscreen) {
+            element.webkitRequestFullscreen();
+        } else if (element.mozRequestFullScreen) {
+            element.mozRequestFullScreen();
+        } else if (element.msRequestFullscreen) {
+            element.msRequestFullscreen();
+        }
+    }
+
+    // Function to exit fullscreen mode
+    function exitFullscreen() {
+        if (document.exitFullscreen) {
+            document.exitFullscreen();
+        } else if (document.webkitExitFullscreen) {
+            document.webkitExitFullscreen();
+        } else if (document.mozCancelFullScreen) {
+            document.mozCancelFullScreen();
+        } else if (document.msExitFullscreen) {
+            document.msExitFullscreen();
+        }
+    }
+    // Add the click event listener to the body
+    //document.body.addEventListener("click", fullscreen);
+
+    function textAreaBehaviour() {
+
+
+        // if creation level import
+        if (!window.location.search.includes("?community")) {
+            if (text_area.value.slice(0, 4).includes("http")) { //is url
+                let data = JSON.parse(localStorage["color game"])
+                let finish = false
+                //use proxy to get data and insert in localStorage
+
+                try {
+                    fetch('https://corsproxy.io/?' + encodeURIComponent(text_area.value))
+                        .then(res => { return res.json() })
+                        .then(json_data => {
+                            data.created_level_info = json_data
+                            console.log(data)
+
+                            localStorage["color game"] = JSON.stringify(data)
+                            setTimeout(() => {
+                                window.location.href = window.location.origin + "/level_creation_form.html?continue"
+                            }, 100);
+                        })
+
+                } catch (err) {
+                    alert(err)
+                }
+
+
+            } else {// is json
+
+                let data = JSON.parse(localStorage["color game"])
+                try {
+                    data.created_level_info = JSON.parse(text_area.value)
+                    localStorage["color game"] = JSON.stringify(data)
+                    window.location.href = window.location.origin + "/level_creation_form.html?continue"
+                } catch {
+                    alert("Error: probably not valid json")
+                }
+            }
+
+        } else {
+            if (text_area.value.slice(0, 4).includes("http")) { //is url
+                let data = JSON.parse(localStorage["color game"])
+                let finish = false
+                //use proxy to get data and insert in localStorage
+
+                try {
+                    fetch('https://corsproxy.io/?' + encodeURIComponent(text_area.value))
+                        .then(res => { return res.json() })
+                        .then(json_data => {
+                            data.community = json_data
+                            console.log(data)
+
+                            localStorage["color game"] = JSON.stringify(data)
+                            setTimeout(() => {
+                                window.location.href = window.location.origin + "/game.html#level=community"
+                            }, 100);
+                        })
+
+                } catch (err) {
+                    alert(err)
+                }
+            } else {// is json
+
+                let data = JSON.parse(localStorage["color game"])
+                try {
+                    data.community = JSON.parse(text_area.value)
+                    localStorage["color game"] = JSON.stringify(data)
+                    window.location.href = window.location.origin + "/game.html#level=community"
+                } catch {
+                    alert("Error: probably not valid json")
+                }
+            }
+        }
+    }
+
+
+
+
+</script>
+
+</html>

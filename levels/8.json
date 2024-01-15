@@ -1,0 +1,43 @@
+{
+    "map": {
+        "1663:1664": {
+            "x": 1663,
+            "y": 1664,
+            "object_code": "red_ball"
+        },
+        "1669:1664": {
+            "x": 1669,
+            "y": 1664,
+            "object_code": "red_ball"
+        },
+        "1666:1657": {
+            "x": 1666,
+            "y": 1657,
+            "object_code": "red_ball"
+        },
+        "1666:1661": {
+            "x": 1666,
+            "y": 1661,
+            "object_code": "purple_ball"
+        }
+    },
+    "player_position": {
+        "x": 1666,
+        "y": 1666
+    },
+    "min_score_to_win": 10,
+    "time_limit": 30,
+    "acceleration": 12,
+    "max_speed": 250,
+    "zoom_value": 50,
+    "add_powers": false,
+    "map_edge_type": "normal",
+    "edge_distance": 200,
+    "next_level":"{{home}}/9.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}

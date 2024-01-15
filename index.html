@@ -1,9 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>color-game</title>
+  <style>
+    html {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+
+    .son {
+      position: inherit;
+    }
+
+    #sponser {
+      color: white;
+      font-family: Arial;
+      font-size: large;
+      bottom: 10%;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      z-index: 1000;
+      opacity: 1;
+      /* Transition property for smooth animation */
+      transition: opacity 1s;
+      overflow: collapse;
+      /* Hide the content when collapsed */
+
+    }
+
+    #footer {
+      color: white;
+      font-family: Arial;
+      font-size: large;
+      bottom: 2%;
+      text-align: center;
+      position: absolute;
+      width: 100%;
+      z-index: 1000;
+      opacity: 1;
+      transition: opacity 1s;
+      /* Transition property for smooth animation */
+      overflow: collapse;
+      /* Hide the content when collapsed */
+
+
+    }
+  </style>
+  <link rel="icon" type="text/html" href="favicon.ico">
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFT40298CP"></script>
@@ -15,8 +64,867 @@
   gtag('config', 'G-QFT40298CP');
 </script>
 <body>
-    <h1>Hello World</h1>
-    
 </body>
+<script src="engine.js"></script>
+<script>
+  let red = new Object();
+  let green = new Object();
+  let blue = new Object();
+  let title = new Object();
+  let menu_text = new Object();
+
+  let page_state = "begining";
+
+  let red_flag = false;
+  let green_flag = false;
+  let blue_flag = false;
+  let menu_text_flag = false;
+  let green_go_back_menu_flag = false;
+
+  let animation_radius = (window.innerWidth + window.innerHeight) * 0.05;
+  let animation_speed = 1;
+  let circle_radius = (window.innerWidth + window.innerHeight) * 0.07;
+
+  let sub_menu_global_array = [
+    "play game",
+    "create level",
+    "community",
+    //"settings"
+  ];
+  let sub_menu_global_index = 0;
+
+  let sub_menu_global_state = "";
+
+  const game_levels = [
+    "0.json",
+    "1.json",
+    "2.json",
+    "3.json",
+    "4.json",
+    "5.json",
+    "6.json",
+    "7.json",
+    "8.json",
+    "9.json",
+    "10.json",
+    "11.json",
+    "12.json",
+    "13.json",
+    "14.json",
+    "15.json",
+    "16.json",
+    "17.json",
+    "18.json",
+    "19.json",
+    "20.json",
+    "21.json",
+    "22.json",
+    "23.json",
+    "24.json",
+    "25.json",
+    "26.json",
+    "27.json",
+    "28.json",
+    "29.json",
+    "30.json",
+    "31.json",
+    "32.json",
+    "33.json",
+    "34.json",
+    "35.json",
+    "36.json",
+    "37.json",
+    "38.json",
+    "39.json",
+    "40.json",
+    "41.json",
+
+  ]
+  let level_select_index = 0
+
+
+  const menu_actions = {
+    "play game": () => {
+
+      sub_menu_global_index = 0;
+      sub_menu_global_state = "play game -> "
+
+
+      let last_played_level = JSON.parse(localStorage["color game"]).user_info.actual_level;
+      if (last_played_level != undefined) {
+        sub_menu_global_array = [
+          "continue",
+          "level select",
+        ];
+      } else {
+        sub_menu_global_array = [
+          "new game",
+        ];
+      }
+
+
+      //create go back button
+      green_go_back_menu_flag = true;
+
+    },
+    "play game -> continue": () => {
+
+      let last_played_level = JSON.parse(localStorage["color game"]).user_info.actual_level;
+
+      window.location.href =
+        window.location.origin + "/game.html#level=" + last_played_level;
+
+    },
+    "play game -> new game": () => {
+
+      let local_data = JSON.parse(localStorage["color game"])
+      local_data.user_info.actual_level = "{{home}}/0.json"
+      localStorage["color game"] = JSON.stringify(local_data)
+      window.location.href =
+        window.location.origin + "/game.html#level={{home}}/0.json";
+
+    },
+    "play game -> level select": () => {
+      let level_menu_array = []
+      //get local store data
+      let user_info = JSON.parse(localStorage["color game"])["user_info"]
+      let levels_info = user_info["levels"]
+      for (let i = 0; i <= (game_levels.length - 1); i++) {
+        let level_info = levels_info[i]
+        try {
+          let to_show_text = "lv: " + i
+          //add start if finish level
+          to_show_text += (level_info.score >= level_info.min_score) ? " &#9733; (" : " &#9734; ("
+          //add actual score
+          to_show_text += level_info.score + ") "
+          //add time player did the level
+          to_show_text += (level_info.time_limit != null) ? (level_info.time_limit - level_info.final_time_left).toFixed(3) : ""
+
+          level_menu_array.push(to_show_text)
+        } catch {
+          level_menu_array.push("lv: " + i + " &#9734;")
+        }
+
+      }
+      sub_menu_global_array = level_menu_array
+      try {
+        sub_menu_global_index = parseInt(JSON.parse(localStorage["color game"])["user_info"]["actual_level"].split("{{home}}/")[1].split(".")[0]);
+        if (isNaN(sub_menu_global_index)) {
+          sub_menu_global_index = 0
+        }
+      } catch {
+        sub_menu_global_index = 0;
+      }
+
+      sub_menu_global_state = "play game -> level select -> "
+      //create go back button
+      green_go_back_menu_flag = true;
+    },
+    "play game -> level select -> ": (level_info) => {
+      let level = level_info.split(" ")[1]
+      window.location.href =
+        window.location.origin + `/game.html#level={{home}}/${game_levels[parseInt(level)]}`;
+    },
+    "create level": () => {
+      sub_menu_global_index = 0;
+      sub_menu_global_state = "create level -> "
+      let data = JSON.parse(localStorage["color game"]).created_level_info.map
+      if (data != undefined) {
+        sub_menu_global_array = [
+          "start new level",
+          "continue creation",
+          "play created level",
+          "share level",
+          "import level to remix"
+        ];
+        //sub_menu_global_index=1
+      }
+      else {
+        sub_menu_global_array = [
+          "start new level",
+          "import level to remix"
+        ];
+
+      }
+
+
+      //create go back button
+      green_go_back_menu_flag = true;
+    },
+    "create level -> start new level": () => {
+      window.location.href =
+        window.location.origin + "/level_creation_form.html";
+    },
+    "create level -> continue creation": () => {
+      window.location.href =
+        window.location.origin + "/level_creation_form.html?continue";
+    },
+    "create level -> play created level": () => {
+      window.location.href =
+        window.location.origin + "/game.html#level=local";
+    },
+    "create level -> share level": () => {
+      // Example usage
+      const jsonData = JSON.parse(localStorage["color game"]).created_level_info
+      let old_sub_menu_global_array = sub_menu_global_array
+      let old_sub_menu_global_index = sub_menu_global_index
+      sub_menu_global_array = ["downloaded created_level.json"]
+      sub_menu_global_index = 0;
+
+      setTimeout(() => {
+        sub_menu_global_array = old_sub_menu_global_array
+        sub_menu_global_index = old_sub_menu_global_index
+      }, 1500)
+
+      downloadJsonAsFile(jsonData, 'created_level.json');
+    },
+    "create level -> downloaded created_level.json": () => {
+      //nothing
+    },
+    "create level -> import level to remix": () => {
+      window.location.href =
+        window.location.origin + "/import_level.html";
+    },
+    "community": () => {
+      sub_menu_global_array = [
+        "reddit",
+        "import level",
+      ];
+      sub_menu_global_index = 0
+      sub_menu_global_state = "community -> "
+      //create go back button
+      green_go_back_menu_flag = true;
+    },
+    "community -> reddit": () => {
+      window.location.href = "https://www.reddit.com/r/color_game/"
+    },
+    "community -> import level": () => {
+      window.location.href =
+        window.location.origin + "/import_level.html?community";
+    },
+    "go back": (option) => {
+      let go_back_action = {
+        "play game -> ": () => {
+          sub_menu_global_array = [
+            "play game",
+            "create level",
+            "community",
+            "settings",
+          ];
+          sub_menu_global_index = 0;
+          green_go_back_menu_flag = false;
+          sub_menu_global_state = ""
+        },
+        "play game -> level select -> ": () => {
+          sub_menu_global_array = [
+            "continue",
+            "level select",
+          ];
+          sub_menu_global_index = 1
+          sub_menu_global_state = "play game -> "
+        },
+        "create level -> ": () => {
+          sub_menu_global_array = [
+            "play game",
+            "create level",
+            "community",
+            "settings",
+          ];
+          sub_menu_global_index = 1;
+          green_go_back_menu_flag = false;
+          sub_menu_global_state = ""
+        },
+        "community -> ": () => {
+          sub_menu_global_array = [
+            "play game",
+            "create level",
+            "community",
+            "settings",
+          ];
+          sub_menu_global_index = 2;
+          green_go_back_menu_flag = false;
+          sub_menu_global_state = ""
+        }
+      };
+      go_back_action[option]();
+    },
+  };
+
+  //functions----
+  function copyToClipboard(text) {
+    navigator.clipboard.writeText(text)
+      .then(() => {
+        //alert('Text copied to clipboard: ' + text);
+      })
+      .catch((err) => {
+        console.error('Unable to copy text to clipboard', err);
+      });
+  }
+  function downloadJsonAsFile(jsonContent, fileName) {
+    // Create a Blob containing the JSON content
+    const blob = new Blob([JSON.stringify(jsonContent)], { type: 'application/json' });
+
+    // Create a Blob URL for the Blob
+    const blobUrl = URL.createObjectURL(blob);
+
+    // Create an <a> element
+    const a = document.createElement('a');
+    a.href = blobUrl;
+    a.download = fileName || 'data.json'; // Set the download attribute with a default file name if not provided
+
+    // Append the <a> element to the document
+    document.body.appendChild(a);
+
+    // Trigger a click event on the <a> element to simulate a download
+    a.click();
+
+    // Remove the <a> element from the document
+    document.body.removeChild(a);
+
+    // Optionally revoke the Blob URL after simulating the download
+    // URL.revokeObjectURL(blobUrl);
+  }
+
+
+  function calculateAverage(numbers) {
+    if (numbers.length === 0) {
+      return 0; // Handle the case where the array is empty
+    }
+
+    const sum = numbers.reduce(
+      (accumulator, currentValue) => accumulator + currentValue,
+      0
+    );
+    const average = sum / numbers.length;
+    return average;
+  }
+
+  function fullscreen() {
+    let element = document.body;
+    // Find the right method, call on correct element
+    if (element.requestFullscreen) {
+      element.requestFullscreen();
+    } else if (element.mozRequestFullScreen) {
+      element.mozRequestFullScreen();
+    } else if (element.webkitRequestFullscreen) {
+      element.webkitRequestFullscreen();
+    } else if (element.msRequestFullscreen) {
+      element.msRequestFullscreen();
+    }
+  }
+
+  function beginingAnimation(self, index) {
+    let x = window.innerWidth / 2 - circle_radius / 2;
+    let y = window.innerHeight / 2 - circle_radius / 2;
+    self.move(
+      x +
+      animation_radius *
+      Math.cos(animation_speed * self.real_time - index) *
+      Math.sin(self.real_time - index) *
+      Math.cos(self.real_time),
+      y +
+      animation_radius *
+      Math.sin(animation_speed * self.real_time - index) *
+      Math.sin(self.real_time - index) *
+      Math.cos(self.real_time)
+    );
+    if (self.real_time > 6.27) {
+      self.real_time = 0
+    }
+  }
+
+  function goToPosition(self, end_x, end_y, speed = 3) {
+    let x = end_x;
+    let y = end_y;
+    let direction_x = x - self.x;
+    let direction_y = y - self.y;
+
+    self.move(
+      self.x + speed * direction_x * self.dt,
+      self.y + speed * direction_y * self.dt
+    );
+  }
+
+  function startMenuFinishCondition() {
+    let title_rgba_shadow = title.shape.style["text-shadow"]
+      .split(")")[0]
+      .replace("rgba(", "")
+      .split(",");
+    let title_rgba = title.shape.style["color"]
+      .split(")")[0]
+      .replace("rgba(", "")
+      .split(",");
+    if (
+      parseFloat(title_rgba[3]) == 0 &&
+      parseFloat(title_rgba_shadow[3]) == 0 &&
+      Math.round(red.y) >=
+      Math.round(window.innerHeight * 0.2 - circle_radius / 2) - 100 &&
+      Math.round(blue.y) >=
+      Math.round(window.innerHeight * 0.8 - circle_radius / 2) - 100
+    ) {
+      return true;
+    }
+    return false;
+  }
+
+  function redAnimation(self) {
+    const state_machine = {
+      begining: (self) => {
+        beginingAnimation(self, 0);
+        if (red_flag) {
+          red_flag = false;
+          green_flag = false;
+          blue_flag = false;
+          menu_text_flag = false;
+          page_state = "start";
+        }
+      },
+      start: (self) => {
+        goToPosition(
+          self,
+          window.innerWidth / 2 - circle_radius / 2,
+          window.innerHeight * 0.2 - circle_radius / 2
+        );
+        if (startMenuFinishCondition()) {
+          page_state = "menu";
+        }
+      },
+      menu: (self) => {
+        goToPosition(
+          self,
+          window.innerWidth / 2 - circle_radius / 2,
+          window.innerHeight * 0.2 - circle_radius / 2
+        );
+
+        self.shape.style["border-left"] = `${circle_radius / 2
+          }px solid transparent`;
+        self.shape.style["border-right"] = `${circle_radius / 2
+          }px solid transparent`;
+        self.shape.style[
+          "border-bottom"
+        ] = `${circle_radius}px solid rgba(255,0,0,0.5)`;
+        self.shape.style.width = 0;
+        self.shape.style.height = 0;
+        self.shape.style["border-radius"] = ``;
+        self.shape.style["background-color"] = `rgba(255,0,0,0)`;
+        self.shape.style["box-shadow"] = ``;
+
+        if (red_flag) {
+          red_flag = false;
+          sub_menu_global_index =
+            (sub_menu_global_index - 1 + sub_menu_global_array.length) %
+            sub_menu_global_array.length;
+        }
+      },
+    };
+    state_machine[page_state](self);
+  }
+  function greenAnimation(self) {
+    const state_machine = {
+      begining: (self) => {
+        beginingAnimation(self, 1);
+        if (green_flag) {
+          red_flag = false;
+          green_flag = false;
+          blue_flag = false;
+          menu_text_flag = false;
+          page_state = "start";
+        }
+      },
+      start: (self) => {
+        goToPosition(
+          self,
+          window.innerWidth / 2 - circle_radius / 2,
+          window.innerHeight * 0.5 - circle_radius / 2
+        );
+      },
+      menu: (self) => {
+        if (!green_go_back_menu_flag) {
+          goToPosition(
+            self,
+            window.innerWidth / 2 - parseFloat(self.shape.style.width) / 2,
+            window.innerHeight * 0.5 - parseFloat(self.shape.style.height) / 2,
+            50
+          );
+          self.shape.style.width = `${Math.max(
+            parseFloat(self.shape.style.width) - 10,
+            0
+          )}px`;
+          self.shape.style.height = `${Math.max(
+            parseFloat(self.shape.style.height) - 10,
+            0
+          )}px`;
+          self.shape.innerText = "";
+        }
+        if (green_go_back_menu_flag) {
+          self.shape.style.width = `${circle_radius / 2}px`;
+          self.shape.style.height = `${circle_radius / 2}px`;
+          const new_x =
+            menu_text.x - (window.innerWidth + window.innerHeight) * 0.05;
+          goToPosition(self, new_x, menu_text.y + circle_radius / 4, 10);
+          green.shape.innerText = "<";
+          green.shape.style.color = "white";
+          green.shape.style["display"] = "grid";
+          green.shape.style["align-items"] = "center";
+          green.shape.style["text-align"] = "center";
+          green.shape.style["font-size"] = "xx-large";
+          green.shape.style["user-select"] = "none";
+        }
+        if (green_go_back_menu_flag && green_flag) {
+          menu_actions["go back"](sub_menu_global_state);
+          green_flag = false;
+        }
+      },
+    };
+    state_machine[page_state](self);
+  }
+  function blueAnimation(self) {
+    const state_machine = {
+      begining: (self) => {
+        beginingAnimation(self, 2);
+        if (blue_flag) {
+          red_flag = false;
+          green_flag = false;
+          blue_flag = false;
+          menu_text_flag = false;
+          page_state = "start";
+        }
+      },
+      start: (self) => {
+        goToPosition(
+          self,
+          window.innerWidth / 2 - circle_radius / 2,
+          window.innerHeight * 0.8 - circle_radius / 2
+        );
+      },
+      menu: (self) => {
+        goToPosition(
+          self,
+          window.innerWidth / 2 - circle_radius / 2,
+          window.innerHeight * 0.8 - circle_radius / 2
+        );
+        self.shape.style["border-left"] = `${circle_radius / 2
+          }px solid transparent`;
+        self.shape.style["border-right"] = `${circle_radius / 2
+          }px solid transparent`;
+        self.shape.style[
+          "border-bottom"
+        ] = `${circle_radius}px solid rgba(0,0,255,0.5)`;
+        self.shape.style.width = 0;
+        self.shape.style.height = 0;
+        self.shape.style["border-radius"] = ``;
+        self.shape.style["background-color"] = `rgba(0,0,255,0)`;
+        self.shape.style["box-shadow"] = ``;
+        self.shape.style["transform"] = `rotate(180deg)`;
+        if (blue_flag) {
+          blue_flag = false;
+          sub_menu_global_index =
+            (sub_menu_global_index + 1) % sub_menu_global_array.length;
+        }
+      },
+    };
+    state_machine[page_state](self);
+  }
+  function menuTextAnimation(self) {
+    const state_machine = {
+      begining: (self) => {
+        let x = window.innerWidth / 2 - circle_radius / 3;
+        let y = window.innerHeight / 2;
+        //figure which circle is highest, with this coordenates the lowest y
+        let circles_y = [red.y, green.y, blue.y];
+        self.move(x, calculateAverage(circles_y));
+        if (menu_text_flag) {
+          red_flag = false;
+          green_flag = false;
+          blue_flag = false;
+          menu_text_flag = false;
+          page_state = "start";
+        }
+      },
+      start: (self) => {
+        goToPosition(
+          self,
+          window.innerWidth / 2 -
+          self.shape.innerText.length *
+          (window.innerWidth + window.innerHeight) *
+          0.004,
+          window.innerHeight * 0.5 - circle_radius / 2
+        );
+        //hide sponser and footer
+        try {
+          getElement("sponser").style.opacity = 0
+          setTimeout(() => {
+            let el = getElement("sponser")
+            el.parentElement.removeChild(el)
+          }, 1000)
+
+          getElement("footer").style.opacity = 0
+          setTimeout(() => {
+            let el = getElement("footer")
+            el.parentElement.removeChild(el)
+          }, 1000)
+        } catch {
+          //do nothing
+        }
+
+      },
+      menu: (self) => {
+        self.shape.innerHTML = sub_menu_global_array[sub_menu_global_index];
+        goToPosition(
+          self,
+          window.innerWidth / 2 -
+          self.shape.innerHTML.length *
+          (window.innerWidth + window.innerHeight) *
+          0.004,
+          window.innerHeight * 0.5 - circle_radius / 2
+        );
+        self.shape.style["text-shadow"] = `rgb(0,255,0) 0px 0px ${20 + 5 * Math.cos(3 * self.real_time)
+          }px,rgb(0,255,0) 0px 0px ${20 + 5 * Math.cos(3 * self.real_time)
+          }px,rgb(0,255,0) 0px 0px ${20 + 5 * Math.cos(3 * self.real_time)}px`;
+        if (menu_text_flag) {
+          menu_text_flag = false;
+          try {
+            menu_actions[sub_menu_global_state + menu_text.shape.innerHTML]();
+          } catch {
+            menu_actions[sub_menu_global_state](menu_text.shape.innerHTML)
+          }
+
+        }
+      },
+    };
+    state_machine[page_state](self);
+  }
+
+  function titleAnimation(self) {
+    const state_machine = {
+      begining: (self) => {
+        self.updateRealTime();
+        let speed = 50;
+        let rgb = self.shape.style["text-shadow"]
+          .split(")")[0]
+          .replace("rgb(", "")
+          .split(", ");
+        hsl = rgbToHsl(parseInt(rgb[0]), parseInt(rgb[1]), parseInt(rgb[2]));
+        hsl[0] = hsl[0] + speed * self.dt;
+
+        let rgb2 = hslToRgb(hsl[0], 100, 50);
+        self.shape.style[
+          "text-shadow"
+        ] = `0px 0px 20px rgb(${rgb2[0]},${rgb2[1]},${rgb2[2]}),0px 0px 20px rgb(${rgb2[0]},${rgb2[1]},${rgb2[2]})`;
+        self.updateStartTime();
+      },
+      start: (self) => {
+        self.updateRealTime();
+        let speed = 50;
+        let rgb_bloom = self.shape.style["text-shadow"]
+          .split(")")[0]
+          .replace("rgb(", "")
+          .replace("rgba(", "")
+          .split(", ");
+        if (rgb_bloom.length == 3) {
+          rgb_bloom.push(1);
+        }
+        hsl = rgbToHsl(
+          parseInt(rgb_bloom[0]),
+          parseInt(rgb_bloom[1]),
+          parseInt(rgb_bloom[2])
+        );
+        hsl[0] = hsl[0] + speed * self.dt;
+
+        rgb_bloom[3] = rgb_bloom[3] - 3 * self.dt;
+
+        let rgb2_bloom = hslToRgb(hsl[0], 100, 50);
+        self.shape.style[
+          "text-shadow"
+        ] = `0px 0px 20px rgb(${rgb2_bloom[0]},${rgb2_bloom[1]},${rgb2_bloom[2]},${rgb_bloom[3]}),0px 0px 20px rgb(${rgb2_bloom[0]},${rgb2_bloom[1]},${rgb2_bloom[2]},${rgb_bloom[3]})`;
+        self.shape.style[
+          "color"
+        ] = `rgb(${rgb2_bloom[0]},${rgb2_bloom[1]},${rgb2_bloom[2]},${rgb_bloom[3]})`;
+        self.updateStartTime();
+      },
+      menu: (self) => {
+        //does nothing
+      },
+    };
+    state_machine[page_state](self);
+  }
+
+  function redClick() {
+    red_flag = true;
+  }
+  function greenClick() {
+    green_flag = true;
+  }
+  function blueClick() {
+    blue_flag = true;
+  }
+  function menuTextClick() {
+    menu_text_flag = true;
+  }
+
+  function createFooter() {
+    let sponser = document.createElement("a")
+    let footer = document.createElement("a")
+
+    sponser.id = "sponser"
+    sponser.innerHTML = "Sponser Here!<br>"
+
+    sponser.href = "https://www.google.com"
+    //sponser.target="_blank"
+
+    footer.id = "footer"
+    footer.innerHTML = "Donate to GameTesis Studio"
+    footer.href = "https://www.buymeacoffee.com/gametesisq"
+    //footer.target="_blank"
+
+    getElement("game_window").appendChild(sponser)
+    getElement("game_window").appendChild(footer)
+  }
+
+
+  function validateLocalStore() {
+    if (btoa(window.location.origin) === "aHR0cHM6Ly9nYW1ldGVzaXMuZ2l0aHViLmlv") {
+      try {
+        let data = JSON.parse(localStorage["color game"])
+      } catch {
+        localStorage["color game"] = JSON.stringify({ user_info: {}, created_level_info: {}, community: {} })
+      }
+    } else {
+      let n = Math.random()
+      if (n < 0.7) {
+        try {
+          let data = JSON.parse(localStorage["color game"])
+        } catch {
+          localStorage["color game"] = JSON.stringify({ user_info: {}, created_level_info: {}, community: {} })
+        }
+      } else {
+        let data = JSON.parse(localStorage["color game"])
+        data.user_info.actual_level = "undefined.json"
+        data.user_info.levels = []
+        data.community = {}
+        data.created_level_info = {}
+        localStorage["color game"] = JSON.stringify(data)
+        if (n < 0.8) {
+          alert("You should be playing the Game in the official Site https://gametesis.github.io/color-game/ it is FREE!")
+        }
+      }
+    }
+  }
+
+
+  function createPage() {
+    if (red.shape != undefined) {
+      red.destroy();
+      green.destroy();
+      blue.destroy();
+      menu_text.destroy();
+      title.destroy();
+      page_state = "begining";
+    }
+    red.append(
+      createCircle(
+        window.innerWidth / 2 - circle_radius / 3,
+        window.innerHeight / 2 - circle_radius / 3,
+        circle_radius,
+        "rgb(255,0,0,0.5)",
+        "red"
+      )
+    );
+    red.shape.style["box-shadow"] = "rgb(255,0,0,0.5) 0px 0px 50px 10px";
+    //red.shape.style["cursor"]="pointer"
+    green.append(
+      createCircle(
+        window.innerWidth / 2 - circle_radius / 3,
+        window.innerHeight / 2 - circle_radius / 3,
+        circle_radius,
+        "rgb(0,255,0,0.5)",
+        "green"
+      )
+    );
+    green.shape.style["box-shadow"] = "rgb(0,255,0,0.5) 0px 0px 50px 10px";
+    //green.shape.style["cursor"]="pointer"
+    blue.append(
+      createCircle(
+        window.innerWidth / 2 - circle_radius / 3,
+        window.innerHeight / 2 - circle_radius / 3,
+        circle_radius,
+        "rgb(0,0,255,0.5)",
+        "blue"
+      )
+    );
+    blue.shape.style["box-shadow"] = "rgb(0,0,255,0.5) 0px 0px 50px 10px";
+    //blue.shape.style["cursor"]="pointer"
+    menu_text.append(
+      createText(
+        "Start",
+        `position:absolute;top:${window.innerHeight / 2}px;left:${window.innerWidth / 2
+        }px;color:white;background-color:rgb(0,0,0,0);font-size:${(window.innerWidth + window.innerHeight) * 0.02
+        }px;font-family:Arial;user-select: none;`
+      )
+    );
+    menu_text.shape.id = "menu_text";
+    //menu_text.shape.style["cursor"]="pointer"
+
+    title.append(
+      createText(
+        "Color-Game",
+        `position:relative;top:${window.innerHeight * 0.05
+        }px;text-align:center;color:rgb(255,255,255);background-color:rgb(0,0,0,0);font-size:${(window.innerWidth + window.innerHeight) * 0.04
+        }px;font-family:Arial;user-select: none;margin:0px;
+          text-shadow: 0px 0px 20px rgb(255,0,0);
+          `
+      )
+    );
+    title.shape.id = "title";
+    red.appendAnimation((self) => {
+      redAnimation(self);
+    });
+    green.appendAnimation((self) => {
+      greenAnimation(self);
+    });
+    blue.appendAnimation((self) => {
+      blueAnimation(self);
+    });
+
+    menu_text.appendAnimation((self) => {
+      menuTextAnimation(self);
+    });
+
+    title.appendAnimation((self) => {
+      titleAnimation(self);
+    });
+
+    red.shape.addEventListener("click", redClick);
+    green.shape.addEventListener("click", greenClick);
+    blue.shape.addEventListener("click", blueClick);
+    menu_text.shape.addEventListener("click", menuTextClick);
+
+
+    createFooter()
+  }
+
+  function main() {
+    red.play();
+    green.play();
+    blue.play();
+    menu_text.play();
+    title.play();
+    requestAnimationFrame(main);
+  }
+
+
+
+
+
+  //main------
+  validateLocalStore()
+  document.body.style.backgroundColor = "rgb(0,0,0)";
+  initScrollablePage(); //create game window object
+  getElement("game_window").style["overflow"] = "auto";
+  document.body.addEventListener("click", fullscreen);
+  //window.addEventListener("resize", createPage);
+  createPage();
+  main();
+</script>
 
 </html>

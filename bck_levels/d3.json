@@ -1,0 +1,183 @@
+{
+    "map": {
+        "2272:2269": {
+            "x": 2272,
+            "y": 2269,
+            "object_code": "black_ball"
+        },
+        "2267:2281": {
+            "x": 2267,
+            "y": 2281,
+            "object_code": "yellow_ball"
+        },
+        "2264:2272": {
+            "x": 2264,
+            "y": 2272,
+            "object_code": "green_ball"
+        },
+        "2277:2281": {
+            "x": 2277,
+            "y": 2281,
+            "object_code": "cyan_ball"
+        },
+        "2293:2276": {
+            "x": 2293,
+            "y": 2276,
+            "object_code": "black_ball"
+        },
+        "2287:2265": {
+            "x": 2287,
+            "y": 2265,
+            "object_code": "black_ball"
+        },
+        "2255:2266": {
+            "x": 2255,
+            "y": 2266,
+            "object_code": "black_ball"
+        },
+        "2252:2277": {
+            "x": 2252,
+            "y": 2277,
+            "object_code": "black_ball"
+        },
+        "2257:2290": {
+            "x": 2257,
+            "y": 2290,
+            "object_code": "black_ball"
+        },
+        "2272:2292": {
+            "x": 2272,
+            "y": 2292,
+            "object_code": "black_ball"
+        },
+        "2288:2289": {
+            "x": 2288,
+            "y": 2289,
+            "object_code": "black_ball"
+        },
+        "2280:2272": {
+            "x": 2280,
+            "y": 2272,
+            "object_code": "red_ball"
+        },
+        "2252:2278": {
+            "x": 2252,
+            "y": 2278,
+            "object_code": "black_ball"
+        },
+        "2256:2265": {
+            "x": 2256,
+            "y": 2265,
+            "object_code": "black_ball"
+        },
+        "2254:2267": {
+            "x": 2254,
+            "y": 2267,
+            "object_code": "black_ball"
+        },
+        "2286:2264": {
+            "x": 2286,
+            "y": 2264,
+            "object_code": "black_ball"
+        },
+        "2288:2266": {
+            "x": 2288,
+            "y": 2266,
+            "object_code": "black_ball"
+        },
+        "2293:2275": {
+            "x": 2293,
+            "y": 2275,
+            "object_code": "black_ball"
+        },
+        "2293:2277": {
+            "x": 2293,
+            "y": 2277,
+            "object_code": "black_ball"
+        },
+        "2252:2279": {
+            "x": 2252,
+            "y": 2279,
+            "object_code": "black_ball"
+        },
+        "2256:2289": {
+            "x": 2256,
+            "y": 2289,
+            "object_code": "black_ball"
+        },
+        "2258:2291": {
+            "x": 2258,
+            "y": 2291,
+            "object_code": "black_ball"
+        },
+        "2287:2290": {
+            "x": 2287,
+            "y": 2290,
+            "object_code": "black_ball"
+        },
+        "2289:2288": {
+            "x": 2289,
+            "y": 2288,
+            "object_code": "black_ball"
+        },
+        "2278:2259": {
+            "x": 2278,
+            "y": 2259,
+            "object_code": "black_ball"
+        },
+        "2279:2259": {
+            "x": 2279,
+            "y": 2259,
+            "object_code": "black_ball"
+        },
+        "2265:2259": {
+            "x": 2265,
+            "y": 2259,
+            "object_code": "black_ball"
+        },
+        "2264:2259": {
+            "x": 2264,
+            "y": 2259,
+            "object_code": "black_ball"
+        },
+        "2266:2300": {
+            "x": 2266,
+            "y": 2300,
+            "object_code": "black_ball"
+        },
+        "2265:2300": {
+            "x": 2265,
+            "y": 2300,
+            "object_code": "black_ball"
+        },
+        "2280:2300": {
+            "x": 2280,
+            "y": 2300,
+            "object_code": "black_ball"
+        },
+        "2281:2300": {
+            "x": 2281,
+            "y": 2300,
+            "object_code": "black_ball"
+        }
+    },
+    "player_position": {
+        "x": 2272,
+        "y": 2272
+    },
+    "min_score_to_win": 22,
+    "time_limit": null,
+    "acceleration": 12,
+    "max_speed": 250,
+    "zoom_value": 20,
+    "add_powers": false,
+    "map_edge_type": "deadly",
+    "edge_distance": 300,
+    "next_level": "{{home}}/t33.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}

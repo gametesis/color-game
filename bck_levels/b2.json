@@ -1,0 +1,1828 @@
+{
+    "map": {
+        "2776:2780": {
+            "x": 2776,
+            "y": 2780,
+            "object_code": "yellow_ball"
+        },
+        "2777:2780": {
+            "x": 2777,
+            "y": 2780,
+            "object_code": "yellow_ball"
+        },
+        "2778:2780": {
+            "x": 2778,
+            "y": 2780,
+            "object_code": "yellow_ball"
+        },
+        "2777:2779": {
+            "x": 2777,
+            "y": 2779,
+            "object_code": "yellow_ball"
+        },
+        "2777:2781": {
+            "x": 2777,
+            "y": 2781,
+            "object_code": "yellow_ball"
+        },
+        "2777:2782": {
+            "x": 2777,
+            "y": 2782,
+            "object_code": "yellow_ball"
+        },
+        "2777:2783": {
+            "x": 2777,
+            "y": 2783,
+            "object_code": "yellow_ball"
+        },
+        "2778:2781": {
+            "x": 2778,
+            "y": 2781,
+            "object_code": "yellow_ball"
+        },
+        "2776:2781": {
+            "x": 2776,
+            "y": 2781,
+            "object_code": "yellow_ball"
+        },
+        "2775:2781": {
+            "x": 2775,
+            "y": 2781,
+            "object_code": "yellow_ball"
+        },
+        "2779:2781": {
+            "x": 2779,
+            "y": 2781,
+            "object_code": "yellow_ball"
+        },
+        "2777:2784": {
+            "x": 2777,
+            "y": 2784,
+            "object_code": "yellow_ball"
+        },
+        "2773:2755": {
+            "x": 2773,
+            "y": 2755,
+            "object_code": "yellow_ball"
+        },
+        "2773:2756": {
+            "x": 2773,
+            "y": 2756,
+            "object_code": "yellow_ball"
+        },
+        "2773:2757": {
+            "x": 2773,
+            "y": 2757,
+            "object_code": "yellow_ball"
+        },
+        "2773:2758": {
+            "x": 2773,
+            "y": 2758,
+            "object_code": "yellow_ball"
+        },
+        "2773:2759": {
+            "x": 2773,
+            "y": 2759,
+            "object_code": "yellow_ball"
+        },
+        "2773:2760": {
+            "x": 2773,
+            "y": 2760,
+            "object_code": "yellow_ball"
+        },
+        "2773:2761": {
+            "x": 2773,
+            "y": 2761,
+            "object_code": "yellow_ball"
+        },
+        "2773:2762": {
+            "x": 2773,
+            "y": 2762,
+            "object_code": "yellow_ball"
+        },
+        "2773:2763": {
+            "x": 2773,
+            "y": 2763,
+            "object_code": "yellow_ball"
+        },
+        "2790:2744": {
+            "x": 2790,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2791:2744": {
+            "x": 2791,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2792:2744": {
+            "x": 2792,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2793:2744": {
+            "x": 2793,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2794:2744": {
+            "x": 2794,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2795:2744": {
+            "x": 2795,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2796:2744": {
+            "x": 2796,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2797:2744": {
+            "x": 2797,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2798:2744": {
+            "x": 2798,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2799:2744": {
+            "x": 2799,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2800:2744": {
+            "x": 2800,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2801:2744": {
+            "x": 2801,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2802:2744": {
+            "x": 2802,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2803:2744": {
+            "x": 2803,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2804:2744": {
+            "x": 2804,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2805:2744": {
+            "x": 2805,
+            "y": 2744,
+            "object_code": "cyan_ball"
+        },
+        "2800:2758": {
+            "x": 2800,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2801:2758": {
+            "x": 2801,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2802:2758": {
+            "x": 2802,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2803:2758": {
+            "x": 2803,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2804:2758": {
+            "x": 2804,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2805:2758": {
+            "x": 2805,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2806:2758": {
+            "x": 2806,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2807:2758": {
+            "x": 2807,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2808:2758": {
+            "x": 2808,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2809:2758": {
+            "x": 2809,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2810:2758": {
+            "x": 2810,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2811:2758": {
+            "x": 2811,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2812:2758": {
+            "x": 2812,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2813:2758": {
+            "x": 2813,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2814:2758": {
+            "x": 2814,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2815:2758": {
+            "x": 2815,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2816:2758": {
+            "x": 2816,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2817:2758": {
+            "x": 2817,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2818:2758": {
+            "x": 2818,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2819:2758": {
+            "x": 2819,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2820:2758": {
+            "x": 2820,
+            "y": 2758,
+            "object_code": "cyan_ball"
+        },
+        "2822:2732": {
+            "x": 2822,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2823:2732": {
+            "x": 2823,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2824:2732": {
+            "x": 2824,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2825:2732": {
+            "x": 2825,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2840:2732": {
+            "x": 2840,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2841:2732": {
+            "x": 2841,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2842:2732": {
+            "x": 2842,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2843:2732": {
+            "x": 2843,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2844:2732": {
+            "x": 2844,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2845:2732": {
+            "x": 2845,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2846:2732": {
+            "x": 2846,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2847:2732": {
+            "x": 2847,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2848:2732": {
+            "x": 2848,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2849:2732": {
+            "x": 2849,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2850:2732": {
+            "x": 2850,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2838:2732": {
+            "x": 2838,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2837:2732": {
+            "x": 2837,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2836:2732": {
+            "x": 2836,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2835:2732": {
+            "x": 2835,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2834:2732": {
+            "x": 2834,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2833:2732": {
+            "x": 2833,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2832:2732": {
+            "x": 2832,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2831:2732": {
+            "x": 2831,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2830:2732": {
+            "x": 2830,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2829:2732": {
+            "x": 2829,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2828:2732": {
+            "x": 2828,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2827:2732": {
+            "x": 2827,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2826:2732": {
+            "x": 2826,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2839:2732": {
+            "x": 2839,
+            "y": 2732,
+            "object_code": "cyan_ball"
+        },
+        "2859:2728": {
+            "x": 2859,
+            "y": 2728,
+            "object_code": "yellow_ball"
+        },
+        "2860:2729": {
+            "x": 2860,
+            "y": 2729,
+            "object_code": "yellow_ball"
+        },
+        "2861:2730": {
+            "x": 2861,
+            "y": 2730,
+            "object_code": "yellow_ball"
+        },
+        "2861:2731": {
+            "x": 2861,
+            "y": 2731,
+            "object_code": "yellow_ball"
+        },
+        "2862:2731": {
+            "x": 2862,
+            "y": 2731,
+            "object_code": "yellow_ball"
+        },
+        "2862:2729": {
+            "x": 2862,
+            "y": 2729,
+            "object_code": "yellow_ball"
+        },
+        "2862:2730": {
+            "x": 2862,
+            "y": 2730,
+            "object_code": "yellow_ball"
+        },
+        "2860:2731": {
+            "x": 2860,
+            "y": 2731,
+            "object_code": "yellow_ball"
+        },
+        "2892:2747": {
+            "x": 2892,
+            "y": 2747,
+            "object_code": "purple_ball"
+        },
+        "2892:2748": {
+            "x": 2892,
+            "y": 2748,
+            "object_code": "purple_ball"
+        },
+        "2892:2749": {
+            "x": 2892,
+            "y": 2749,
+            "object_code": "purple_ball"
+        },
+        "2892:2750": {
+            "x": 2892,
+            "y": 2750,
+            "object_code": "purple_ball"
+        },
+        "2892:2751": {
+            "x": 2892,
+            "y": 2751,
+            "object_code": "purple_ball"
+        },
+        "2892:2752": {
+            "x": 2892,
+            "y": 2752,
+            "object_code": "purple_ball"
+        },
+        "2892:2753": {
+            "x": 2892,
+            "y": 2753,
+            "object_code": "purple_ball"
+        },
+        "2892:2754": {
+            "x": 2892,
+            "y": 2754,
+            "object_code": "purple_ball"
+        },
+        "2892:2755": {
+            "x": 2892,
+            "y": 2755,
+            "object_code": "purple_ball"
+        },
+        "2892:2756": {
+            "x": 2892,
+            "y": 2756,
+            "object_code": "purple_ball"
+        },
+        "2892:2757": {
+            "x": 2892,
+            "y": 2757,
+            "object_code": "purple_ball"
+        },
+        "2892:2758": {
+            "x": 2892,
+            "y": 2758,
+            "object_code": "purple_ball"
+        },
+        "2892:2759": {
+            "x": 2892,
+            "y": 2759,
+            "object_code": "purple_ball"
+        },
+        "2892:2760": {
+            "x": 2892,
+            "y": 2760,
+            "object_code": "purple_ball"
+        },
+        "2892:2761": {
+            "x": 2892,
+            "y": 2761,
+            "object_code": "purple_ball"
+        },
+        "2892:2762": {
+            "x": 2892,
+            "y": 2762,
+            "object_code": "purple_ball"
+        },
+        "2892:2763": {
+            "x": 2892,
+            "y": 2763,
+            "object_code": "purple_ball"
+        },
+        "2892:2764": {
+            "x": 2892,
+            "y": 2764,
+            "object_code": "purple_ball"
+        },
+        "2892:2765": {
+            "x": 2892,
+            "y": 2765,
+            "object_code": "purple_ball"
+        },
+        "2892:2766": {
+            "x": 2892,
+            "y": 2766,
+            "object_code": "purple_ball"
+        },
+        "2892:2767": {
+            "x": 2892,
+            "y": 2767,
+            "object_code": "purple_ball"
+        },
+        "2892:2768": {
+            "x": 2892,
+            "y": 2768,
+            "object_code": "purple_ball"
+        },
+        "2892:2769": {
+            "x": 2892,
+            "y": 2769,
+            "object_code": "purple_ball"
+        },
+        "2892:2770": {
+            "x": 2892,
+            "y": 2770,
+            "object_code": "purple_ball"
+        },
+        "2892:2771": {
+            "x": 2892,
+            "y": 2771,
+            "object_code": "purple_ball"
+        },
+        "2892:2772": {
+            "x": 2892,
+            "y": 2772,
+            "object_code": "purple_ball"
+        },
+        "2892:2773": {
+            "x": 2892,
+            "y": 2773,
+            "object_code": "purple_ball"
+        },
+        "2892:2774": {
+            "x": 2892,
+            "y": 2774,
+            "object_code": "purple_ball"
+        },
+        "2892:2775": {
+            "x": 2892,
+            "y": 2775,
+            "object_code": "purple_ball"
+        },
+        "2892:2776": {
+            "x": 2892,
+            "y": 2776,
+            "object_code": "purple_ball"
+        },
+        "2892:2777": {
+            "x": 2892,
+            "y": 2777,
+            "object_code": "purple_ball"
+        },
+        "2892:2778": {
+            "x": 2892,
+            "y": 2778,
+            "object_code": "purple_ball"
+        },
+        "2892:2779": {
+            "x": 2892,
+            "y": 2779,
+            "object_code": "purple_ball"
+        },
+        "2892:2780": {
+            "x": 2892,
+            "y": 2780,
+            "object_code": "purple_ball"
+        },
+        "2892:2781": {
+            "x": 2892,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2892:2782": {
+            "x": 2892,
+            "y": 2782,
+            "object_code": "purple_ball"
+        },
+        "2892:2783": {
+            "x": 2892,
+            "y": 2783,
+            "object_code": "purple_ball"
+        },
+        "2892:2784": {
+            "x": 2892,
+            "y": 2784,
+            "object_code": "purple_ball"
+        },
+        "2892:2785": {
+            "x": 2892,
+            "y": 2785,
+            "object_code": "purple_ball"
+        },
+        "2859:2770": {
+            "x": 2859,
+            "y": 2770,
+            "object_code": "purple_ball"
+        },
+        "2859:2771": {
+            "x": 2859,
+            "y": 2771,
+            "object_code": "purple_ball"
+        },
+        "2859:2772": {
+            "x": 2859,
+            "y": 2772,
+            "object_code": "purple_ball"
+        },
+        "2859:2773": {
+            "x": 2859,
+            "y": 2773,
+            "object_code": "purple_ball"
+        },
+        "2859:2774": {
+            "x": 2859,
+            "y": 2774,
+            "object_code": "purple_ball"
+        },
+        "2859:2775": {
+            "x": 2859,
+            "y": 2775,
+            "object_code": "purple_ball"
+        },
+        "2859:2776": {
+            "x": 2859,
+            "y": 2776,
+            "object_code": "purple_ball"
+        },
+        "2859:2777": {
+            "x": 2859,
+            "y": 2777,
+            "object_code": "purple_ball"
+        },
+        "2859:2778": {
+            "x": 2859,
+            "y": 2778,
+            "object_code": "purple_ball"
+        },
+        "2859:2779": {
+            "x": 2859,
+            "y": 2779,
+            "object_code": "purple_ball"
+        },
+        "2859:2780": {
+            "x": 2859,
+            "y": 2780,
+            "object_code": "purple_ball"
+        },
+        "2859:2781": {
+            "x": 2859,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2859:2782": {
+            "x": 2859,
+            "y": 2782,
+            "object_code": "purple_ball"
+        },
+        "2859:2783": {
+            "x": 2859,
+            "y": 2783,
+            "object_code": "purple_ball"
+        },
+        "2859:2784": {
+            "x": 2859,
+            "y": 2784,
+            "object_code": "purple_ball"
+        },
+        "2859:2785": {
+            "x": 2859,
+            "y": 2785,
+            "object_code": "purple_ball"
+        },
+        "2859:2786": {
+            "x": 2859,
+            "y": 2786,
+            "object_code": "purple_ball"
+        },
+        "2859:2790": {
+            "x": 2859,
+            "y": 2790,
+            "object_code": "purple_ball"
+        },
+        "2859:2789": {
+            "x": 2859,
+            "y": 2789,
+            "object_code": "purple_ball"
+        },
+        "2859:2788": {
+            "x": 2859,
+            "y": 2788,
+            "object_code": "purple_ball"
+        },
+        "2859:2787": {
+            "x": 2859,
+            "y": 2787,
+            "object_code": "purple_ball"
+        },
+        "2859:2792": {
+            "x": 2859,
+            "y": 2792,
+            "object_code": "purple_ball"
+        },
+        "2859:2791": {
+            "x": 2859,
+            "y": 2791,
+            "object_code": "purple_ball"
+        },
+        "2859:2793": {
+            "x": 2859,
+            "y": 2793,
+            "object_code": "purple_ball"
+        },
+        "2859:2794": {
+            "x": 2859,
+            "y": 2794,
+            "object_code": "purple_ball"
+        },
+        "2859:2795": {
+            "x": 2859,
+            "y": 2795,
+            "object_code": "purple_ball"
+        },
+        "2876:2738": {
+            "x": 2876,
+            "y": 2738,
+            "object_code": "yellow_ball"
+        },
+        "2877:2738": {
+            "x": 2877,
+            "y": 2738,
+            "object_code": "yellow_ball"
+        },
+        "2878:2738": {
+            "x": 2878,
+            "y": 2738,
+            "object_code": "yellow_ball"
+        },
+        "2879:2738": {
+            "x": 2879,
+            "y": 2738,
+            "object_code": "yellow_ball"
+        },
+        "2880:2738": {
+            "x": 2880,
+            "y": 2738,
+            "object_code": "yellow_ball"
+        },
+        "2881:2738": {
+            "x": 2881,
+            "y": 2738,
+            "object_code": "yellow_ball"
+        },
+        "2882:2738": {
+            "x": 2882,
+            "y": 2738,
+            "object_code": "yellow_ball"
+        },
+        "2883:2738": {
+            "x": 2883,
+            "y": 2738,
+            "object_code": "yellow_ball"
+        },
+        "2878:2819": {
+            "x": 2878,
+            "y": 2819,
+            "object_code": "yellow_ball"
+        },
+        "2877:2819": {
+            "x": 2877,
+            "y": 2819,
+            "object_code": "yellow_ball"
+        },
+        "2876:2819": {
+            "x": 2876,
+            "y": 2819,
+            "object_code": "yellow_ball"
+        },
+        "2875:2819": {
+            "x": 2875,
+            "y": 2819,
+            "object_code": "yellow_ball"
+        },
+        "2874:2819": {
+            "x": 2874,
+            "y": 2819,
+            "object_code": "yellow_ball"
+        },
+        "2873:2819": {
+            "x": 2873,
+            "y": 2819,
+            "object_code": "yellow_ball"
+        },
+        "2874:2818": {
+            "x": 2874,
+            "y": 2818,
+            "object_code": "yellow_ball"
+        },
+        "2875:2818": {
+            "x": 2875,
+            "y": 2818,
+            "object_code": "yellow_ball"
+        },
+        "2875:2817": {
+            "x": 2875,
+            "y": 2817,
+            "object_code": "yellow_ball"
+        },
+        "2875:2820": {
+            "x": 2875,
+            "y": 2820,
+            "object_code": "yellow_ball"
+        },
+        "2874:2820": {
+            "x": 2874,
+            "y": 2820,
+            "object_code": "yellow_ball"
+        },
+        "2875:2821": {
+            "x": 2875,
+            "y": 2821,
+            "object_code": "yellow_ball"
+        },
+        "2777:2787": {
+            "x": 2777,
+            "y": 2787,
+            "object_code": "red_ball"
+        },
+        "2853:2835": {
+            "x": 2853,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2852:2835": {
+            "x": 2852,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2851:2835": {
+            "x": 2851,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2850:2835": {
+            "x": 2850,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2849:2835": {
+            "x": 2849,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2848:2835": {
+            "x": 2848,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2847:2835": {
+            "x": 2847,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2846:2835": {
+            "x": 2846,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2845:2835": {
+            "x": 2845,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2844:2835": {
+            "x": 2844,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2843:2835": {
+            "x": 2843,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2842:2835": {
+            "x": 2842,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2841:2835": {
+            "x": 2841,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2840:2835": {
+            "x": 2840,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2839:2835": {
+            "x": 2839,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2838:2835": {
+            "x": 2838,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2837:2835": {
+            "x": 2837,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2836:2835": {
+            "x": 2836,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2835:2835": {
+            "x": 2835,
+            "y": 2835,
+            "object_code": "yellow_ball"
+        },
+        "2830:2827": {
+            "x": 2830,
+            "y": 2827,
+            "object_code": "yellow_ball"
+        },
+        "2829:2827": {
+            "x": 2829,
+            "y": 2827,
+            "object_code": "yellow_ball"
+        },
+        "2828:2827": {
+            "x": 2828,
+            "y": 2827,
+            "object_code": "yellow_ball"
+        },
+        "2827:2827": {
+            "x": 2827,
+            "y": 2827,
+            "object_code": "yellow_ball"
+        },
+        "2826:2827": {
+            "x": 2826,
+            "y": 2827,
+            "object_code": "yellow_ball"
+        },
+        "2825:2827": {
+            "x": 2825,
+            "y": 2827,
+            "object_code": "yellow_ball"
+        },
+        "2824:2827": {
+            "x": 2824,
+            "y": 2827,
+            "object_code": "yellow_ball"
+        },
+        "2823:2827": {
+            "x": 2823,
+            "y": 2827,
+            "object_code": "yellow_ball"
+        },
+        "2822:2827": {
+            "x": 2822,
+            "y": 2827,
+            "object_code": "yellow_ball"
+        },
+        "2821:2827": {
+            "x": 2821,
+            "y": 2827,
+            "object_code": "yellow_ball"
+        },
+        "2815:2822": {
+            "x": 2815,
+            "y": 2822,
+            "object_code": "yellow_ball"
+        },
+        "2814:2822": {
+            "x": 2814,
+            "y": 2822,
+            "object_code": "yellow_ball"
+        },
+        "2813:2822": {
+            "x": 2813,
+            "y": 2822,
+            "object_code": "yellow_ball"
+        },
+        "2812:2822": {
+            "x": 2812,
+            "y": 2822,
+            "object_code": "yellow_ball"
+        },
+        "2811:2822": {
+            "x": 2811,
+            "y": 2822,
+            "object_code": "yellow_ball"
+        },
+        "2810:2822": {
+            "x": 2810,
+            "y": 2822,
+            "object_code": "yellow_ball"
+        },
+        "2809:2822": {
+            "x": 2809,
+            "y": 2822,
+            "object_code": "yellow_ball"
+        },
+        "2808:2822": {
+            "x": 2808,
+            "y": 2822,
+            "object_code": "yellow_ball"
+        },
+        "2807:2822": {
+            "x": 2807,
+            "y": 2822,
+            "object_code": "yellow_ball"
+        },
+        "2798:2816": {
+            "x": 2798,
+            "y": 2816,
+            "object_code": "yellow_ball"
+        },
+        "2797:2816": {
+            "x": 2797,
+            "y": 2816,
+            "object_code": "yellow_ball"
+        },
+        "2796:2816": {
+            "x": 2796,
+            "y": 2816,
+            "object_code": "yellow_ball"
+        },
+        "2795:2816": {
+            "x": 2795,
+            "y": 2816,
+            "object_code": "yellow_ball"
+        },
+        "2794:2816": {
+            "x": 2794,
+            "y": 2816,
+            "object_code": "yellow_ball"
+        },
+        "2793:2816": {
+            "x": 2793,
+            "y": 2816,
+            "object_code": "yellow_ball"
+        },
+        "2792:2816": {
+            "x": 2792,
+            "y": 2816,
+            "object_code": "yellow_ball"
+        },
+        "2791:2816": {
+            "x": 2791,
+            "y": 2816,
+            "object_code": "yellow_ball"
+        },
+        "2790:2816": {
+            "x": 2790,
+            "y": 2816,
+            "object_code": "yellow_ball"
+        },
+        "2789:2816": {
+            "x": 2789,
+            "y": 2816,
+            "object_code": "yellow_ball"
+        },
+        "2784:2808": {
+            "x": 2784,
+            "y": 2808,
+            "object_code": "yellow_ball"
+        },
+        "2783:2808": {
+            "x": 2783,
+            "y": 2808,
+            "object_code": "yellow_ball"
+        },
+        "2782:2808": {
+            "x": 2782,
+            "y": 2808,
+            "object_code": "yellow_ball"
+        },
+        "2781:2808": {
+            "x": 2781,
+            "y": 2808,
+            "object_code": "yellow_ball"
+        },
+        "2780:2808": {
+            "x": 2780,
+            "y": 2808,
+            "object_code": "yellow_ball"
+        },
+        "2779:2808": {
+            "x": 2779,
+            "y": 2808,
+            "object_code": "yellow_ball"
+        },
+        "2778:2808": {
+            "x": 2778,
+            "y": 2808,
+            "object_code": "yellow_ball"
+        },
+        "2777:2808": {
+            "x": 2777,
+            "y": 2808,
+            "object_code": "yellow_ball"
+        },
+        "2776:2808": {
+            "x": 2776,
+            "y": 2808,
+            "object_code": "yellow_ball"
+        },
+        "2775:2808": {
+            "x": 2775,
+            "y": 2808,
+            "object_code": "yellow_ball"
+        },
+        "2892:2786": {
+            "x": 2892,
+            "y": 2786,
+            "object_code": "purple_ball"
+        },
+        "2892:2787": {
+            "x": 2892,
+            "y": 2787,
+            "object_code": "purple_ball"
+        },
+        "2892:2788": {
+            "x": 2892,
+            "y": 2788,
+            "object_code": "purple_ball"
+        },
+        "2892:2789": {
+            "x": 2892,
+            "y": 2789,
+            "object_code": "purple_ball"
+        },
+        "2892:2790": {
+            "x": 2892,
+            "y": 2790,
+            "object_code": "purple_ball"
+        },
+        "2892:2791": {
+            "x": 2892,
+            "y": 2791,
+            "object_code": "purple_ball"
+        },
+        "2892:2792": {
+            "x": 2892,
+            "y": 2792,
+            "object_code": "purple_ball"
+        },
+        "2892:2793": {
+            "x": 2892,
+            "y": 2793,
+            "object_code": "purple_ball"
+        },
+        "2892:2794": {
+            "x": 2892,
+            "y": 2794,
+            "object_code": "purple_ball"
+        },
+        "2892:2795": {
+            "x": 2892,
+            "y": 2795,
+            "object_code": "purple_ball"
+        },
+        "2892:2796": {
+            "x": 2892,
+            "y": 2796,
+            "object_code": "purple_ball"
+        },
+        "2892:2797": {
+            "x": 2892,
+            "y": 2797,
+            "object_code": "purple_ball"
+        },
+        "2892:2798": {
+            "x": 2892,
+            "y": 2798,
+            "object_code": "purple_ball"
+        },
+        "2892:2799": {
+            "x": 2892,
+            "y": 2799,
+            "object_code": "purple_ball"
+        },
+        "2892:2800": {
+            "x": 2892,
+            "y": 2800,
+            "object_code": "purple_ball"
+        },
+        "2892:2801": {
+            "x": 2892,
+            "y": 2801,
+            "object_code": "purple_ball"
+        },
+        "2892:2802": {
+            "x": 2892,
+            "y": 2802,
+            "object_code": "purple_ball"
+        },
+        "2892:2803": {
+            "x": 2892,
+            "y": 2803,
+            "object_code": "purple_ball"
+        },
+        "2892:2804": {
+            "x": 2892,
+            "y": 2804,
+            "object_code": "purple_ball"
+        },
+        "2892:2805": {
+            "x": 2892,
+            "y": 2805,
+            "object_code": "purple_ball"
+        },
+        "2892:2806": {
+            "x": 2892,
+            "y": 2806,
+            "object_code": "purple_ball"
+        },
+        "2892:2807": {
+            "x": 2892,
+            "y": 2807,
+            "object_code": "purple_ball"
+        },
+        "2892:2808": {
+            "x": 2892,
+            "y": 2808,
+            "object_code": "purple_ball"
+        },
+        "2892:2809": {
+            "x": 2892,
+            "y": 2809,
+            "object_code": "purple_ball"
+        },
+        "2892:2811": {
+            "x": 2892,
+            "y": 2811,
+            "object_code": "purple_ball"
+        },
+        "2892:2810": {
+            "x": 2892,
+            "y": 2810,
+            "object_code": "purple_ball"
+        },
+        "2892:2812": {
+            "x": 2892,
+            "y": 2812,
+            "object_code": "purple_ball"
+        },
+        "2892:2813": {
+            "x": 2892,
+            "y": 2813,
+            "object_code": "purple_ball"
+        },
+        "2892:2814": {
+            "x": 2892,
+            "y": 2814,
+            "object_code": "purple_ball"
+        },
+        "2858:2781": {
+            "x": 2858,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2857:2781": {
+            "x": 2857,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2856:2781": {
+            "x": 2856,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2855:2781": {
+            "x": 2855,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2854:2781": {
+            "x": 2854,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2853:2781": {
+            "x": 2853,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2852:2781": {
+            "x": 2852,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2851:2781": {
+            "x": 2851,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2850:2781": {
+            "x": 2850,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2849:2781": {
+            "x": 2849,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2848:2781": {
+            "x": 2848,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2847:2781": {
+            "x": 2847,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2846:2781": {
+            "x": 2846,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2845:2781": {
+            "x": 2845,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2844:2781": {
+            "x": 2844,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2843:2781": {
+            "x": 2843,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2842:2781": {
+            "x": 2842,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2841:2781": {
+            "x": 2841,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2840:2781": {
+            "x": 2840,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2839:2781": {
+            "x": 2839,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2838:2781": {
+            "x": 2838,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2837:2781": {
+            "x": 2837,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2836:2781": {
+            "x": 2836,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2835:2781": {
+            "x": 2835,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2834:2781": {
+            "x": 2834,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2833:2781": {
+            "x": 2833,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2832:2781": {
+            "x": 2832,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2831:2781": {
+            "x": 2831,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2830:2781": {
+            "x": 2830,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2829:2781": {
+            "x": 2829,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2828:2781": {
+            "x": 2828,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2827:2781": {
+            "x": 2827,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2826:2781": {
+            "x": 2826,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2825:2781": {
+            "x": 2825,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2824:2781": {
+            "x": 2824,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2823:2781": {
+            "x": 2823,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2822:2781": {
+            "x": 2822,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2821:2781": {
+            "x": 2821,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2820:2781": {
+            "x": 2820,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2819:2781": {
+            "x": 2819,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2805:2781": {
+            "x": 2805,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2804:2781": {
+            "x": 2804,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2803:2781": {
+            "x": 2803,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2802:2781": {
+            "x": 2802,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2801:2781": {
+            "x": 2801,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2800:2781": {
+            "x": 2800,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2799:2781": {
+            "x": 2799,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2798:2781": {
+            "x": 2798,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2797:2781": {
+            "x": 2797,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2796:2781": {
+            "x": 2796,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2795:2781": {
+            "x": 2795,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2794:2781": {
+            "x": 2794,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2793:2781": {
+            "x": 2793,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2792:2781": {
+            "x": 2792,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2791:2781": {
+            "x": 2791,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2790:2781": {
+            "x": 2790,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2789:2781": {
+            "x": 2789,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2788:2781": {
+            "x": 2788,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2787:2781": {
+            "x": 2787,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2786:2781": {
+            "x": 2786,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2785:2781": {
+            "x": 2785,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2784:2781": {
+            "x": 2784,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2783:2781": {
+            "x": 2783,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2782:2781": {
+            "x": 2782,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2781:2781": {
+            "x": 2781,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2780:2781": {
+            "x": 2780,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2806:2781": {
+            "x": 2806,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2807:2781": {
+            "x": 2807,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2808:2781": {
+            "x": 2808,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2809:2781": {
+            "x": 2809,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2810:2781": {
+            "x": 2810,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2811:2781": {
+            "x": 2811,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2812:2781": {
+            "x": 2812,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2813:2781": {
+            "x": 2813,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2814:2781": {
+            "x": 2814,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2815:2781": {
+            "x": 2815,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2816:2781": {
+            "x": 2816,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2817:2781": {
+            "x": 2817,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2818:2781": {
+            "x": 2818,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2774:2781": {
+            "x": 2774,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2773:2781": {
+            "x": 2773,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2772:2781": {
+            "x": 2772,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2771:2781": {
+            "x": 2771,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2770:2781": {
+            "x": 2770,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2769:2781": {
+            "x": 2769,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2768:2781": {
+            "x": 2768,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2767:2781": {
+            "x": 2767,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2766:2781": {
+            "x": 2766,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2765:2781": {
+            "x": 2765,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2764:2781": {
+            "x": 2764,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2763:2781": {
+            "x": 2763,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2762:2781": {
+            "x": 2762,
+            "y": 2781,
+            "object_code": "purple_ball"
+        },
+        "2761:2781": {
+            "x": 2761,
+            "y": 2781,
+            "object_code": "purple_ball"
+        }
+    },
+    "player_position": {
+        "x": 2777,
+        "y": 2777
+    },
+    "min_score_to_win": 31,
+    "time_limit": 45,
+    "max_speed": 250,
+    "acceleration": 12,
+    "zoom_value": 20,
+    "add_powers": false,
+    "map_edge_type": "normal",
+    "edge_distance": 10,
+    "next_level": "{{home}}/t10.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}

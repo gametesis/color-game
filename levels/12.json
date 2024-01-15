@@ -1,0 +1,73 @@
+{
+    "map": {
+        "2782:2777": {
+            "x": 2782,
+            "y": 2777,
+            "object_code": "blue_ball"
+        },
+        "2791:2763": {
+            "x": 2791,
+            "y": 2763,
+            "object_code": "green_ball"
+        },
+        "2792:2763": {
+            "x": 2792,
+            "y": 2763,
+            "object_code": "green_ball"
+        },
+        "2793:2763": {
+            "x": 2793,
+            "y": 2763,
+            "object_code": "green_ball"
+        },
+        "2794:2763": {
+            "x": 2794,
+            "y": 2763,
+            "object_code": "green_ball"
+        },
+        "2791:2762": {
+            "x": 2791,
+            "y": 2762,
+            "object_code": "black_ball"
+        },
+        "2792:2762": {
+            "x": 2792,
+            "y": 2762,
+            "object_code": "black_ball"
+        },
+        "2793:2762": {
+            "x": 2793,
+            "y": 2762,
+            "object_code": "black_ball"
+        },
+        "2794:2762": {
+            "x": 2794,
+            "y": 2762,
+            "object_code": "black_ball"
+        },
+        "2789:2774": {
+            "x": 2789,
+            "y": 2774,
+            "object_code": "white_ball"
+        }
+    },
+    "player_position": {
+        "x": 2777,
+        "y": 2777
+    },
+    "min_score_to_win": 100,
+    "time_limit": 7,
+    "max_speed": 250,
+    "acceleration": 12,
+    "zoom_value": 5,
+    "add_powers": false,
+    "map_edge_type": "normal",
+    "edge_distance": 300,
+    "next_level":"{{home}}/13.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}

@@ -1,0 +1,83 @@
+{
+    "map": {
+        "1996:1998": {
+            "x": 1996,
+            "y": 1998,
+            "object_code": "yellow_ball"
+        },
+        "1996:1999": {
+            "x": 1996,
+            "y": 1999,
+            "object_code": "yellow_ball"
+        },
+        "1996:2000": {
+            "x": 1996,
+            "y": 2000,
+            "object_code": "yellow_ball"
+        },
+        "1996:2001": {
+            "x": 1996,
+            "y": 2001,
+            "object_code": "yellow_ball"
+        },
+        "1996:2002": {
+            "x": 1996,
+            "y": 2002,
+            "object_code": "yellow_ball"
+        },
+        "1995:2000": {
+            "x": 1995,
+            "y": 2000,
+            "object_code": "yellow_ball"
+        },
+        "1994:2000": {
+            "x": 1994,
+            "y": 2000,
+            "object_code": "yellow_ball"
+        },
+        "1995:2001": {
+            "x": 1995,
+            "y": 2001,
+            "object_code": "yellow_ball"
+        },
+        "1995:1999": {
+            "x": 1995,
+            "y": 1999,
+            "object_code": "yellow_ball"
+        },
+        "2012:2000": {
+            "x": 2012,
+            "y": 2000,
+            "object_code": "red_ball"
+        },
+        "1997:2000": {
+            "x": 1997,
+            "y": 2000,
+            "object_code": "yellow_ball"
+        },
+        "2009:1996": {
+            "x": 2009,
+            "y": 1996,
+            "object_code": "green_ball"
+        }
+    },
+    "player_position": {
+        "x": 2000,
+        "y": 2000
+    },
+    "min_score_to_win": 40,
+    "time_limit": 5,
+    "acceleration": 12,
+    "max_speed": 250,
+    "zoom_value": 15,
+    "add_powers": false,
+    "map_edge_type": "deadly",
+    "edge_distance": 300,
+    "next_level":"{{home}}/34.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}

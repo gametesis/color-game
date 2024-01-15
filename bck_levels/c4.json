@@ -1,0 +1,38 @@
+{
+    "map": {
+        "3842:3846": {
+            "x": 3842,
+            "y": 3846,
+            "object_code": "black_ball"
+        },
+        "3873:3819": {
+            "x": 3873,
+            "y": 3819,
+            "object_code": "green_ball"
+        },
+        "3864:3840": {
+            "x": 3864,
+            "y": 3840,
+            "object_code": "white_ball"
+        }
+    },
+    "player_position": {
+        "x": 3846,
+        "y": 3846
+    },
+    "min_score_to_win": 1,
+    "time_limit": 4,
+    "max_speed": 250,
+    "acceleration": 12,
+    "zoom_value": 17,
+    "add_powers": false,
+    "map_edge_type": "normal",
+    "edge_distance": 300,
+    "next_level": "{{home}}/t25.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}

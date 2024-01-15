@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>color-game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+      background-color: black;
+      /* Dark background color */
+      color: #ccc;
+      /* Light text color */
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      /*border: 1px solid #ccc;*/
+      border-radius: 5px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="number"],
+    input[type="text"],
+    input[type="checkbox"] {
+      width: 100%;
+      padding: 0px;
+      margin-bottom: 20px;
+      border-radius: 0px;
+      font-size: larger;
+      border: none;
+      /* No borders */
+      background-color: black;
+      /* Dark input background color */
+      color: #ccc;
+      /* Light text color */
+      outline: none;
+      /* Remove default focus outline */
+      border-bottom: 1px solid #ccc;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    span {
+      display: block;
+      margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      border: #ccc solid 2px;
+    }
+
+    input[type="text"]:focus,
+    input[type="number"]:focus {
+      border-bottom: 2px solid rgb(0, 76, 255);
+      /* Animated underline */
+      transition: border-bottom 0.3s ease-in-out;
+    }
+
+    @media (max-width: 768px) {
+      form {
+        padding: 40px;
+      }
+    }
+
+    /* Exit button styles */
+    #exitButton {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: black;
+      /* Red background color */
+      color: #ccc;
+      /* White text color */
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      border: #ccc solid 1px;
+      font-size: 15px;
+    }
+
+    /* Define media query for screens with a minimum width of 768px (desktop) */
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 40px;
+        /* Adjust the font size for desktop */
+      }
+
+      label {
+        font-size: 23px;
+        /* Adjust the font size for desktop */
+      }
+
+      input[type="text"],
+      input[type="number"],
+      input[type="range"],
+      input[type="submit"] {
+        font-size: 23px;
+        /* Adjust the font size for desktop */
+        margin-bottom: 20px;
+      }
+
+      input[type="checkbox"] {
+        width: 25px;
+        height: 25px;
+      }
+
+      span {
+        font-size: 23px;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <a href="/index.html"><button id="exitButton" onclick="exitFullscreen()">Return</button></a>
+  <h1>Game Settings</h1>
+  <form>
+    <label for="scoreToWin">Score to Win:</label>
+    <input type="number" id="scoreToWin" name="scoreToWin" min="1" value="10" required
+      onchange="saveDataForm()" /><br />
+
+    <label for="timeLimit">Time Limit (seconds):</label>
+    <input type="number" id="timeLimit" name="timeLimit" min="1.0" placeholder="60" onchange="saveDataForm()"
+      step="0.1" /><br />
+
+    <label for="acceleration">Accelaration:</label>
+    <input type="number" id="acceleration" name="acceleration" min="1" value="12" required
+      onchange="saveDataForm()" /><br />
+
+
+    <label for="MaxSpeed">Max speed:</label>
+    <input type="range" id="MaxSpeed" name="MaxSpeed" min="100" step="1" max="350" value="250"
+      onchange="saveDataForm()" /><br />
+    <span id="speedValue">250</span>
+
+    <label for="zoom">Zoom Level:</label>
+    <input type="range" id="zoom" name="zoom" min="0" max="100" step="1" onchange="saveDataForm()" /><br />
+    <span id="zoomValue">50</span>
+
+    <label for="mapEdgeType">Select map edge type:</label>
+    <select id="mapEdgeType" name="mapEdgeType" style="
+          margin-bottom: 20px;
+          background-color: black;
+          color: white;
+          font-size: larger;
+        " onchange="saveDataForm()">
+      <option value="normal" selected>Normal</option>
+      <option value="loose color">Loose color</option>
+      <option value="black circles">Black circles</option>
+      <option value="deadly">Deadly</option>
+    </select>
+
+    <label for="edgeDistance">Map edge distance from balls:</label>
+    <input type="number" id="edgeDistance" name="edgeDistance" value="300" onchange="saveDataForm()" /><br />
+
+    <label for="addPowers">Add Powers:</label>
+    <input onchange="saveDataForm()" type="checkbox" id="addPowers" name="addPowers" /><br />
+
+    <div style="display: none;margin-bottom: 50px;" id="powers_div">
+      <label for="slowTime">Slow Time:</label>
+      <input onchange="saveDataForm()" type="number" id="slowTime" name="slowTime" value="0.5" step="0.1" /><br />
+      <label for="slowTimeInterval" title="for each ball consumed">Slow Time duration:</label>
+      <input onchange="saveDataForm()" type="number" id="slowTimeInterval" name="slowTimeInterval" value="1" /><br />
+
+      <label for="sizePower">Size Power:</label>
+      <input onchange="saveDataForm()" type="number" id="sizePower" name="sizePower" value="20" /><br />
+      <label for="sizePowerInterval" title="for each ball consumed">Size Power duration:</label>
+      <input onchange="saveDataForm()" type="number" id="sizePowerInterval" name="sizePowerInterval" value="1" /><br />
+
+      <label for="speedPower">Speed Power:</label>
+      <input onchange="saveDataForm()" type="number" id="speedPower" name="speedPower" value="2" step="0.1" /><br />
+      <label for="speedPowerInterval" title="for each ball consumed">Speed Power duration:</label>
+      <input onchange="saveDataForm()" type="number" id="speedPowerInterval" name="speedPowerInterval"
+        value="1" /><br />
+    </div>
+
+    <label for="nextLevel">Next Level:</label>
+    <input type="text" id="nextLevel" name="nextLevel" placeholder="{{home}}/1.json"
+      onchange="saveDataForm()" /><br />
+
+    <input type="submit" id="submit_button" value="Create Level" />
+  </form>
+</body>
+<script>
+  const zoomInput = document.getElementById("zoom");
+  const speedInput = document.getElementById("MaxSpeed");
+  const zoomValue = document.getElementById("zoomValue");
+  const speedValue = document.getElementById("speedValue");
+
+  // Define the fullscreen function
+  function fullscreen() {
+    // Check if the document is currently in fullscreen mode
+    if (
+      document.fullscreenElement ||
+      document.webkitFullscreenElement ||
+      document.mozFullScreenElement ||
+      document.msFullscreenElement
+    ) {
+      // Exit fullscreen mode
+      //exitFullscreen();
+    } else {
+      // Enter fullscreen mode
+      enterFullscreen();
+    }
+  }
+
+  // Function to enter fullscreen mode
+  function enterFullscreen() {
+    const element = document.documentElement; // You can use any element to go fullscreen
+
+    if (element.requestFullscreen) {
+      element.requestFullscreen();
+    } else if (element.webkitRequestFullscreen) {
+      element.webkitRequestFullscreen();
+    } else if (element.mozRequestFullScreen) {
+      element.mozRequestFullScreen();
+    } else if (element.msRequestFullscreen) {
+      element.msRequestFullscreen();
+    }
+  }
+
+  // Function to exit fullscreen mode
+  function exitFullscreen() {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+  }
+
+  // Add the click event listener to the body
+  document.body.addEventListener("click", fullscreen);
+  //document.getElementById('addPowers').addEventListener('change', function () { addPowersChange(this) });
+  const checkbox = document.getElementById('addPowers');
+  checkbox.addEventListener('change', () => {
+    addPowersChange(checkbox);
+  });
+
+  function addPowersChange(self) {
+    if (self.checked) {
+      document.getElementById("powers_div").style.display = "block"
+    } else {
+      document.getElementById("powers_div").style.display = "none"
+    }
+  }
+
+  function saveDataForm() {
+    const scoreToWin = document.getElementById("scoreToWin").value;
+    const timeLimit = document.getElementById("timeLimit").value;
+    const acceleration = document.getElementById("acceleration").value;
+    const addPowers = document.getElementById("addPowers").checked;
+    const mapEdgeType = document.getElementById("mapEdgeType").value;
+    const edgeDistance = document.getElementById("edgeDistance").value;
+    const nextLevel = document.getElementById("nextLevel").value;
+
+    const slowTime = document.getElementById("slowTime").value
+    const slowTimeDuration = document.getElementById("slowTimeInterval").value
+    const sizePower = document.getElementById("sizePower").value
+    const sizePowerDuration = document.getElementById("sizePowerInterval").value
+    const speedPower = document.getElementById("speedPower").value
+    const speedPowerDuration = document.getElementById("speedPowerInterval").value
+
+    function store() {
+      let data_stored
+      try {
+        data_stored = JSON.parse(localStorage["color game"]);
+      }
+      catch {
+
+      }
+      let new_data_to_be_stored = {
+        created_level_info: {
+          map: (window.location.search.includes("?continue")) ? data_stored.created_level_info.map : {},
+          player_position: (window.location.search.includes("?continue")) ? data_stored.created_level_info.player_position : {},
+          min_score_to_win: parseInt(scoreToWin),
+          time_limit: parseFloat(timeLimit),
+          max_speed: parseInt(speedInput.value),
+          acceleration: parseInt(acceleration),
+          zoom_value: parseInt(zoomInput.value),
+          add_powers: addPowers,
+          map_edge_type: mapEdgeType,
+          edge_distance: parseInt(edgeDistance),
+          next_level: nextLevel,
+          slow_time: slowTime,
+          slow_time_duration: slowTimeDuration,
+          size_power: sizePower,
+          size_power_duration: sizePowerDuration,
+          speed_power: speedPower,
+          speed_power_duration: speedPowerDuration,
+        },
+        user_info: data_stored.user_info,
+      };
+
+      localStorage["color game"] = JSON.stringify(new_data_to_be_stored);
+    }
+
+    store()
+  }
+
+  document
+    .getElementsByTagName("form")[0]
+    .addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent the form submission and URL change
+      saveDataForm()
+      window.location.href =
+        window.location.origin + "/level_creation.html";
+    });
+
+  zoomInput.addEventListener("input", () => {
+    zoomValue.textContent = zoomInput.value;
+  });
+  speedInput.addEventListener("input", () => {
+    speedValue.textContent = speedInput.value;
+  });
+
+  if (window.location.search == "?continue") {
+    let data = JSON.parse(localStorage["color game"]).created_level_info;
+    document.getElementById("scoreToWin").value = data.min_score_to_win;
+    document.getElementById("timeLimit").value = data.time_limit;
+    document.getElementById("acceleration").value = data.acceleration;
+    document.getElementById("addPowers").checked = data.add_powers;
+    document.getElementById("mapEdgeType").value = data.map_edge_type;
+    document.getElementById("edgeDistance").value = data.edge_distance;
+    document.getElementById("nextLevel").value = data.next_level;
+
+    if (data.add_powers) {
+      document.getElementById("powers_div").style.display = "block"
+    }
+
+    document.getElementById("slowTime").value = data.slow_time;
+    document.getElementById("slowTimeInterval").value = data.slow_time_duration;
+
+    document.getElementById("speedPower").value = data.speed_power;
+    document.getElementById("speedPowerInterval").value = data.speed_power_duration;
+
+    document.getElementById("sizePower").value = data.size_power;
+    document.getElementById("sizePowerInterval").value = data.size_power_duration;
+
+
+    speedInput.value = data.max_speed;
+    zoomInput.value = data.zoom_value;
+
+    zoomValue.textContent = zoomInput.value;
+    speedValue.textContent = speedInput.value;
+
+    document.getElementById("submit_button").value = "Edit Level";
+  }
+
+</script>
+
+</html>

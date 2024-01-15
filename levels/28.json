@@ -1,0 +1,43 @@
+{
+    "map": {
+        "2777:2773": {
+            "x": 2777,
+            "y": 2773,
+            "object_code": "blue_ball"
+        },
+        "2777:2782": {
+            "x": 2777,
+            "y": 2782,
+            "object_code": "green_ball"
+        },
+        "2777:2767": {
+            "x": 2777,
+            "y": 2767,
+            "object_code": "white_ball"
+        },
+        "2777:2790": {
+            "x": 2777,
+            "y": 2790,
+            "object_code": "cyan_ball"
+        }
+    },
+    "player_position": {
+        "x": 2777,
+        "y": 2777
+    },
+    "min_score_to_win": 100,
+    "time_limit": 5,
+    "max_speed": 250,
+    "acceleration": 12,
+    "zoom_value": 20,
+    "add_powers": false,
+    "map_edge_type": "deadly",
+    "edge_distance": 200,
+    "next_level":"{{home}}/29.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "3"
+}

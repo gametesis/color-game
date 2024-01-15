@@ -1,0 +1,103 @@
+{
+    "map": {
+        "2773:2773": {
+            "x": 2773,
+            "y": 2773,
+            "object_code": "red_ball"
+        },
+        "2772:2772": {
+            "x": 2772,
+            "y": 2772,
+            "object_code": "red_ball"
+        },
+        "2771:2771": {
+            "x": 2771,
+            "y": 2771,
+            "object_code": "red_ball"
+        },
+        "2781:2781": {
+            "x": 2781,
+            "y": 2781,
+            "object_code": "red_ball"
+        },
+        "2782:2782": {
+            "x": 2782,
+            "y": 2782,
+            "object_code": "red_ball"
+        },
+        "2783:2783": {
+            "x": 2783,
+            "y": 2783,
+            "object_code": "red_ball"
+        },
+        "2773:2781": {
+            "x": 2773,
+            "y": 2781,
+            "object_code": "green_ball"
+        },
+        "2772:2782": {
+            "x": 2772,
+            "y": 2782,
+            "object_code": "green_ball"
+        },
+        "2771:2783": {
+            "x": 2771,
+            "y": 2783,
+            "object_code": "green_ball"
+        },
+        "2781:2773": {
+            "x": 2781,
+            "y": 2773,
+            "object_code": "green_ball"
+        },
+        "2782:2772": {
+            "x": 2782,
+            "y": 2772,
+            "object_code": "green_ball"
+        },
+        "2783:2771": {
+            "x": 2783,
+            "y": 2771,
+            "object_code": "green_ball"
+        },
+        "2777:2781": {
+            "x": 2777,
+            "y": 2781,
+            "object_code": "cyan_ball"
+        },
+        "2773:2777": {
+            "x": 2773,
+            "y": 2777,
+            "object_code": "yellow_ball"
+        },
+        "2781:2777": {
+            "x": 2781,
+            "y": 2777,
+            "object_code": "purple_ball"
+        },
+        "2777:2774": {
+            "x": 2777,
+            "y": 2774,
+            "object_code": "blue_ball"
+        }
+    },
+    "player_position": {
+        "x": 2777,
+        "y": 2777
+    },
+    "min_score_to_win": 33,
+    "time_limit": null,
+    "max_speed": 200,
+    "acceleration": 12,
+    "zoom_value": 20,
+    "add_powers": false,
+    "map_edge_type": "deadly",
+    "edge_distance": 300,
+    "next_level": "{{home}}/t28.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}

@@ -1,0 +1,28 @@
+{
+    "map": {
+        "1666:1662": {
+            "x": 1666,
+            "y": 1662,
+            "object_code": "red_ball"
+        }
+    },
+    "player_position": {
+        "x": 1666,
+        "y": 1666
+    },
+    "min_score_to_win": 1,
+    "time_limit": null,
+    "acceleration":20,
+    "max_speed": 250,
+    "zoom_value": 50,
+    "add_powers": false,
+    "map_edge_type": "normal",
+    "edge_distance": 200,
+    "next_level":"{{home}}/1.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}
