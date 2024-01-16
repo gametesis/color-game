@@ -73,7 +73,7 @@ function loadAudioSounds() {
   let sound1 = new Audio("/color-game/audio/Water Plop - Sound Effect (HD).mp3");
   let sound2 = new Audio("/color-game/audio/machete-26994.mp3");
   let sound3 = new Audio(
-    "../audio/Lightsaber Ignition (Laser Sword) - Sound Effect for editing.mp3"
+    "/color-game/audio/Lightsaber Ignition (Laser Sword) - Sound Effect for editing.mp3"
   );
   let sound4 = new Audio("/color-game/audio/Lightsaber Off.mp3");
 
