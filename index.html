@@ -630,7 +630,7 @@
           }px solid transparent`;
         self.shape.style[
           "border-bottom"
-        ] = `${circle_radius}px solid rgba(0,0,255,0.5)`;
+        ] = `${circle_radius}px solid rgba(0,${(sub_menu_global_array.length>1)?Math.abs(Math.sin(self.real_time*2))*100:0},255,0.5)`;
         self.shape.style.width = 0;
         self.shape.style.height = 0;
         self.shape.style["border-radius"] = ``;
