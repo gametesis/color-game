@@ -286,10 +286,27 @@
         window.location.origin + "/color-game/import_level.html";
     },
     "community": () => {
-      sub_menu_global_array = [
-        "reddit",
-        "import level",
-      ];
+      let local_data = JSON.parse(localStorage["color game"])
+      try {
+        if (local_data.community.map != undefined) {
+          sub_menu_global_array = [
+            "reddit",
+            "import level",
+            "play"
+          ];
+        } else {
+          sub_menu_global_array = [
+            "reddit",
+            "import level",
+          ];
+        }
+
+      } catch {
+        sub_menu_global_array = [
+          "reddit",
+          "import level",
+        ];
+      }
       sub_menu_global_index = 0
       sub_menu_global_state = "community -> "
       //create go back button
@@ -301,6 +318,10 @@
     "community -> import level": () => {
       window.location.href =
         window.location.origin + "/color-game/import_level.html?community";
+    },
+    "community -> play": () => {
+      window.location.href =
+        window.location.origin + "/color-game/game.html#level=community";
     },
     "go back": (option) => {
       let go_back_action = {
