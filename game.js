@@ -1289,11 +1289,11 @@ function goToNextLevel() {
     window.location.href =
       window.location.origin + "/color-game/game.html#level=" + next_level_pointer;
     reloadGame()
-  }else{
+  } else {
     let level = parseInt(window.location.hash.split("#level={{home}}/")[1].split(".json")[0])
     window.location.href =
       window.location.origin + "/color-game/game.html#level=" + next_level_pointer;
-    setTimeout(reloadGame,level*100)
+    setTimeout(reloadGame, level * 100)
   }
 
 }
@@ -1679,11 +1679,11 @@ function createInputButtons() {
             //location.reload();
             if (window.location.origin != "https://gametesis.github.io") {
               let level = parseInt(window.location.hash.split("#level={{home}}/")[1].split(".json")[0])
-              setTimeout(reloadGame,level*100)
-            }else{
+              setTimeout(reloadGame, level * 100)
+            } else {
               reloadGame()
             }
-            
+
           }
 
 
@@ -2343,6 +2343,9 @@ function fullscreen() {
   } else if (element.msRequestFullscreen) {
     element.msRequestFullscreen();
   }
+  //dont hibernate screen
+  navigator.wakeLock.request('screen');
+
 }
 function screenResize() {
   createInputButtons();
