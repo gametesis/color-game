@@ -592,10 +592,10 @@ function rebouncePlayer(player) {
     player.speedy = Math.abs(player.speedy);
   }
   if (player.is_left_of) {
-    player.speedx = -1 * Math.abs(player.speedy);
+    player.speedx = -1 * Math.abs(player.speedx);
   }
   if (player.is_right_of) {
-    player.speedx = Math.abs(player.speedy);
+    player.speedx = Math.abs(player.speedx);
   }
 }
 function selectPowers(other_ball_color_vector) {
