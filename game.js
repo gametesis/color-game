@@ -1927,7 +1927,7 @@ function createInGameText() {
       );
     }
     if (buttons_menu_state == "loose") {
-      self.shape.innerText = "You Loose!";
+      self.shape.innerText = "You Lose!";
       goToPosition(
         self,
         window.innerWidth / 2 -
