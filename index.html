@@ -808,7 +808,7 @@
       try {
         let data = JSON.parse(localStorage["color game"])
       } catch {
-        localStorage["color game"] = JSON.stringify({ user_info: {}, created_level_info: {}, community: {} })
+        localStorage["color game"] = JSON.stringify({ user_info: {levels:[]}, created_level_info: {}, community: {} })
       }
     } else {
       let n = Math.random()
@@ -816,7 +816,7 @@
         try {
           let data = JSON.parse(localStorage["color game"])
         } catch {
-          localStorage["color game"] = JSON.stringify({ user_info: {}, created_level_info: {}, community: {} })
+          localStorage["color game"] = JSON.stringify({ user_info: {levels:[]}, created_level_info: {}, community: {} })
         }
       } else {
         let data = JSON.parse(localStorage["color game"])
