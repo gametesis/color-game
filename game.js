@@ -2160,12 +2160,12 @@ function init() {
 
     let length = 100;
     let c;
-    setTimeout(() => {
-      window.scroll({
-        top: offset,
-        left: offset,
-      });
-    }, 1000);
+    // setTimeout(() => {
+    //   window.scroll({
+    //     top: offset,
+    //     left: offset,
+    //   });
+    // }, 1000);
 
     handleMapCreation();
 
