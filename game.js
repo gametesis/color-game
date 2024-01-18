@@ -2585,8 +2585,9 @@ function fullScreenQuestion(state){
 document.body.addEventListener("click", fullscreen);
 window.addEventListener("resize", screenResize);
 document.addEventListener("visibilitychange", handleVisibilityChange);
-fullScreenQuestion("start")
+
 initScrollablePage();
 initGloabalVars();
 init();
 main();
+fullScreenQuestion("start")
