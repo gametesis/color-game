@@ -10,10 +10,20 @@
             "y": 1918,
             "object_code": "white_ball"
         },
-        "1917:1913": {
-            "x": 1917,
-            "y": 1913,
+        "1926:1910": {
+            "x": 1926,
+            "y": 1910,
             "object_code": "green_ball"
+        },
+        "1927:1904": {
+            "x": 1927,
+            "y": 1904,
+            "object_code": "black_ball"
+        },
+        "1928:1904": {
+            "x": 1928,
+            "y": 1904,
+            "object_code": "black_ball"
         }
     },
     "player_position": {
@@ -22,11 +32,11 @@
     },
     "min_score_to_win": 10,
     "time_limit": 10,
-    "max_speed": 250,
     "acceleration": 12,
+    "max_speed": 250,
     "zoom_value": 30,
     "add_powers": false,
-    "map_edge_type": "normal",
+    "map_edge_type": "deadly",
     "edge_distance": 300,
     "next_level":"{{home}}/32.json",
     "slow_time": "0.5",
