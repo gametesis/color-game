@@ -2552,11 +2552,40 @@ function reloadGame() {
   //doing this because click in buttons puts this flag is_pressing_key a true
   setTimeout(() => { is_pressing_key = false }, 100)
 }
+
+function fullScreenQuestion(state){
+  if(state=="start"){
+    let div=document.createElement("div")
+    div.id="fullScreenQuestion"
+    div.style.position = "absolute"
+    div.style.backgroundColor = "rgb(0,0,0)"
+    div.style.width = "100%"
+    div.style.height = "100%"
+    div.style.color="white"
+    div.style["z-index"]=2000
+    div.innerHTML="<h1 >Click to Enter Full screen</h1>"
+    div.style.textAlign="center"
+    div.style.display= "flex"
+    div.style["justify-content"]="center"
+    div.style["align-items"]="center"
+    div.addEventListener("click",()=>{fullScreenQuestion("delete")})
+    document.body.appendChild(div)
+  } else{
+    let el = getElement("fullScreenQuestion")
+    el.parentElement.removeChild(el)
+    
+  }
+  
+
+}
+
+
+
 //Main --------
 document.body.addEventListener("click", fullscreen);
 window.addEventListener("resize", screenResize);
 document.addEventListener("visibilitychange", handleVisibilityChange);
-
+fullScreenQuestion("start")
 initScrollablePage();
 initGloabalVars();
 init();
