@@ -1322,7 +1322,7 @@ function createInputButton(position) {
           if (window.innerWidth / window.innerHeight < 1.0) {
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 0;
-            self.shape.parentNode.style.top = window.innerHeight - button_width;
+            self.shape.parentNode.style.top = window.innerHeight - button_width*2;
 
             self.shape.style.position = "relative";
             goToPosition(self, 0.25 * button_width, 0.25 * button_width, 10);
@@ -1411,7 +1411,7 @@ function createInputButton(position) {
           if (window.innerWidth / window.innerHeight < 1.0) {
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 1;
-            self.shape.parentNode.style.top = window.innerHeight - button_width;
+            self.shape.parentNode.style.top = window.innerHeight - button_width*2;
 
             self.shape.style.position = "relative";
             goToPosition(self, 0.25 * button_width, 0.25 * button_width, 10);
@@ -1497,7 +1497,7 @@ function createInputButton(position) {
           if (window.innerWidth / window.innerHeight < 1.0) {
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 2;
-            self.shape.parentNode.style.top = window.innerHeight - button_width;
+            self.shape.parentNode.style.top = window.innerHeight - button_width*2;
 
             self.shape.style.position = "relative";
             goToPosition(self, 0.25 * button_width, 0.25 * button_width, 10);
@@ -2569,6 +2569,7 @@ function fullScreenQuestion(state){
     div.style["justify-content"]="center"
     div.style["align-items"]="center"
     div.style.top="0px"
+    div.style.left="0px"
     div.addEventListener("click",()=>{fullScreenQuestion("delete")})
     document.body.appendChild(div)
   } else{
