@@ -2568,6 +2568,7 @@ function fullScreenQuestion(state){
     div.style.display= "flex"
     div.style["justify-content"]="center"
     div.style["align-items"]="center"
+    div.style.top="0px"
     div.addEventListener("click",()=>{fullScreenQuestion("delete")})
     document.body.appendChild(div)
   } else{
