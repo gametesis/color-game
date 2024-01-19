@@ -108,7 +108,7 @@ function playCatchAudio() {
     if (playCount < maxPlays) {
       // Play the sound
       let sound = new Audio("/color-game/audio/Water Plop - Sound Effect (HD).mp3");
-      sound.volume = 1;
+      sound.volume = 0.5;
       sound.play();
 
       // Update play count and last play time
@@ -143,7 +143,7 @@ function playRebounceAudio() {
     if (playCount < maxPlays) {
       // Play the sound
       let sound = new Audio("/color-game/audio/machete-26994.mp3");
-      sound.volume = 0.1;
+      sound.volume = 0.02;
       sound.play();
 
       // Update play count and last play time
