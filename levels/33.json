@@ -1,75 +1,95 @@
 {
     "map": {
-        "1996:1998": {
-            "x": 1996,
-            "y": 1998,
+        "2941:2937": {
+            "x": 2941,
+            "y": 2937,
+            "object_code": "white_ball"
+        },
+        "2944:2946": {
+            "x": 2944,
+            "y": 2946,
+            "object_code": "black_ball"
+        },
+        "2929:2935": {
+            "x": 2929,
+            "y": 2935,
+            "object_code": "blue_ball"
+        },
+        "2929:2936": {
+            "x": 2929,
+            "y": 2936,
+            "object_code": "blue_ball"
+        },
+        "2929:2937": {
+            "x": 2929,
+            "y": 2937,
+            "object_code": "blue_ball"
+        },
+        "2929:2938": {
+            "x": 2929,
+            "y": 2938,
+            "object_code": "blue_ball"
+        },
+        "2929:2939": {
+            "x": 2929,
+            "y": 2939,
+            "object_code": "blue_ball"
+        },
+        "2941:2930": {
+            "x": 2941,
+            "y": 2930,
             "object_code": "yellow_ball"
         },
-        "1996:1999": {
-            "x": 1996,
-            "y": 1999,
-            "object_code": "yellow_ball"
+        "2941:2926": {
+            "x": 2941,
+            "y": 2926,
+            "object_code": "green_ball"
         },
-        "1996:2000": {
-            "x": 1996,
-            "y": 2000,
-            "object_code": "yellow_ball"
+        "2945:2930": {
+            "x": 2945,
+            "y": 2930,
+            "object_code": "green_ball"
         },
-        "1996:2001": {
-            "x": 1996,
-            "y": 2001,
-            "object_code": "yellow_ball"
+        "2937:2930": {
+            "x": 2937,
+            "y": 2930,
+            "object_code": "green_ball"
         },
-        "1996:2002": {
-            "x": 1996,
-            "y": 2002,
-            "object_code": "yellow_ball"
-        },
-        "1995:2000": {
-            "x": 1995,
-            "y": 2000,
-            "object_code": "yellow_ball"
-        },
-        "1994:2000": {
-            "x": 1994,
-            "y": 2000,
-            "object_code": "yellow_ball"
-        },
-        "1995:2001": {
-            "x": 1995,
-            "y": 2001,
-            "object_code": "yellow_ball"
-        },
-        "1995:1999": {
-            "x": 1995,
-            "y": 1999,
-            "object_code": "yellow_ball"
-        },
-        "2012:2000": {
-            "x": 2012,
-            "y": 2000,
+        "2941:2952": {
+            "x": 2941,
+            "y": 2952,
             "object_code": "red_ball"
         },
-        "1997:2000": {
-            "x": 1997,
-            "y": 2000,
-            "object_code": "yellow_ball"
+        "2929:2934": {
+            "x": 2929,
+            "y": 2934,
+            "object_code": "blue_ball"
         },
-        "2009:1996": {
-            "x": 2009,
-            "y": 1996,
-            "object_code": "green_ball"
+        "2929:2933": {
+            "x": 2929,
+            "y": 2933,
+            "object_code": "blue_ball"
+        },
+        "2929:2931": {
+            "x": 2929,
+            "y": 2931,
+            "object_code": "blue_ball"
+        },
+        "2929:2932": {
+            "x": 2929,
+            "y": 2932,
+            "object_code": "blue_ball"
         }
     },
     "player_position": {
-        "x": 2000,
-        "y": 2000
+        "x": 2941,
+        "y": 2941
     },
-    "min_score_to_win": 40,
-    "time_limit": 5,
+    "min_score_to_win": 100,
+    "time_limit": 10,
+    "max_speed": 150,
     "acceleration": 12,
-    "max_speed": 250,
-    "zoom_value": 15,
+    "zoom_value": 10,
     "add_powers": false,
     "map_edge_type": "deadly",
     "edge_distance": 300,

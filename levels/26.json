@@ -1,86 +1,136 @@
 {
     "map": {
-        "2780:2774": {
-            "x": 2780,
+        "2772:2762": {
+            "x": 2772,
+            "y": 2762,
+            "object_code": "white_ball"
+        },
+        "2764:2777": {
+            "x": 2764,
+            "y": 2777,
+            "object_code": "white_ball"
+        },
+        "2786:2781": {
+            "x": 2786,
+            "y": 2781,
+            "object_code": "white_ball"
+        },
+        "2785:2766": {
+            "x": 2785,
+            "y": 2766,
+            "object_code": "white_ball"
+        },
+        "2758:2766": {
+            "x": 2758,
+            "y": 2766,
+            "object_code": "white_ball"
+        },
+        "2792:2774": {
+            "x": 2792,
             "y": 2774,
-            "object_code": "blue_ball"
+            "object_code": "white_ball"
         },
-        "2784:2770": {
-            "x": 2784,
-            "y": 2770,
-            "object_code": "cyan_ball"
+        "2772:2785": {
+            "x": 2772,
+            "y": 2785,
+            "object_code": "white_ball"
         },
-        "2791:2762": {
-            "x": 2791,
+        "2769:2762": {
+            "x": 2769,
             "y": 2762,
             "object_code": "green_ball"
         },
-        "2788:2760": {
-            "x": 2788,
-            "y": 2760,
+        "2772:2759": {
+            "x": 2772,
+            "y": 2759,
             "object_code": "green_ball"
         },
-        "2791:2757": {
-            "x": 2791,
-            "y": 2757,
+        "2777:2773": {
+            "x": 2777,
+            "y": 2773,
             "object_code": "green_ball"
         },
-        "2785:2758": {
+        "2785:2763": {
             "x": 2785,
-            "y": 2758,
+            "y": 2763,
             "object_code": "green_ball"
         },
-        "2767:2776": {
-            "x": 2767,
+        "2788:2766": {
+            "x": 2788,
+            "y": 2766,
+            "object_code": "green_ball"
+        },
+        "2792:2771": {
+            "x": 2792,
+            "y": 2771,
+            "object_code": "green_ball"
+        },
+        "2794:2774": {
+            "x": 2794,
+            "y": 2774,
+            "object_code": "green_ball"
+        },
+        "2792:2776": {
+            "x": 2792,
             "y": 2776,
-            "object_code": "red_ball"
+            "object_code": "green_ball"
         },
-        "2764:2778": {
-            "x": 2764,
-            "y": 2778,
-            "object_code": "red_ball"
+        "2789:2781": {
+            "x": 2789,
+            "y": 2781,
+            "object_code": "green_ball"
         },
-        "2770:2779": {
-            "x": 2770,
-            "y": 2779,
-            "object_code": "red_ball"
+        "2785:2783": {
+            "x": 2785,
+            "y": 2783,
+            "object_code": "green_ball"
         },
-        "2765:2758": {
-            "x": 2765,
-            "y": 2758,
-            "object_code": "blue_ball"
-        },
-        "2767:2756": {
-            "x": 2767,
-            "y": 2756,
-            "object_code": "blue_ball"
-        },
-        "2761:2756": {
+        "2761:2777": {
             "x": 2761,
-            "y": 2756,
-            "object_code": "blue_ball"
+            "y": 2777,
+            "object_code": "green_ball"
         },
-        "2763:2760": {
-            "x": 2763,
-            "y": 2760,
-            "object_code": "blue_ball"
+        "2764:2780": {
+            "x": 2764,
+            "y": 2780,
+            "object_code": "green_ball"
+        },
+        "2772:2788": {
+            "x": 2772,
+            "y": 2788,
+            "object_code": "green_ball"
+        },
+        "2758:2768": {
+            "x": 2758,
+            "y": 2768,
+            "object_code": "green_ball"
+        },
+        "2755:2766": {
+            "x": 2755,
+            "y": 2766,
+            "object_code": "green_ball"
+        },
+        "2775:2785": {
+            "x": 2775,
+            "y": 2785,
+            "object_code": "green_ball"
         }
     },
     "player_position": {
         "x": 2777,
         "y": 2777
     },
-    "min_score_to_win": 19,
-    "time_limit": 10,
+    "min_score_to_win": 10,
+    "time_limit": 20,
     "max_speed": 250,
     "acceleration": 12,
-    "zoom_value": 10,
-    "add_powers": true,
+    "zoom_value": 12,
+    "add_powers": false,
     "map_edge_type": "deadly",
-    "edge_distance": 100,
+    "edge_distance": 300,
     "next_level":"{{home}}/27.json",
     "slow_time": "0.5",
-    "slow_time_duration": "30",
+    "slow_time_duration": "1",
     "size_power": "20",
     "size_power_duration": "1",
     "speed_power": "2",

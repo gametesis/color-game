@@ -1,58 +1,48 @@
 {
     "map": {
-        "2173:2177": {
-            "x": 2173,
-            "y": 2177,
+        "2781:2777": {
+            "x": 2781,
+            "y": 2777,
             "object_code": "red_ball"
         },
-        "2173:2178": {
-            "x": 2173,
-            "y": 2178,
+        "2789:2773": {
+            "x": 2789,
+            "y": 2773,
             "object_code": "green_ball"
         },
-        "2173:2164": {
-            "x": 2173,
-            "y": 2164,
-            "object_code": "red_ball"
-        },
-        "2173:2165": {
-            "x": 2173,
-            "y": 2165,
+        "2767:2780": {
+            "x": 2767,
+            "y": 2780,
             "object_code": "blue_ball"
         },
-        "2173:2163": {
-            "x": 2173,
-            "y": 2163,
+        "2791:2771": {
+            "x": 2791,
+            "y": 2771,
             "object_code": "green_ball"
         },
-        "2173:2166": {
-            "x": 2173,
-            "y": 2166,
-            "object_code": "green_ball"
-        },
-        "2173:2179": {
-            "x": 2173,
-            "y": 2179,
+        "2767:2784": {
+            "x": 2767,
+            "y": 2784,
             "object_code": "blue_ball"
         },
-        "2173:2180": {
-            "x": 2173,
-            "y": 2180,
-            "object_code": "red_ball"
+        "2767:2783": {
+            "x": 2767,
+            "y": 2783,
+            "object_code": "blue_ball"
         }
     },
     "player_position": {
-        "x": 2173,
-        "y": 2173
+        "x": 2777,
+        "y": 2777
     },
-    "min_score_to_win": 8,
-    "time_limit": null,
-    "max_speed": 200,
+    "min_score_to_win": 4,
+    "time_limit": 60,
+    "max_speed": 250,
     "acceleration": 12,
-    "zoom_value": 33,
+    "zoom_value": 20,
     "add_powers": false,
     "map_edge_type": "normal",
-    "edge_distance": 100,
+    "edge_distance": 200,
     "next_level":"{{home}}/3.json",
     "slow_time": "0.5",
     "slow_time_duration": "1",
