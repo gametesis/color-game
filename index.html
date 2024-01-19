@@ -58,11 +58,12 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QFT40298CP"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-QFT40298CP');
 </script>
+
 <body>
 </body>
 <script src="engine.js"></script>
@@ -138,6 +139,18 @@
     "39.json",
     "40.json",
     "41.json",
+    "42.json",
+    "43.json",
+    "44.json",
+    "45.json",
+    "46.json",
+    "47.json",
+    "48.json",
+    "49.json",
+    "50.json",
+    "51.json",
+    "52.json",
+
 
   ]
   let level_select_index = 0
@@ -630,7 +643,7 @@
           }px solid transparent`;
         self.shape.style[
           "border-bottom"
-        ] = `${circle_radius}px solid rgba(0,${(sub_menu_global_array.length>1)?Math.abs(Math.sin(self.real_time*2))*100:0},255,0.5)`;
+        ] = `${circle_radius}px solid rgba(0,${(sub_menu_global_array.length > 1) ? Math.abs(Math.sin(self.real_time * 2)) * 100 : 0},255,0.5)`;
         self.shape.style.width = 0;
         self.shape.style.height = 0;
         self.shape.style["border-radius"] = ``;
@@ -808,7 +821,7 @@
       try {
         let data = JSON.parse(localStorage["color game"])
       } catch {
-        localStorage["color game"] = JSON.stringify({ user_info: {levels:[]}, created_level_info: {}, community: {} })
+        localStorage["color game"] = JSON.stringify({ user_info: { levels: [] }, created_level_info: {}, community: {} })
       }
     } else {
       let n = Math.random()
@@ -816,7 +829,7 @@
         try {
           let data = JSON.parse(localStorage["color game"])
         } catch {
-          localStorage["color game"] = JSON.stringify({ user_info: {levels:[]}, created_level_info: {}, community: {} })
+          localStorage["color game"] = JSON.stringify({ user_info: { levels: [] }, created_level_info: {}, community: {} })
         }
       } else {
         let data = JSON.parse(localStorage["color game"])
