@@ -180,7 +180,7 @@ function playColorEvolutionAudio() {
       let sound = new Audio(
         "/color-game/audio/Lightsaber Ignition (Laser Sword) - Sound Effect for editing.mp3"
       );
-      sound.volume = 0.5;
+      sound.volume = 0.1;
       sound.play();
 
       // Update play count and last play time
@@ -215,7 +215,7 @@ function playColorDowngradeAudio() {
     if (playCount < maxPlays) {
       // Play the sound
       let sound = new Audio("/color-game/audio/Lightsaber Off.mp3");
-      sound.volume = 0.5;
+      sound.volume = 0.1;
       sound.play();
 
       // Update play count and last play time
