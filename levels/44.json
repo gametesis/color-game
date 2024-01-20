@@ -4233,7 +4233,7 @@
     "add_powers": false,
     "map_edge_type": "deadly",
     "edge_distance": 300,
-    "next_level": "{{home}}/45.json",
+    "next_level":"{{home}}/45.json",
     "slow_time": "0.5",
     "slow_time_duration": "1",
     "size_power": "20",

@@ -1,40 +1,130 @@
 {
     "map": {
-        "1925:1921": {
-            "x": 1925,
-            "y": 1921,
-            "object_code": "red_ball"
-        },
-        "1925:1918": {
-            "x": 1925,
-            "y": 1918,
+        "2772:2762": {
+            "x": 2772,
+            "y": 2762,
             "object_code": "white_ball"
         },
-        "1926:1910": {
-            "x": 1926,
-            "y": 1910,
+        "2764:2777": {
+            "x": 2764,
+            "y": 2777,
+            "object_code": "white_ball"
+        },
+        "2786:2781": {
+            "x": 2786,
+            "y": 2781,
+            "object_code": "white_ball"
+        },
+        "2785:2766": {
+            "x": 2785,
+            "y": 2766,
+            "object_code": "white_ball"
+        },
+        "2758:2766": {
+            "x": 2758,
+            "y": 2766,
+            "object_code": "white_ball"
+        },
+        "2792:2774": {
+            "x": 2792,
+            "y": 2774,
+            "object_code": "white_ball"
+        },
+        "2772:2785": {
+            "x": 2772,
+            "y": 2785,
+            "object_code": "white_ball"
+        },
+        "2769:2762": {
+            "x": 2769,
+            "y": 2762,
             "object_code": "green_ball"
         },
-        "1927:1904": {
-            "x": 1927,
-            "y": 1904,
-            "object_code": "black_ball"
+        "2772:2759": {
+            "x": 2772,
+            "y": 2759,
+            "object_code": "green_ball"
         },
-        "1928:1904": {
-            "x": 1928,
-            "y": 1904,
-            "object_code": "black_ball"
+        "2777:2773": {
+            "x": 2777,
+            "y": 2773,
+            "object_code": "green_ball"
+        },
+        "2785:2763": {
+            "x": 2785,
+            "y": 2763,
+            "object_code": "green_ball"
+        },
+        "2788:2766": {
+            "x": 2788,
+            "y": 2766,
+            "object_code": "green_ball"
+        },
+        "2792:2771": {
+            "x": 2792,
+            "y": 2771,
+            "object_code": "green_ball"
+        },
+        "2794:2774": {
+            "x": 2794,
+            "y": 2774,
+            "object_code": "green_ball"
+        },
+        "2792:2776": {
+            "x": 2792,
+            "y": 2776,
+            "object_code": "green_ball"
+        },
+        "2789:2781": {
+            "x": 2789,
+            "y": 2781,
+            "object_code": "green_ball"
+        },
+        "2785:2783": {
+            "x": 2785,
+            "y": 2783,
+            "object_code": "green_ball"
+        },
+        "2761:2777": {
+            "x": 2761,
+            "y": 2777,
+            "object_code": "green_ball"
+        },
+        "2764:2780": {
+            "x": 2764,
+            "y": 2780,
+            "object_code": "green_ball"
+        },
+        "2772:2788": {
+            "x": 2772,
+            "y": 2788,
+            "object_code": "green_ball"
+        },
+        "2758:2768": {
+            "x": 2758,
+            "y": 2768,
+            "object_code": "green_ball"
+        },
+        "2755:2766": {
+            "x": 2755,
+            "y": 2766,
+            "object_code": "green_ball"
+        },
+        "2775:2785": {
+            "x": 2775,
+            "y": 2785,
+            "object_code": "green_ball"
         }
     },
     "player_position": {
-        "x": 1923,
-        "y": 1923
+        "x": 2777,
+        "y": 2777
     },
     "min_score_to_win": 10,
-    "time_limit": 10,
-    "acceleration": 12,
+    "time_limit": 20,
     "max_speed": 250,
-    "zoom_value": 30,
+    "acceleration": 12,
+    "zoom_value": 12,
     "add_powers": false,
     "map_edge_type": "deadly",
     "edge_distance": 300,

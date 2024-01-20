@@ -1,1 +1,88 @@
-{"map":{"3571:3575":{"x":3571,"y":3575,"object_code":"blue_ball"},"3579:3578":{"x":3579,"y":3578,"object_code":"purple_ball"},"3579:3577":{"x":3579,"y":3577,"object_code":"purple_ball"},"3579:3576":{"x":3579,"y":3576,"object_code":"purple_ball"},"3579:3575":{"x":3579,"y":3575,"object_code":"purple_ball"},"3579:3574":{"x":3579,"y":3574,"object_code":"purple_ball"},"3579:3573":{"x":3579,"y":3573,"object_code":"purple_ball"},"3579:3572":{"x":3579,"y":3572,"object_code":"purple_ball"},"3579:3571":{"x":3579,"y":3571,"object_code":"purple_ball"},"3579:3570":{"x":3579,"y":3570,"object_code":"purple_ball"},"3579:3569":{"x":3579,"y":3569,"object_code":"purple_ball"},"3579:3568":{"x":3579,"y":3568,"object_code":"purple_ball"},"3579:3567":{"x":3579,"y":3567,"object_code":"purple_ball"},"3579:3566":{"x":3579,"y":3566,"object_code":"purple_ball"},"3579:3565":{"x":3579,"y":3565,"object_code":"purple_ball"},"3579:3564":{"x":3579,"y":3564,"object_code":"purple_ball"},"3579:3562":{"x":3579,"y":3562,"object_code":"purple_ball"},"3579:3563":{"x":3579,"y":3563,"object_code":"purple_ball"},"3579:3561":{"x":3579,"y":3561,"object_code":"purple_ball"},"3579:3560":{"x":3579,"y":3560,"object_code":"purple_ball"},"3587:3567":{"x":3587,"y":3567,"object_code":"white_ball"},"3587:3568":{"x":3587,"y":3568,"object_code":"white_ball"},"3587:3569":{"x":3587,"y":3569,"object_code":"white_ball"},"3588:3569":{"x":3588,"y":3569,"object_code":"white_ball"},"3589:3569":{"x":3589,"y":3569,"object_code":"white_ball"},"3590:3569":{"x":3590,"y":3569,"object_code":"white_ball"},"3590:3568":{"x":3590,"y":3568,"object_code":"white_ball"},"3590:3567":{"x":3590,"y":3567,"object_code":"white_ball"},"3589:3567":{"x":3589,"y":3567,"object_code":"white_ball"},"3588:3567":{"x":3588,"y":3567,"object_code":"white_ball"},"3588:3568":{"x":3588,"y":3568,"object_code":"white_ball"},"3589:3568":{"x":3589,"y":3568,"object_code":"white_ball"},"3575:3557":{"x":3575,"y":3557,"object_code":"green_ball"},"3571:3565":{"x":3571,"y":3565,"object_code":"red_ball"},"3579:3559":{"x":3579,"y":3559,"object_code":"green_ball"},"3579:3558":{"x":3579,"y":3558,"object_code":"green_ball"},"3579:3557":{"x":3579,"y":3557,"object_code":"green_ball"},"3579:3556":{"x":3579,"y":3556,"object_code":"green_ball"},"3579:3555":{"x":3579,"y":3555,"object_code":"green_ball"},"3579:3554":{"x":3579,"y":3554,"object_code":"green_ball"},"3579:3553":{"x":3579,"y":3553,"object_code":"green_ball"},"3579:3552":{"x":3579,"y":3552,"object_code":"green_ball"},"3579:3551":{"x":3579,"y":3551,"object_code":"green_ball"},"3579:3550":{"x":3579,"y":3550,"object_code":"green_ball"},"3586:3558":{"x":3586,"y":3558,"object_code":"blue_ball"}},"player_position":{"x":3571,"y":3571},"min_score_to_win":100,"time_limit":null,"max_speed":250,"acceleration":12,"zoom_value":10,"add_powers":true,"map_edge_type":"deadly","edge_distance":300,"next_level":"{{home}}/38.json","slow_time":"0.5","slow_time_duration":"1","size_power":"20","size_power_duration":"1","speed_power":"2","speed_power_duration":"3"}
+{
+    "map": {
+        "2780:2774": {
+            "x": 2780,
+            "y": 2774,
+            "object_code": "blue_ball"
+        },
+        "2784:2770": {
+            "x": 2784,
+            "y": 2770,
+            "object_code": "cyan_ball"
+        },
+        "2791:2762": {
+            "x": 2791,
+            "y": 2762,
+            "object_code": "green_ball"
+        },
+        "2788:2760": {
+            "x": 2788,
+            "y": 2760,
+            "object_code": "green_ball"
+        },
+        "2791:2757": {
+            "x": 2791,
+            "y": 2757,
+            "object_code": "green_ball"
+        },
+        "2785:2758": {
+            "x": 2785,
+            "y": 2758,
+            "object_code": "green_ball"
+        },
+        "2767:2776": {
+            "x": 2767,
+            "y": 2776,
+            "object_code": "red_ball"
+        },
+        "2764:2778": {
+            "x": 2764,
+            "y": 2778,
+            "object_code": "red_ball"
+        },
+        "2770:2779": {
+            "x": 2770,
+            "y": 2779,
+            "object_code": "red_ball"
+        },
+        "2765:2758": {
+            "x": 2765,
+            "y": 2758,
+            "object_code": "blue_ball"
+        },
+        "2767:2756": {
+            "x": 2767,
+            "y": 2756,
+            "object_code": "blue_ball"
+        },
+        "2761:2756": {
+            "x": 2761,
+            "y": 2756,
+            "object_code": "blue_ball"
+        },
+        "2763:2760": {
+            "x": 2763,
+            "y": 2760,
+            "object_code": "blue_ball"
+        }
+    },
+    "player_position": {
+        "x": 2777,
+        "y": 2777
+    },
+    "min_score_to_win": 19,
+    "time_limit": 10,
+    "max_speed": 250,
+    "acceleration": 12,
+    "zoom_value": 10,
+    "add_powers": true,
+    "map_edge_type": "deadly",
+    "edge_distance": 100,
+    "next_level":"{{home}}/38.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "30",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1"
+}
