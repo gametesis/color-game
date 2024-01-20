@@ -2563,7 +2563,9 @@ function fullScreenQuestion(state){
     div.style.height = "100%"
     div.style.color="white"
     div.style["z-index"]=2000
-    div.innerHTML="<h1 >Click to Enter Full screen</h1>"
+    div.style["fontFamily"]="Arial, sans-serif"
+    div.style.fontSize="x-Large"
+    div.innerHTML="<h1 >Click to Enter Full Screen</h1>"
     div.style.textAlign="center"
     div.style.display= "flex"
     div.style["justify-content"]="center"
