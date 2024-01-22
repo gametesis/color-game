@@ -1,50 +1,45 @@
 {
     "map": {
-        "2780:2775": {
-            "x": 2780,
-            "y": 2775,
-            "object_code": "blue_ball"
-        },
-        "2771:2774": {
-            "x": 2771,
-            "y": 2774,
-            "object_code": "green_ball"
-        },
-        "2775:2783": {
-            "x": 2775,
-            "y": 2783,
+        "1656:1660": {
+            "x": 1656,
+            "y": 1660,
             "object_code": "red_ball"
         },
-        "2791:2773": {
-            "x": 2791,
-            "y": 2773,
-            "object_code": "red_ball"
-        },
-        "2781:2770": {
-            "x": 2781,
-            "y": 2770,
-            "object_code": "green_ball"
-        },
-        "2769:2780": {
-            "x": 2769,
-            "y": 2780,
-            "object_code": "cyan_ball"
-        },
-        "2786:2781": {
-            "x": 2786,
-            "y": 2781,
+        "1674:1658": {
+            "x": 1674,
+            "y": 1658,
             "object_code": "yellow_ball"
+        },
+        "1664:1655": {
+            "x": 1664,
+            "y": 1655,
+            "object_code": "yellow_ball"
+        },
+        "1655:1670": {
+            "x": 1655,
+            "y": 1670,
+            "object_code": "yellow_ball"
+        },
+        "1672:1671": {
+            "x": 1672,
+            "y": 1671,
+            "object_code": "white_ball"
+        },
+        "1666:1669": {
+            "x": 1666,
+            "y": 1669,
+            "object_code": "green_ball"
         }
     },
     "player_position": {
-        "x": 2777,
-        "y": 2777
+        "x": 1666,
+        "y": 1666
     },
-    "min_score_to_win": 25,
+    "min_score_to_win": 100,
     "time_limit": null,
-    "max_speed": 150,
+    "max_speed": 250,
     "acceleration": 12,
-    "zoom_value": 10,
+    "zoom_value": 20,
     "add_powers": false,
     "map_edge_type": "deadly",
     "edge_distance": 300,

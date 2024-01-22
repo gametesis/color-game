@@ -1,45 +1,130 @@
 {
     "map": {
-        "1656:1660": {
-            "x": 1656,
-            "y": 1660,
-            "object_code": "red_ball"
-        },
-        "1674:1658": {
-            "x": 1674,
-            "y": 1658,
-            "object_code": "yellow_ball"
-        },
-        "1664:1655": {
-            "x": 1664,
-            "y": 1655,
-            "object_code": "yellow_ball"
-        },
-        "1655:1670": {
-            "x": 1655,
-            "y": 1670,
-            "object_code": "yellow_ball"
-        },
-        "1672:1671": {
-            "x": 1672,
-            "y": 1671,
-            "object_code": "white_ball"
-        },
-        "1666:1669": {
-            "x": 1666,
-            "y": 1669,
+        "2777:2773": {
+            "x": 2777,
+            "y": 2773,
             "object_code": "green_ball"
+        },
+        "2765:2761": {
+            "x": 2765,
+            "y": 2761,
+            "object_code": "green_ball"
+        },
+        "2765:2762": {
+            "x": 2765,
+            "y": 2762,
+            "object_code": "green_ball"
+        },
+        "2765:2763": {
+            "x": 2765,
+            "y": 2763,
+            "object_code": "green_ball"
+        },
+        "2765:2764": {
+            "x": 2765,
+            "y": 2764,
+            "object_code": "green_ball"
+        },
+        "2765:2765": {
+            "x": 2765,
+            "y": 2765,
+            "object_code": "green_ball"
+        },
+        "2765:2760": {
+            "x": 2765,
+            "y": 2760,
+            "object_code": "green_ball"
+        },
+        "2765:2759": {
+            "x": 2765,
+            "y": 2759,
+            "object_code": "green_ball"
+        },
+        "2786:2759": {
+            "x": 2786,
+            "y": 2759,
+            "object_code": "blue_ball"
+        },
+        "2786:2760": {
+            "x": 2786,
+            "y": 2760,
+            "object_code": "blue_ball"
+        },
+        "2786:2761": {
+            "x": 2786,
+            "y": 2761,
+            "object_code": "blue_ball"
+        },
+        "2786:2762": {
+            "x": 2786,
+            "y": 2762,
+            "object_code": "blue_ball"
+        },
+        "2786:2763": {
+            "x": 2786,
+            "y": 2763,
+            "object_code": "blue_ball"
+        },
+        "2786:2764": {
+            "x": 2786,
+            "y": 2764,
+            "object_code": "blue_ball"
+        },
+        "2786:2765": {
+            "x": 2786,
+            "y": 2765,
+            "object_code": "blue_ball"
+        },
+        "2787:2759": {
+            "x": 2787,
+            "y": 2759,
+            "object_code": "black_ball"
+        },
+        "2787:2760": {
+            "x": 2787,
+            "y": 2760,
+            "object_code": "black_ball"
+        },
+        "2787:2761": {
+            "x": 2787,
+            "y": 2761,
+            "object_code": "black_ball"
+        },
+        "2787:2762": {
+            "x": 2787,
+            "y": 2762,
+            "object_code": "black_ball"
+        },
+        "2787:2763": {
+            "x": 2787,
+            "y": 2763,
+            "object_code": "black_ball"
+        },
+        "2787:2764": {
+            "x": 2787,
+            "y": 2764,
+            "object_code": "black_ball"
+        },
+        "2787:2765": {
+            "x": 2787,
+            "y": 2765,
+            "object_code": "black_ball"
+        },
+        "2773:2762": {
+            "x": 2773,
+            "y": 2762,
+            "object_code": "white_ball"
         }
     },
     "player_position": {
-        "x": 1666,
-        "y": 1666
+        "x": 2777,
+        "y": 2777
     },
     "min_score_to_win": 100,
-    "time_limit": null,
-    "max_speed": 250,
+    "time_limit": 5,
     "acceleration": 12,
-    "zoom_value": 20,
+    "max_speed": 250,
+    "zoom_value": 13,
     "add_powers": false,
     "map_edge_type": "deadly",
     "edge_distance": 300,

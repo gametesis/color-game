@@ -1148,7 +1148,7 @@
     "add_powers": true,
     "map_edge_type": "black circles",
     "edge_distance": 30,
-    "next_level":"",
+    "next_level":"{{home}}/53.json",
     "slow_time": "0.5",
     "slow_time_duration": "1",
     "size_power": "20",

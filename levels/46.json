@@ -1,503 +1,4238 @@
 {
     "map": {
-        "3560:3562": {
-            "x": 3560,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3561:3562": {
-            "x": 3561,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3562:3562": {
-            "x": 3562,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3563:3562": {
-            "x": 3563,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3564:3562": {
-            "x": 3564,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3565:3562": {
-            "x": 3565,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3566:3562": {
-            "x": 3566,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3567:3562": {
-            "x": 3567,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3568:3562": {
-            "x": 3568,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3569:3562": {
-            "x": 3569,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3570:3562": {
-            "x": 3570,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3571:3562": {
-            "x": 3571,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3572:3562": {
-            "x": 3572,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3573:3562": {
+        "3573:3568": {
             "x": 3573,
-            "y": 3562,
-            "object_code": "yellow_ball"
+            "y": 3568,
+            "object_code": "blue_ball"
         },
-        "3574:3562": {
-            "x": 3574,
-            "y": 3562,
-            "object_code": "yellow_ball"
+        "3578:3558": {
+            "x": 3578,
+            "y": 3558,
+            "object_code": "blue_ball"
         },
-        "3575:3562": {
-            "x": 3575,
-            "y": 3562,
-            "object_code": "yellow_ball"
+        "3578:3559": {
+            "x": 3578,
+            "y": 3559,
+            "object_code": "blue_ball"
         },
-        "3576:3562": {
-            "x": 3576,
-            "y": 3562,
-            "object_code": "yellow_ball"
+        "3578:3560": {
+            "x": 3578,
+            "y": 3560,
+            "object_code": "blue_ball"
         },
-        "3577:3562": {
-            "x": 3577,
-            "y": 3562,
-            "object_code": "yellow_ball"
+        "3578:3561": {
+            "x": 3578,
+            "y": 3561,
+            "object_code": "blue_ball"
         },
         "3578:3562": {
             "x": 3578,
             "y": 3562,
-            "object_code": "yellow_ball"
+            "object_code": "blue_ball"
         },
-        "3579:3562": {
-            "x": 3579,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3580:3562": {
-            "x": 3580,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3581:3562": {
-            "x": 3581,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3582:3562": {
-            "x": 3582,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3559:3562": {
-            "x": 3559,
-            "y": 3562,
-            "object_code": "yellow_ball"
-        },
-        "3559:3563": {
-            "x": 3559,
-            "y": 3563,
-            "object_code": "cyan_ball"
-        },
-        "3559:3564": {
-            "x": 3559,
-            "y": 3564,
-            "object_code": "cyan_ball"
-        },
-        "3559:3565": {
-            "x": 3559,
-            "y": 3565,
-            "object_code": "cyan_ball"
-        },
-        "3559:3568": {
-            "x": 3559,
-            "y": 3568,
-            "object_code": "cyan_ball"
-        },
-        "3559:3567": {
-            "x": 3559,
-            "y": 3567,
-            "object_code": "cyan_ball"
-        },
-        "3559:3566": {
-            "x": 3559,
-            "y": 3566,
-            "object_code": "cyan_ball"
-        },
-        "3559:3569": {
-            "x": 3559,
-            "y": 3569,
-            "object_code": "cyan_ball"
-        },
-        "3559:3570": {
-            "x": 3559,
-            "y": 3570,
-            "object_code": "cyan_ball"
-        },
-        "3559:3571": {
-            "x": 3559,
-            "y": 3571,
-            "object_code": "cyan_ball"
-        },
-        "3559:3572": {
-            "x": 3559,
-            "y": 3572,
-            "object_code": "cyan_ball"
-        },
-        "3559:3573": {
-            "x": 3559,
-            "y": 3573,
-            "object_code": "cyan_ball"
-        },
-        "3559:3574": {
-            "x": 3559,
-            "y": 3574,
-            "object_code": "cyan_ball"
-        },
-        "3559:3575": {
-            "x": 3559,
-            "y": 3575,
-            "object_code": "cyan_ball"
-        },
-        "3559:3576": {
-            "x": 3559,
-            "y": 3576,
-            "object_code": "cyan_ball"
-        },
-        "3559:3577": {
-            "x": 3559,
-            "y": 3577,
-            "object_code": "cyan_ball"
-        },
-        "3559:3578": {
-            "x": 3559,
-            "y": 3578,
-            "object_code": "cyan_ball"
-        },
-        "3559:3579": {
-            "x": 3559,
-            "y": 3579,
-            "object_code": "cyan_ball"
-        },
-        "3559:3580": {
-            "x": 3559,
-            "y": 3580,
-            "object_code": "cyan_ball"
-        },
-        "3559:3581": {
-            "x": 3559,
-            "y": 3581,
-            "object_code": "cyan_ball"
-        },
-        "3559:3582": {
-            "x": 3559,
-            "y": 3582,
-            "object_code": "cyan_ball"
-        },
-        "3559:3583": {
-            "x": 3559,
-            "y": 3583,
-            "object_code": "cyan_ball"
-        },
-        "3582:3563": {
-            "x": 3582,
-            "y": 3563,
-            "object_code": "purple_ball"
-        },
-        "3582:3564": {
-            "x": 3582,
-            "y": 3564,
-            "object_code": "purple_ball"
-        },
-        "3582:3565": {
-            "x": 3582,
-            "y": 3565,
-            "object_code": "purple_ball"
-        },
-        "3582:3566": {
-            "x": 3582,
-            "y": 3566,
-            "object_code": "purple_ball"
-        },
-        "3582:3567": {
-            "x": 3582,
-            "y": 3567,
-            "object_code": "purple_ball"
-        },
-        "3582:3568": {
-            "x": 3582,
-            "y": 3568,
-            "object_code": "purple_ball"
-        },
-        "3582:3569": {
-            "x": 3582,
-            "y": 3569,
-            "object_code": "purple_ball"
-        },
-        "3582:3570": {
-            "x": 3582,
-            "y": 3570,
-            "object_code": "purple_ball"
-        },
-        "3582:3571": {
-            "x": 3582,
-            "y": 3571,
-            "object_code": "purple_ball"
-        },
-        "3582:3572": {
-            "x": 3582,
-            "y": 3572,
-            "object_code": "purple_ball"
-        },
-        "3582:3573": {
-            "x": 3582,
-            "y": 3573,
-            "object_code": "purple_ball"
-        },
-        "3582:3574": {
-            "x": 3582,
-            "y": 3574,
-            "object_code": "purple_ball"
-        },
-        "3582:3575": {
-            "x": 3582,
-            "y": 3575,
-            "object_code": "purple_ball"
-        },
-        "3582:3576": {
-            "x": 3582,
-            "y": 3576,
-            "object_code": "purple_ball"
-        },
-        "3582:3577": {
-            "x": 3582,
-            "y": 3577,
-            "object_code": "purple_ball"
-        },
-        "3582:3578": {
-            "x": 3582,
-            "y": 3578,
-            "object_code": "purple_ball"
-        },
-        "3582:3579": {
-            "x": 3582,
-            "y": 3579,
-            "object_code": "purple_ball"
-        },
-        "3582:3580": {
-            "x": 3582,
-            "y": 3580,
-            "object_code": "purple_ball"
-        },
-        "3582:3581": {
-            "x": 3582,
-            "y": 3581,
-            "object_code": "purple_ball"
-        },
-        "3582:3582": {
-            "x": 3582,
-            "y": 3582,
-            "object_code": "purple_ball"
-        },
-        "3582:3583": {
-            "x": 3582,
-            "y": 3583,
-            "object_code": "purple_ball"
-        },
-        "3578:3571": {
+        "3578:3563": {
             "x": 3578,
-            "y": 3571,
-            "object_code": "green_ball"
+            "y": 3563,
+            "object_code": "blue_ball"
         },
-        "3564:3571": {
-            "x": 3564,
-            "y": 3571,
-            "object_code": "red_ball"
-        },
-        "3582:3584": {
-            "x": 3582,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3581:3584": {
-            "x": 3581,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3580:3584": {
-            "x": 3580,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3579:3584": {
-            "x": 3579,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3578:3584": {
+        "3578:3564": {
             "x": 3578,
-            "y": 3584,
-            "object_code": "black_ball"
+            "y": 3564,
+            "object_code": "blue_ball"
         },
-        "3577:3584": {
-            "x": 3577,
-            "y": 3584,
-            "object_code": "black_ball"
+        "3578:3565": {
+            "x": 3578,
+            "y": 3565,
+            "object_code": "blue_ball"
         },
-        "3576:3584": {
-            "x": 3576,
-            "y": 3584,
-            "object_code": "black_ball"
+        "3578:3566": {
+            "x": 3578,
+            "y": 3566,
+            "object_code": "blue_ball"
         },
-        "3575:3584": {
-            "x": 3575,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3574:3584": {
-            "x": 3574,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3573:3584": {
-            "x": 3573,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3572:3584": {
-            "x": 3572,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3571:3584": {
-            "x": 3571,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3570:3584": {
-            "x": 3570,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3569:3584": {
-            "x": 3569,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3568:3584": {
-            "x": 3568,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3567:3584": {
-            "x": 3567,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3566:3584": {
-            "x": 3566,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3565:3584": {
-            "x": 3565,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3564:3584": {
-            "x": 3564,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3563:3584": {
-            "x": 3563,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3562:3584": {
-            "x": 3562,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3561:3584": {
-            "x": 3561,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3560:3584": {
-            "x": 3560,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3559:3584": {
-            "x": 3559,
-            "y": 3584,
-            "object_code": "black_ball"
-        },
-        "3571:3582": {
-            "x": 3571,
-            "y": 3582,
-            "object_code": "white_ball"
-        },
-        "3568:3567": {
-            "x": 3568,
+        "3578:3567": {
+            "x": 3578,
             "y": 3567,
             "object_code": "blue_ball"
         },
-        "3574:3567": {
-            "x": 3574,
-            "y": 3567,
-            "object_code": "white_ball"
+        "3578:3568": {
+            "x": 3578,
+            "y": 3568,
+            "object_code": "blue_ball"
         },
-        "3577:3577": {
-            "x": 3577,
-            "y": 3577,
+        "3578:3569": {
+            "x": 3578,
+            "y": 3569,
+            "object_code": "blue_ball"
+        },
+        "3578:3570": {
+            "x": 3578,
+            "y": 3570,
+            "object_code": "blue_ball"
+        },
+        "3578:3557": {
+            "x": 3578,
+            "y": 3557,
+            "object_code": "red_ball"
+        },
+        "3578:3556": {
+            "x": 3578,
+            "y": 3556,
+            "object_code": "red_ball"
+        },
+        "3578:3555": {
+            "x": 3578,
+            "y": 3555,
+            "object_code": "red_ball"
+        },
+        "3578:3554": {
+            "x": 3578,
+            "y": 3554,
+            "object_code": "red_ball"
+        },
+        "3578:3553": {
+            "x": 3578,
+            "y": 3553,
+            "object_code": "red_ball"
+        },
+        "3578:3552": {
+            "x": 3578,
+            "y": 3552,
+            "object_code": "red_ball"
+        },
+        "3578:3551": {
+            "x": 3578,
+            "y": 3551,
+            "object_code": "red_ball"
+        },
+        "3578:3550": {
+            "x": 3578,
+            "y": 3550,
+            "object_code": "red_ball"
+        },
+        "3578:3549": {
+            "x": 3578,
+            "y": 3549,
+            "object_code": "red_ball"
+        },
+        "3578:3548": {
+            "x": 3578,
+            "y": 3548,
+            "object_code": "red_ball"
+        },
+        "3578:3547": {
+            "x": 3578,
+            "y": 3547,
+            "object_code": "red_ball"
+        },
+        "3578:3546": {
+            "x": 3578,
+            "y": 3546,
+            "object_code": "red_ball"
+        },
+        "3578:3545": {
+            "x": 3578,
+            "y": 3545,
+            "object_code": "red_ball"
+        },
+        "3578:3544": {
+            "x": 3578,
+            "y": 3544,
+            "object_code": "red_ball"
+        },
+        "3578:3543": {
+            "x": 3578,
+            "y": 3543,
+            "object_code": "red_ball"
+        },
+        "3578:3542": {
+            "x": 3578,
+            "y": 3542,
+            "object_code": "red_ball"
+        },
+        "3578:3541": {
+            "x": 3578,
+            "y": 3541,
+            "object_code": "red_ball"
+        },
+        "3578:3540": {
+            "x": 3578,
+            "y": 3540,
+            "object_code": "red_ball"
+        },
+        "3578:3539": {
+            "x": 3578,
+            "y": 3539,
+            "object_code": "red_ball"
+        },
+        "3578:3538": {
+            "x": 3578,
+            "y": 3538,
+            "object_code": "red_ball"
+        },
+        "3578:3537": {
+            "x": 3578,
+            "y": 3537,
+            "object_code": "red_ball"
+        },
+        "3578:3536": {
+            "x": 3578,
+            "y": 3536,
+            "object_code": "red_ball"
+        },
+        "3578:3535": {
+            "x": 3578,
+            "y": 3535,
+            "object_code": "red_ball"
+        },
+        "3578:3534": {
+            "x": 3578,
+            "y": 3534,
+            "object_code": "red_ball"
+        },
+        "3578:3533": {
+            "x": 3578,
+            "y": 3533,
+            "object_code": "red_ball"
+        },
+        "3578:3532": {
+            "x": 3578,
+            "y": 3532,
+            "object_code": "red_ball"
+        },
+        "3578:3531": {
+            "x": 3578,
+            "y": 3531,
+            "object_code": "red_ball"
+        },
+        "3578:3530": {
+            "x": 3578,
+            "y": 3530,
+            "object_code": "red_ball"
+        },
+        "3578:3529": {
+            "x": 3578,
+            "y": 3529,
+            "object_code": "red_ball"
+        },
+        "3578:3528": {
+            "x": 3578,
+            "y": 3528,
+            "object_code": "red_ball"
+        },
+        "3578:3527": {
+            "x": 3578,
+            "y": 3527,
+            "object_code": "red_ball"
+        },
+        "3578:3526": {
+            "x": 3578,
+            "y": 3526,
             "object_code": "green_ball"
         },
-        "3565:3577": {
-            "x": 3565,
-            "y": 3577,
+        "3578:3525": {
+            "x": 3578,
+            "y": 3525,
+            "object_code": "green_ball"
+        },
+        "3578:3524": {
+            "x": 3578,
+            "y": 3524,
+            "object_code": "green_ball"
+        },
+        "3578:3523": {
+            "x": 3578,
+            "y": 3523,
+            "object_code": "green_ball"
+        },
+        "3578:3522": {
+            "x": 3578,
+            "y": 3522,
+            "object_code": "green_ball"
+        },
+        "3578:3521": {
+            "x": 3578,
+            "y": 3521,
+            "object_code": "green_ball"
+        },
+        "3578:3520": {
+            "x": 3578,
+            "y": 3520,
+            "object_code": "green_ball"
+        },
+        "3578:3519": {
+            "x": 3578,
+            "y": 3519,
+            "object_code": "green_ball"
+        },
+        "3578:3518": {
+            "x": 3578,
+            "y": 3518,
+            "object_code": "green_ball"
+        },
+        "3578:3517": {
+            "x": 3578,
+            "y": 3517,
+            "object_code": "green_ball"
+        },
+        "3578:3516": {
+            "x": 3578,
+            "y": 3516,
+            "object_code": "green_ball"
+        },
+        "3578:3515": {
+            "x": 3578,
+            "y": 3515,
+            "object_code": "green_ball"
+        },
+        "3578:3514": {
+            "x": 3578,
+            "y": 3514,
+            "object_code": "green_ball"
+        },
+        "3578:3513": {
+            "x": 3578,
+            "y": 3513,
+            "object_code": "green_ball"
+        },
+        "3578:3512": {
+            "x": 3578,
+            "y": 3512,
+            "object_code": "green_ball"
+        },
+        "3578:3511": {
+            "x": 3578,
+            "y": 3511,
+            "object_code": "green_ball"
+        },
+        "3578:3510": {
+            "x": 3578,
+            "y": 3510,
+            "object_code": "green_ball"
+        },
+        "3578:3509": {
+            "x": 3578,
+            "y": 3509,
+            "object_code": "green_ball"
+        },
+        "3578:3508": {
+            "x": 3578,
+            "y": 3508,
+            "object_code": "green_ball"
+        },
+        "3578:3507": {
+            "x": 3578,
+            "y": 3507,
+            "object_code": "green_ball"
+        },
+        "3578:3506": {
+            "x": 3578,
+            "y": 3506,
+            "object_code": "green_ball"
+        },
+        "3578:3505": {
+            "x": 3578,
+            "y": 3505,
+            "object_code": "green_ball"
+        },
+        "3578:3504": {
+            "x": 3578,
+            "y": 3504,
+            "object_code": "green_ball"
+        },
+        "3578:3503": {
+            "x": 3578,
+            "y": 3503,
+            "object_code": "green_ball"
+        },
+        "3578:3502": {
+            "x": 3578,
+            "y": 3502,
+            "object_code": "green_ball"
+        },
+        "3578:3501": {
+            "x": 3578,
+            "y": 3501,
+            "object_code": "green_ball"
+        },
+        "3578:3500": {
+            "x": 3578,
+            "y": 3500,
+            "object_code": "green_ball"
+        },
+        "3578:3499": {
+            "x": 3578,
+            "y": 3499,
+            "object_code": "green_ball"
+        },
+        "3578:3498": {
+            "x": 3578,
+            "y": 3498,
+            "object_code": "green_ball"
+        },
+        "3561:3570": {
+            "x": 3561,
+            "y": 3570,
+            "object_code": "green_ball"
+        },
+        "3561:3569": {
+            "x": 3561,
+            "y": 3569,
+            "object_code": "green_ball"
+        },
+        "3561:3568": {
+            "x": 3561,
+            "y": 3568,
+            "object_code": "green_ball"
+        },
+        "3561:3567": {
+            "x": 3561,
+            "y": 3567,
+            "object_code": "green_ball"
+        },
+        "3561:3566": {
+            "x": 3561,
+            "y": 3566,
+            "object_code": "green_ball"
+        },
+        "3561:3565": {
+            "x": 3561,
+            "y": 3565,
+            "object_code": "green_ball"
+        },
+        "3561:3564": {
+            "x": 3561,
+            "y": 3564,
+            "object_code": "green_ball"
+        },
+        "3561:3563": {
+            "x": 3561,
+            "y": 3563,
+            "object_code": "green_ball"
+        },
+        "3561:3562": {
+            "x": 3561,
+            "y": 3562,
+            "object_code": "green_ball"
+        },
+        "3561:3561": {
+            "x": 3561,
+            "y": 3561,
+            "object_code": "green_ball"
+        },
+        "3561:3560": {
+            "x": 3561,
+            "y": 3560,
+            "object_code": "green_ball"
+        },
+        "3561:3559": {
+            "x": 3561,
+            "y": 3559,
+            "object_code": "green_ball"
+        },
+        "3561:3558": {
+            "x": 3561,
+            "y": 3558,
+            "object_code": "green_ball"
+        },
+        "3561:3557": {
+            "x": 3561,
+            "y": 3557,
+            "object_code": "green_ball"
+        },
+        "3561:3556": {
+            "x": 3561,
+            "y": 3556,
+            "object_code": "green_ball"
+        },
+        "3561:3555": {
+            "x": 3561,
+            "y": 3555,
+            "object_code": "green_ball"
+        },
+        "3561:3554": {
+            "x": 3561,
+            "y": 3554,
+            "object_code": "green_ball"
+        },
+        "3561:3553": {
+            "x": 3561,
+            "y": 3553,
+            "object_code": "green_ball"
+        },
+        "3561:3552": {
+            "x": 3561,
+            "y": 3552,
+            "object_code": "green_ball"
+        },
+        "3561:3551": {
+            "x": 3561,
+            "y": 3551,
+            "object_code": "green_ball"
+        },
+        "3561:3550": {
+            "x": 3561,
+            "y": 3550,
+            "object_code": "green_ball"
+        },
+        "3561:3549": {
+            "x": 3561,
+            "y": 3549,
+            "object_code": "green_ball"
+        },
+        "3561:3548": {
+            "x": 3561,
+            "y": 3548,
+            "object_code": "green_ball"
+        },
+        "3561:3547": {
+            "x": 3561,
+            "y": 3547,
+            "object_code": "green_ball"
+        },
+        "3561:3546": {
+            "x": 3561,
+            "y": 3546,
+            "object_code": "green_ball"
+        },
+        "3561:3545": {
+            "x": 3561,
+            "y": 3545,
+            "object_code": "green_ball"
+        },
+        "3561:3544": {
+            "x": 3561,
+            "y": 3544,
+            "object_code": "green_ball"
+        },
+        "3561:3543": {
+            "x": 3561,
+            "y": 3543,
+            "object_code": "green_ball"
+        },
+        "3561:3542": {
+            "x": 3561,
+            "y": 3542,
+            "object_code": "green_ball"
+        },
+        "3561:3541": {
+            "x": 3561,
+            "y": 3541,
+            "object_code": "green_ball"
+        },
+        "3561:3540": {
+            "x": 3561,
+            "y": 3540,
+            "object_code": "green_ball"
+        },
+        "3561:3539": {
+            "x": 3561,
+            "y": 3539,
+            "object_code": "green_ball"
+        },
+        "3561:3538": {
+            "x": 3561,
+            "y": 3538,
+            "object_code": "green_ball"
+        },
+        "3561:3537": {
+            "x": 3561,
+            "y": 3537,
+            "object_code": "blue_ball"
+        },
+        "3561:3536": {
+            "x": 3561,
+            "y": 3536,
+            "object_code": "blue_ball"
+        },
+        "3561:3535": {
+            "x": 3561,
+            "y": 3535,
+            "object_code": "blue_ball"
+        },
+        "3561:3534": {
+            "x": 3561,
+            "y": 3534,
+            "object_code": "blue_ball"
+        },
+        "3561:3533": {
+            "x": 3561,
+            "y": 3533,
+            "object_code": "blue_ball"
+        },
+        "3561:3532": {
+            "x": 3561,
+            "y": 3532,
+            "object_code": "blue_ball"
+        },
+        "3561:3531": {
+            "x": 3561,
+            "y": 3531,
+            "object_code": "blue_ball"
+        },
+        "3561:3530": {
+            "x": 3561,
+            "y": 3530,
+            "object_code": "blue_ball"
+        },
+        "3561:3529": {
+            "x": 3561,
+            "y": 3529,
+            "object_code": "blue_ball"
+        },
+        "3561:3528": {
+            "x": 3561,
+            "y": 3528,
+            "object_code": "blue_ball"
+        },
+        "3561:3527": {
+            "x": 3561,
+            "y": 3527,
+            "object_code": "blue_ball"
+        },
+        "3561:3526": {
+            "x": 3561,
+            "y": 3526,
+            "object_code": "blue_ball"
+        },
+        "3561:3525": {
+            "x": 3561,
+            "y": 3525,
+            "object_code": "blue_ball"
+        },
+        "3561:3524": {
+            "x": 3561,
+            "y": 3524,
+            "object_code": "blue_ball"
+        },
+        "3561:3523": {
+            "x": 3561,
+            "y": 3523,
+            "object_code": "blue_ball"
+        },
+        "3561:3522": {
+            "x": 3561,
+            "y": 3522,
+            "object_code": "blue_ball"
+        },
+        "3561:3521": {
+            "x": 3561,
+            "y": 3521,
+            "object_code": "blue_ball"
+        },
+        "3561:3520": {
+            "x": 3561,
+            "y": 3520,
+            "object_code": "blue_ball"
+        },
+        "3561:3519": {
+            "x": 3561,
+            "y": 3519,
+            "object_code": "blue_ball"
+        },
+        "3561:3518": {
+            "x": 3561,
+            "y": 3518,
+            "object_code": "blue_ball"
+        },
+        "3561:3517": {
+            "x": 3561,
+            "y": 3517,
+            "object_code": "blue_ball"
+        },
+        "3561:3516": {
+            "x": 3561,
+            "y": 3516,
+            "object_code": "blue_ball"
+        },
+        "3561:3515": {
+            "x": 3561,
+            "y": 3515,
+            "object_code": "blue_ball"
+        },
+        "3561:3514": {
+            "x": 3561,
+            "y": 3514,
+            "object_code": "blue_ball"
+        },
+        "3561:3513": {
+            "x": 3561,
+            "y": 3513,
+            "object_code": "blue_ball"
+        },
+        "3561:3512": {
+            "x": 3561,
+            "y": 3512,
+            "object_code": "blue_ball"
+        },
+        "3561:3511": {
+            "x": 3561,
+            "y": 3511,
+            "object_code": "blue_ball"
+        },
+        "3561:3510": {
+            "x": 3561,
+            "y": 3510,
+            "object_code": "blue_ball"
+        },
+        "3561:3509": {
+            "x": 3561,
+            "y": 3509,
+            "object_code": "blue_ball"
+        },
+        "3561:3508": {
+            "x": 3561,
+            "y": 3508,
+            "object_code": "blue_ball"
+        },
+        "3561:3507": {
+            "x": 3561,
+            "y": 3507,
+            "object_code": "blue_ball"
+        },
+        "3561:3506": {
+            "x": 3561,
+            "y": 3506,
             "object_code": "red_ball"
+        },
+        "3561:3505": {
+            "x": 3561,
+            "y": 3505,
+            "object_code": "red_ball"
+        },
+        "3561:3504": {
+            "x": 3561,
+            "y": 3504,
+            "object_code": "red_ball"
+        },
+        "3561:3503": {
+            "x": 3561,
+            "y": 3503,
+            "object_code": "red_ball"
+        },
+        "3561:3502": {
+            "x": 3561,
+            "y": 3502,
+            "object_code": "red_ball"
+        },
+        "3561:3501": {
+            "x": 3561,
+            "y": 3501,
+            "object_code": "red_ball"
+        },
+        "3561:3500": {
+            "x": 3561,
+            "y": 3500,
+            "object_code": "red_ball"
+        },
+        "3561:3499": {
+            "x": 3561,
+            "y": 3499,
+            "object_code": "red_ball"
+        },
+        "3561:3498": {
+            "x": 3561,
+            "y": 3498,
+            "object_code": "red_ball"
+        },
+        "3561:3497": {
+            "x": 3561,
+            "y": 3497,
+            "object_code": "red_ball"
+        },
+        "3561:3496": {
+            "x": 3561,
+            "y": 3496,
+            "object_code": "red_ball"
+        },
+        "3561:3495": {
+            "x": 3561,
+            "y": 3495,
+            "object_code": "red_ball"
+        },
+        "3561:3494": {
+            "x": 3561,
+            "y": 3494,
+            "object_code": "red_ball"
+        },
+        "3561:3493": {
+            "x": 3561,
+            "y": 3493,
+            "object_code": "red_ball"
+        },
+        "3561:3492": {
+            "x": 3561,
+            "y": 3492,
+            "object_code": "red_ball"
+        },
+        "3561:3491": {
+            "x": 3561,
+            "y": 3491,
+            "object_code": "red_ball"
+        },
+        "3561:3490": {
+            "x": 3561,
+            "y": 3490,
+            "object_code": "red_ball"
+        },
+        "3561:3489": {
+            "x": 3561,
+            "y": 3489,
+            "object_code": "red_ball"
+        },
+        "3561:3488": {
+            "x": 3561,
+            "y": 3488,
+            "object_code": "red_ball"
+        },
+        "3578:3497": {
+            "x": 3578,
+            "y": 3497,
+            "object_code": "green_ball"
+        },
+        "3578:3496": {
+            "x": 3578,
+            "y": 3496,
+            "object_code": "green_ball"
+        },
+        "3578:3495": {
+            "x": 3578,
+            "y": 3495,
+            "object_code": "green_ball"
+        },
+        "3578:3494": {
+            "x": 3578,
+            "y": 3494,
+            "object_code": "green_ball"
+        },
+        "3578:3493": {
+            "x": 3578,
+            "y": 3493,
+            "object_code": "green_ball"
+        },
+        "3578:3492": {
+            "x": 3578,
+            "y": 3492,
+            "object_code": "green_ball"
+        },
+        "3578:3491": {
+            "x": 3578,
+            "y": 3491,
+            "object_code": "green_ball"
+        },
+        "3578:3490": {
+            "x": 3578,
+            "y": 3490,
+            "object_code": "green_ball"
+        },
+        "3578:3489": {
+            "x": 3578,
+            "y": 3489,
+            "object_code": "green_ball"
+        },
+        "3578:3488": {
+            "x": 3578,
+            "y": 3488,
+            "object_code": "green_ball"
+        },
+        "3561:3487": {
+            "x": 3561,
+            "y": 3487,
+            "object_code": "red_ball"
+        },
+        "3561:3486": {
+            "x": 3561,
+            "y": 3486,
+            "object_code": "red_ball"
+        },
+        "3561:3485": {
+            "x": 3561,
+            "y": 3485,
+            "object_code": "red_ball"
+        },
+        "3561:3484": {
+            "x": 3561,
+            "y": 3484,
+            "object_code": "red_ball"
+        },
+        "3561:3483": {
+            "x": 3561,
+            "y": 3483,
+            "object_code": "red_ball"
+        },
+        "3578:3487": {
+            "x": 3578,
+            "y": 3487,
+            "object_code": "green_ball"
+        },
+        "3578:3486": {
+            "x": 3578,
+            "y": 3486,
+            "object_code": "green_ball"
+        },
+        "3578:3485": {
+            "x": 3578,
+            "y": 3485,
+            "object_code": "green_ball"
+        },
+        "3578:3484": {
+            "x": 3578,
+            "y": 3484,
+            "object_code": "green_ball"
+        },
+        "3578:3483": {
+            "x": 3578,
+            "y": 3483,
+            "object_code": "green_ball"
+        },
+        "3578:3482": {
+            "x": 3578,
+            "y": 3482,
+            "object_code": "blue_ball"
+        },
+        "3578:3481": {
+            "x": 3578,
+            "y": 3481,
+            "object_code": "blue_ball"
+        },
+        "3578:3480": {
+            "x": 3578,
+            "y": 3480,
+            "object_code": "blue_ball"
+        },
+        "3578:3479": {
+            "x": 3578,
+            "y": 3479,
+            "object_code": "blue_ball"
+        },
+        "3578:3478": {
+            "x": 3578,
+            "y": 3478,
+            "object_code": "blue_ball"
+        },
+        "3578:3477": {
+            "x": 3578,
+            "y": 3477,
+            "object_code": "blue_ball"
+        },
+        "3578:3476": {
+            "x": 3578,
+            "y": 3476,
+            "object_code": "blue_ball"
+        },
+        "3578:3475": {
+            "x": 3578,
+            "y": 3475,
+            "object_code": "blue_ball"
+        },
+        "3578:3474": {
+            "x": 3578,
+            "y": 3474,
+            "object_code": "blue_ball"
+        },
+        "3578:3473": {
+            "x": 3578,
+            "y": 3473,
+            "object_code": "blue_ball"
+        },
+        "3578:3472": {
+            "x": 3578,
+            "y": 3472,
+            "object_code": "blue_ball"
+        },
+        "3578:3471": {
+            "x": 3578,
+            "y": 3471,
+            "object_code": "blue_ball"
+        },
+        "3578:3470": {
+            "x": 3578,
+            "y": 3470,
+            "object_code": "blue_ball"
+        },
+        "3578:3469": {
+            "x": 3578,
+            "y": 3469,
+            "object_code": "blue_ball"
+        },
+        "3578:3468": {
+            "x": 3578,
+            "y": 3468,
+            "object_code": "blue_ball"
+        },
+        "3578:3467": {
+            "x": 3578,
+            "y": 3467,
+            "object_code": "blue_ball"
+        },
+        "3578:3466": {
+            "x": 3578,
+            "y": 3466,
+            "object_code": "blue_ball"
+        },
+        "3578:3465": {
+            "x": 3578,
+            "y": 3465,
+            "object_code": "blue_ball"
+        },
+        "3578:3464": {
+            "x": 3578,
+            "y": 3464,
+            "object_code": "blue_ball"
+        },
+        "3578:3463": {
+            "x": 3578,
+            "y": 3463,
+            "object_code": "blue_ball"
+        },
+        "3578:3462": {
+            "x": 3578,
+            "y": 3462,
+            "object_code": "blue_ball"
+        },
+        "3578:3461": {
+            "x": 3578,
+            "y": 3461,
+            "object_code": "blue_ball"
+        },
+        "3578:3460": {
+            "x": 3578,
+            "y": 3460,
+            "object_code": "blue_ball"
+        },
+        "3578:3459": {
+            "x": 3578,
+            "y": 3459,
+            "object_code": "blue_ball"
+        },
+        "3578:3458": {
+            "x": 3578,
+            "y": 3458,
+            "object_code": "blue_ball"
+        },
+        "3561:3482": {
+            "x": 3561,
+            "y": 3482,
+            "object_code": "red_ball"
+        },
+        "3561:3481": {
+            "x": 3561,
+            "y": 3481,
+            "object_code": "red_ball"
+        },
+        "3561:3480": {
+            "x": 3561,
+            "y": 3480,
+            "object_code": "red_ball"
+        },
+        "3561:3479": {
+            "x": 3561,
+            "y": 3479,
+            "object_code": "red_ball"
+        },
+        "3561:3478": {
+            "x": 3561,
+            "y": 3478,
+            "object_code": "red_ball"
+        },
+        "3561:3477": {
+            "x": 3561,
+            "y": 3477,
+            "object_code": "red_ball"
+        },
+        "3561:3476": {
+            "x": 3561,
+            "y": 3476,
+            "object_code": "red_ball"
+        },
+        "3561:3475": {
+            "x": 3561,
+            "y": 3475,
+            "object_code": "red_ball"
+        },
+        "3561:3474": {
+            "x": 3561,
+            "y": 3474,
+            "object_code": "red_ball"
+        },
+        "3561:3473": {
+            "x": 3561,
+            "y": 3473,
+            "object_code": "red_ball"
+        },
+        "3561:3472": {
+            "x": 3561,
+            "y": 3472,
+            "object_code": "red_ball"
+        },
+        "3561:3471": {
+            "x": 3561,
+            "y": 3471,
+            "object_code": "red_ball"
+        },
+        "3561:3470": {
+            "x": 3561,
+            "y": 3470,
+            "object_code": "red_ball"
+        },
+        "3561:3469": {
+            "x": 3561,
+            "y": 3469,
+            "object_code": "red_ball"
+        },
+        "3561:3468": {
+            "x": 3561,
+            "y": 3468,
+            "object_code": "red_ball"
+        },
+        "3561:3467": {
+            "x": 3561,
+            "y": 3467,
+            "object_code": "red_ball"
+        },
+        "3561:3466": {
+            "x": 3561,
+            "y": 3466,
+            "object_code": "red_ball"
+        },
+        "3561:3465": {
+            "x": 3561,
+            "y": 3465,
+            "object_code": "red_ball"
+        },
+        "3561:3464": {
+            "x": 3561,
+            "y": 3464,
+            "object_code": "green_ball"
+        },
+        "3561:3463": {
+            "x": 3561,
+            "y": 3463,
+            "object_code": "green_ball"
+        },
+        "3561:3462": {
+            "x": 3561,
+            "y": 3462,
+            "object_code": "green_ball"
+        },
+        "3561:3461": {
+            "x": 3561,
+            "y": 3461,
+            "object_code": "green_ball"
+        },
+        "3561:3460": {
+            "x": 3561,
+            "y": 3460,
+            "object_code": "green_ball"
+        },
+        "3561:3459": {
+            "x": 3561,
+            "y": 3459,
+            "object_code": "green_ball"
+        },
+        "3561:3458": {
+            "x": 3561,
+            "y": 3458,
+            "object_code": "green_ball"
+        },
+        "3561:3457": {
+            "x": 3561,
+            "y": 3457,
+            "object_code": "green_ball"
+        },
+        "3561:3456": {
+            "x": 3561,
+            "y": 3456,
+            "object_code": "green_ball"
+        },
+        "3561:3455": {
+            "x": 3561,
+            "y": 3455,
+            "object_code": "green_ball"
+        },
+        "3561:3454": {
+            "x": 3561,
+            "y": 3454,
+            "object_code": "green_ball"
+        },
+        "3561:3453": {
+            "x": 3561,
+            "y": 3453,
+            "object_code": "green_ball"
+        },
+        "3561:3452": {
+            "x": 3561,
+            "y": 3452,
+            "object_code": "green_ball"
+        },
+        "3561:3451": {
+            "x": 3561,
+            "y": 3451,
+            "object_code": "green_ball"
+        },
+        "3561:3450": {
+            "x": 3561,
+            "y": 3450,
+            "object_code": "green_ball"
+        },
+        "3561:3449": {
+            "x": 3561,
+            "y": 3449,
+            "object_code": "green_ball"
+        },
+        "3561:3448": {
+            "x": 3561,
+            "y": 3448,
+            "object_code": "green_ball"
+        },
+        "3561:3447": {
+            "x": 3561,
+            "y": 3447,
+            "object_code": "green_ball"
+        },
+        "3561:3446": {
+            "x": 3561,
+            "y": 3446,
+            "object_code": "green_ball"
+        },
+        "3561:3445": {
+            "x": 3561,
+            "y": 3445,
+            "object_code": "green_ball"
+        },
+        "3561:3444": {
+            "x": 3561,
+            "y": 3444,
+            "object_code": "green_ball"
+        },
+        "3561:3443": {
+            "x": 3561,
+            "y": 3443,
+            "object_code": "green_ball"
+        },
+        "3578:3457": {
+            "x": 3578,
+            "y": 3457,
+            "object_code": "red_ball"
+        },
+        "3578:3456": {
+            "x": 3578,
+            "y": 3456,
+            "object_code": "red_ball"
+        },
+        "3578:3455": {
+            "x": 3578,
+            "y": 3455,
+            "object_code": "red_ball"
+        },
+        "3578:3454": {
+            "x": 3578,
+            "y": 3454,
+            "object_code": "red_ball"
+        },
+        "3578:3453": {
+            "x": 3578,
+            "y": 3453,
+            "object_code": "red_ball"
+        },
+        "3578:3452": {
+            "x": 3578,
+            "y": 3452,
+            "object_code": "red_ball"
+        },
+        "3578:3451": {
+            "x": 3578,
+            "y": 3451,
+            "object_code": "red_ball"
+        },
+        "3578:3450": {
+            "x": 3578,
+            "y": 3450,
+            "object_code": "red_ball"
+        },
+        "3578:3449": {
+            "x": 3578,
+            "y": 3449,
+            "object_code": "red_ball"
+        },
+        "3578:3448": {
+            "x": 3578,
+            "y": 3448,
+            "object_code": "red_ball"
+        },
+        "3578:3447": {
+            "x": 3578,
+            "y": 3447,
+            "object_code": "red_ball"
+        },
+        "3578:3446": {
+            "x": 3578,
+            "y": 3446,
+            "object_code": "red_ball"
+        },
+        "3578:3445": {
+            "x": 3578,
+            "y": 3445,
+            "object_code": "red_ball"
+        },
+        "3578:3444": {
+            "x": 3578,
+            "y": 3444,
+            "object_code": "red_ball"
+        },
+        "3578:3443": {
+            "x": 3578,
+            "y": 3443,
+            "object_code": "red_ball"
+        },
+        "3578:3442": {
+            "x": 3578,
+            "y": 3442,
+            "object_code": "red_ball"
+        },
+        "3578:3441": {
+            "x": 3578,
+            "y": 3441,
+            "object_code": "red_ball"
+        },
+        "3578:3440": {
+            "x": 3578,
+            "y": 3440,
+            "object_code": "red_ball"
+        },
+        "3578:3439": {
+            "x": 3578,
+            "y": 3439,
+            "object_code": "red_ball"
+        },
+        "3578:3438": {
+            "x": 3578,
+            "y": 3438,
+            "object_code": "red_ball"
+        },
+        "3578:3437": {
+            "x": 3578,
+            "y": 3437,
+            "object_code": "red_ball"
+        },
+        "3578:3436": {
+            "x": 3578,
+            "y": 3436,
+            "object_code": "red_ball"
+        },
+        "3578:3435": {
+            "x": 3578,
+            "y": 3435,
+            "object_code": "red_ball"
+        },
+        "3578:3434": {
+            "x": 3578,
+            "y": 3434,
+            "object_code": "red_ball"
+        },
+        "3578:3433": {
+            "x": 3578,
+            "y": 3433,
+            "object_code": "red_ball"
+        },
+        "3578:3432": {
+            "x": 3578,
+            "y": 3432,
+            "object_code": "red_ball"
+        },
+        "3578:3430": {
+            "x": 3578,
+            "y": 3430,
+            "object_code": "red_ball"
+        },
+        "3578:3431": {
+            "x": 3578,
+            "y": 3431,
+            "object_code": "red_ball"
+        },
+        "3561:3442": {
+            "x": 3561,
+            "y": 3442,
+            "object_code": "blue_ball"
+        },
+        "3561:3441": {
+            "x": 3561,
+            "y": 3441,
+            "object_code": "blue_ball"
+        },
+        "3561:3440": {
+            "x": 3561,
+            "y": 3440,
+            "object_code": "blue_ball"
+        },
+        "3561:3439": {
+            "x": 3561,
+            "y": 3439,
+            "object_code": "blue_ball"
+        },
+        "3561:3438": {
+            "x": 3561,
+            "y": 3438,
+            "object_code": "blue_ball"
+        },
+        "3561:3437": {
+            "x": 3561,
+            "y": 3437,
+            "object_code": "blue_ball"
+        },
+        "3561:3436": {
+            "x": 3561,
+            "y": 3436,
+            "object_code": "blue_ball"
+        },
+        "3561:3435": {
+            "x": 3561,
+            "y": 3435,
+            "object_code": "blue_ball"
+        },
+        "3561:3434": {
+            "x": 3561,
+            "y": 3434,
+            "object_code": "blue_ball"
+        },
+        "3561:3433": {
+            "x": 3561,
+            "y": 3433,
+            "object_code": "blue_ball"
+        },
+        "3561:3432": {
+            "x": 3561,
+            "y": 3432,
+            "object_code": "blue_ball"
+        },
+        "3561:3431": {
+            "x": 3561,
+            "y": 3431,
+            "object_code": "blue_ball"
+        },
+        "3561:3430": {
+            "x": 3561,
+            "y": 3430,
+            "object_code": "blue_ball"
+        },
+        "3561:3429": {
+            "x": 3561,
+            "y": 3429,
+            "object_code": "blue_ball"
+        },
+        "3561:3428": {
+            "x": 3561,
+            "y": 3428,
+            "object_code": "blue_ball"
+        },
+        "3561:3427": {
+            "x": 3561,
+            "y": 3427,
+            "object_code": "blue_ball"
+        },
+        "3561:3426": {
+            "x": 3561,
+            "y": 3426,
+            "object_code": "blue_ball"
+        },
+        "3561:3425": {
+            "x": 3561,
+            "y": 3425,
+            "object_code": "blue_ball"
+        },
+        "3561:3424": {
+            "x": 3561,
+            "y": 3424,
+            "object_code": "blue_ball"
+        },
+        "3561:3423": {
+            "x": 3561,
+            "y": 3423,
+            "object_code": "blue_ball"
+        },
+        "3561:3422": {
+            "x": 3561,
+            "y": 3422,
+            "object_code": "blue_ball"
+        },
+        "3561:3421": {
+            "x": 3561,
+            "y": 3421,
+            "object_code": "blue_ball"
+        },
+        "3561:3420": {
+            "x": 3561,
+            "y": 3420,
+            "object_code": "blue_ball"
+        },
+        "3561:3419": {
+            "x": 3561,
+            "y": 3419,
+            "object_code": "blue_ball"
+        },
+        "3578:3429": {
+            "x": 3578,
+            "y": 3429,
+            "object_code": "green_ball"
+        },
+        "3578:3428": {
+            "x": 3578,
+            "y": 3428,
+            "object_code": "green_ball"
+        },
+        "3578:3427": {
+            "x": 3578,
+            "y": 3427,
+            "object_code": "green_ball"
+        },
+        "3578:3426": {
+            "x": 3578,
+            "y": 3426,
+            "object_code": "green_ball"
+        },
+        "3578:3425": {
+            "x": 3578,
+            "y": 3425,
+            "object_code": "green_ball"
+        },
+        "3578:3424": {
+            "x": 3578,
+            "y": 3424,
+            "object_code": "green_ball"
+        },
+        "3578:3423": {
+            "x": 3578,
+            "y": 3423,
+            "object_code": "green_ball"
+        },
+        "3578:3422": {
+            "x": 3578,
+            "y": 3422,
+            "object_code": "green_ball"
+        },
+        "3578:3421": {
+            "x": 3578,
+            "y": 3421,
+            "object_code": "green_ball"
+        },
+        "3578:3420": {
+            "x": 3578,
+            "y": 3420,
+            "object_code": "green_ball"
+        },
+        "3578:3419": {
+            "x": 3578,
+            "y": 3419,
+            "object_code": "green_ball"
+        },
+        "3578:3418": {
+            "x": 3578,
+            "y": 3418,
+            "object_code": "green_ball"
+        },
+        "3578:3417": {
+            "x": 3578,
+            "y": 3417,
+            "object_code": "green_ball"
+        },
+        "3578:3416": {
+            "x": 3578,
+            "y": 3416,
+            "object_code": "green_ball"
+        },
+        "3578:3415": {
+            "x": 3578,
+            "y": 3415,
+            "object_code": "green_ball"
+        },
+        "3578:3414": {
+            "x": 3578,
+            "y": 3414,
+            "object_code": "green_ball"
+        },
+        "3578:3413": {
+            "x": 3578,
+            "y": 3413,
+            "object_code": "green_ball"
+        },
+        "3578:3412": {
+            "x": 3578,
+            "y": 3412,
+            "object_code": "green_ball"
+        },
+        "3578:3411": {
+            "x": 3578,
+            "y": 3411,
+            "object_code": "green_ball"
+        },
+        "3578:3410": {
+            "x": 3578,
+            "y": 3410,
+            "object_code": "green_ball"
+        },
+        "3578:3409": {
+            "x": 3578,
+            "y": 3409,
+            "object_code": "green_ball"
+        },
+        "3578:3408": {
+            "x": 3578,
+            "y": 3408,
+            "object_code": "green_ball"
+        },
+        "3578:3407": {
+            "x": 3578,
+            "y": 3407,
+            "object_code": "green_ball"
+        },
+        "3578:3406": {
+            "x": 3578,
+            "y": 3406,
+            "object_code": "green_ball"
+        },
+        "3561:3418": {
+            "x": 3561,
+            "y": 3418,
+            "object_code": "blue_ball"
+        },
+        "3561:3417": {
+            "x": 3561,
+            "y": 3417,
+            "object_code": "blue_ball"
+        },
+        "3561:3416": {
+            "x": 3561,
+            "y": 3416,
+            "object_code": "blue_ball"
+        },
+        "3561:3415": {
+            "x": 3561,
+            "y": 3415,
+            "object_code": "blue_ball"
+        },
+        "3561:3414": {
+            "x": 3561,
+            "y": 3414,
+            "object_code": "blue_ball"
+        },
+        "3561:3413": {
+            "x": 3561,
+            "y": 3413,
+            "object_code": "blue_ball"
+        },
+        "3561:3412": {
+            "x": 3561,
+            "y": 3412,
+            "object_code": "blue_ball"
+        },
+        "3561:3411": {
+            "x": 3561,
+            "y": 3411,
+            "object_code": "blue_ball"
+        },
+        "3561:3410": {
+            "x": 3561,
+            "y": 3410,
+            "object_code": "blue_ball"
+        },
+        "3561:3409": {
+            "x": 3561,
+            "y": 3409,
+            "object_code": "blue_ball"
+        },
+        "3561:3408": {
+            "x": 3561,
+            "y": 3408,
+            "object_code": "blue_ball"
+        },
+        "3561:3407": {
+            "x": 3561,
+            "y": 3407,
+            "object_code": "blue_ball"
+        },
+        "3561:3406": {
+            "x": 3561,
+            "y": 3406,
+            "object_code": "blue_ball"
+        },
+        "3578:3405": {
+            "x": 3578,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3579:3405": {
+            "x": 3579,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3580:3405": {
+            "x": 3580,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3581:3405": {
+            "x": 3581,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3582:3405": {
+            "x": 3582,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3583:3405": {
+            "x": 3583,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3584:3405": {
+            "x": 3584,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3585:3405": {
+            "x": 3585,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3586:3405": {
+            "x": 3586,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3561:3405": {
+            "x": 3561,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3560:3405": {
+            "x": 3560,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3559:3405": {
+            "x": 3559,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3558:3405": {
+            "x": 3558,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3557:3405": {
+            "x": 3557,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3556:3405": {
+            "x": 3556,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3555:3405": {
+            "x": 3555,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3554:3405": {
+            "x": 3554,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3553:3405": {
+            "x": 3553,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3552:3405": {
+            "x": 3552,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3551:3405": {
+            "x": 3551,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3550:3405": {
+            "x": 3550,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3549:3405": {
+            "x": 3549,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3548:3405": {
+            "x": 3548,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3547:3405": {
+            "x": 3547,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3546:3405": {
+            "x": 3546,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3545:3405": {
+            "x": 3545,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3545:3404": {
+            "x": 3545,
+            "y": 3404,
+            "object_code": "black_ball"
+        },
+        "3545:3403": {
+            "x": 3545,
+            "y": 3403,
+            "object_code": "black_ball"
+        },
+        "3545:3402": {
+            "x": 3545,
+            "y": 3402,
+            "object_code": "black_ball"
+        },
+        "3545:3401": {
+            "x": 3545,
+            "y": 3401,
+            "object_code": "black_ball"
+        },
+        "3545:3400": {
+            "x": 3545,
+            "y": 3400,
+            "object_code": "black_ball"
+        },
+        "3545:3399": {
+            "x": 3545,
+            "y": 3399,
+            "object_code": "black_ball"
+        },
+        "3545:3398": {
+            "x": 3545,
+            "y": 3398,
+            "object_code": "black_ball"
+        },
+        "3545:3397": {
+            "x": 3545,
+            "y": 3397,
+            "object_code": "black_ball"
+        },
+        "3545:3396": {
+            "x": 3545,
+            "y": 3396,
+            "object_code": "black_ball"
+        },
+        "3545:3395": {
+            "x": 3545,
+            "y": 3395,
+            "object_code": "black_ball"
+        },
+        "3545:3391": {
+            "x": 3545,
+            "y": 3391,
+            "object_code": "black_ball"
+        },
+        "3545:3392": {
+            "x": 3545,
+            "y": 3392,
+            "object_code": "black_ball"
+        },
+        "3545:3393": {
+            "x": 3545,
+            "y": 3393,
+            "object_code": "black_ball"
+        },
+        "3545:3394": {
+            "x": 3545,
+            "y": 3394,
+            "object_code": "black_ball"
+        },
+        "3587:3405": {
+            "x": 3587,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3588:3405": {
+            "x": 3588,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3589:3405": {
+            "x": 3589,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3590:3405": {
+            "x": 3590,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3591:3405": {
+            "x": 3591,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3592:3405": {
+            "x": 3592,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3593:3405": {
+            "x": 3593,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3594:3405": {
+            "x": 3594,
+            "y": 3405,
+            "object_code": "black_ball"
+        },
+        "3594:3404": {
+            "x": 3594,
+            "y": 3404,
+            "object_code": "black_ball"
+        },
+        "3594:3403": {
+            "x": 3594,
+            "y": 3403,
+            "object_code": "black_ball"
+        },
+        "3594:3402": {
+            "x": 3594,
+            "y": 3402,
+            "object_code": "black_ball"
+        },
+        "3594:3401": {
+            "x": 3594,
+            "y": 3401,
+            "object_code": "black_ball"
+        },
+        "3594:3400": {
+            "x": 3594,
+            "y": 3400,
+            "object_code": "black_ball"
+        },
+        "3594:3399": {
+            "x": 3594,
+            "y": 3399,
+            "object_code": "black_ball"
+        },
+        "3594:3398": {
+            "x": 3594,
+            "y": 3398,
+            "object_code": "black_ball"
+        },
+        "3594:3397": {
+            "x": 3594,
+            "y": 3397,
+            "object_code": "black_ball"
+        },
+        "3594:3396": {
+            "x": 3594,
+            "y": 3396,
+            "object_code": "black_ball"
+        },
+        "3594:3395": {
+            "x": 3594,
+            "y": 3395,
+            "object_code": "black_ball"
+        },
+        "3594:3394": {
+            "x": 3594,
+            "y": 3394,
+            "object_code": "black_ball"
+        },
+        "3594:3393": {
+            "x": 3594,
+            "y": 3393,
+            "object_code": "black_ball"
+        },
+        "3594:3392": {
+            "x": 3594,
+            "y": 3392,
+            "object_code": "black_ball"
+        },
+        "3594:3391": {
+            "x": 3594,
+            "y": 3391,
+            "object_code": "black_ball"
+        },
+        "3594:3390": {
+            "x": 3594,
+            "y": 3390,
+            "object_code": "black_ball"
+        },
+        "3594:3389": {
+            "x": 3594,
+            "y": 3389,
+            "object_code": "black_ball"
+        },
+        "3594:3388": {
+            "x": 3594,
+            "y": 3388,
+            "object_code": "black_ball"
+        },
+        "3594:3387": {
+            "x": 3594,
+            "y": 3387,
+            "object_code": "black_ball"
+        },
+        "3594:3386": {
+            "x": 3594,
+            "y": 3386,
+            "object_code": "black_ball"
+        },
+        "3594:3385": {
+            "x": 3594,
+            "y": 3385,
+            "object_code": "black_ball"
+        },
+        "3594:3384": {
+            "x": 3594,
+            "y": 3384,
+            "object_code": "black_ball"
+        },
+        "3594:3383": {
+            "x": 3594,
+            "y": 3383,
+            "object_code": "black_ball"
+        },
+        "3594:3382": {
+            "x": 3594,
+            "y": 3382,
+            "object_code": "black_ball"
+        },
+        "3594:3381": {
+            "x": 3594,
+            "y": 3381,
+            "object_code": "black_ball"
+        },
+        "3594:3380": {
+            "x": 3594,
+            "y": 3380,
+            "object_code": "black_ball"
+        },
+        "3594:3379": {
+            "x": 3594,
+            "y": 3379,
+            "object_code": "black_ball"
+        },
+        "3594:3378": {
+            "x": 3594,
+            "y": 3378,
+            "object_code": "black_ball"
+        },
+        "3594:3377": {
+            "x": 3594,
+            "y": 3377,
+            "object_code": "black_ball"
+        },
+        "3594:3376": {
+            "x": 3594,
+            "y": 3376,
+            "object_code": "black_ball"
+        },
+        "3594:3375": {
+            "x": 3594,
+            "y": 3375,
+            "object_code": "black_ball"
+        },
+        "3594:3374": {
+            "x": 3594,
+            "y": 3374,
+            "object_code": "black_ball"
+        },
+        "3594:3373": {
+            "x": 3594,
+            "y": 3373,
+            "object_code": "black_ball"
+        },
+        "3594:3372": {
+            "x": 3594,
+            "y": 3372,
+            "object_code": "black_ball"
+        },
+        "3594:3371": {
+            "x": 3594,
+            "y": 3371,
+            "object_code": "black_ball"
+        },
+        "3594:3370": {
+            "x": 3594,
+            "y": 3370,
+            "object_code": "black_ball"
+        },
+        "3594:3369": {
+            "x": 3594,
+            "y": 3369,
+            "object_code": "black_ball"
+        },
+        "3594:3368": {
+            "x": 3594,
+            "y": 3368,
+            "object_code": "black_ball"
+        },
+        "3545:3390": {
+            "x": 3545,
+            "y": 3390,
+            "object_code": "black_ball"
+        },
+        "3545:3389": {
+            "x": 3545,
+            "y": 3389,
+            "object_code": "black_ball"
+        },
+        "3545:3388": {
+            "x": 3545,
+            "y": 3388,
+            "object_code": "black_ball"
+        },
+        "3545:3387": {
+            "x": 3545,
+            "y": 3387,
+            "object_code": "black_ball"
+        },
+        "3545:3386": {
+            "x": 3545,
+            "y": 3386,
+            "object_code": "black_ball"
+        },
+        "3545:3385": {
+            "x": 3545,
+            "y": 3385,
+            "object_code": "black_ball"
+        },
+        "3545:3384": {
+            "x": 3545,
+            "y": 3384,
+            "object_code": "black_ball"
+        },
+        "3545:3383": {
+            "x": 3545,
+            "y": 3383,
+            "object_code": "black_ball"
+        },
+        "3545:3382": {
+            "x": 3545,
+            "y": 3382,
+            "object_code": "black_ball"
+        },
+        "3545:3381": {
+            "x": 3545,
+            "y": 3381,
+            "object_code": "black_ball"
+        },
+        "3545:3380": {
+            "x": 3545,
+            "y": 3380,
+            "object_code": "black_ball"
+        },
+        "3545:3379": {
+            "x": 3545,
+            "y": 3379,
+            "object_code": "black_ball"
+        },
+        "3545:3378": {
+            "x": 3545,
+            "y": 3378,
+            "object_code": "black_ball"
+        },
+        "3545:3377": {
+            "x": 3545,
+            "y": 3377,
+            "object_code": "black_ball"
+        },
+        "3545:3376": {
+            "x": 3545,
+            "y": 3376,
+            "object_code": "black_ball"
+        },
+        "3545:3375": {
+            "x": 3545,
+            "y": 3375,
+            "object_code": "black_ball"
+        },
+        "3545:3374": {
+            "x": 3545,
+            "y": 3374,
+            "object_code": "black_ball"
+        },
+        "3545:3373": {
+            "x": 3545,
+            "y": 3373,
+            "object_code": "black_ball"
+        },
+        "3545:3372": {
+            "x": 3545,
+            "y": 3372,
+            "object_code": "black_ball"
+        },
+        "3545:3371": {
+            "x": 3545,
+            "y": 3371,
+            "object_code": "black_ball"
+        },
+        "3545:3370": {
+            "x": 3545,
+            "y": 3370,
+            "object_code": "black_ball"
+        },
+        "3545:3369": {
+            "x": 3545,
+            "y": 3369,
+            "object_code": "black_ball"
+        },
+        "3545:3368": {
+            "x": 3545,
+            "y": 3368,
+            "object_code": "black_ball"
+        },
+        "3545:3367": {
+            "x": 3545,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3546:3367": {
+            "x": 3546,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3547:3367": {
+            "x": 3547,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3548:3367": {
+            "x": 3548,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3549:3367": {
+            "x": 3549,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3550:3367": {
+            "x": 3550,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3551:3367": {
+            "x": 3551,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3552:3367": {
+            "x": 3552,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3553:3367": {
+            "x": 3553,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3554:3367": {
+            "x": 3554,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3555:3367": {
+            "x": 3555,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3556:3367": {
+            "x": 3556,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3557:3367": {
+            "x": 3557,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3558:3367": {
+            "x": 3558,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3559:3367": {
+            "x": 3559,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3560:3367": {
+            "x": 3560,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3561:3367": {
+            "x": 3561,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3562:3367": {
+            "x": 3562,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3563:3367": {
+            "x": 3563,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3564:3367": {
+            "x": 3564,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3565:3367": {
+            "x": 3565,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3566:3367": {
+            "x": 3566,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3567:3367": {
+            "x": 3567,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3568:3367": {
+            "x": 3568,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3569:3367": {
+            "x": 3569,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3570:3367": {
+            "x": 3570,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3571:3367": {
+            "x": 3571,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3572:3367": {
+            "x": 3572,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3573:3367": {
+            "x": 3573,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3574:3367": {
+            "x": 3574,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3575:3367": {
+            "x": 3575,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3576:3367": {
+            "x": 3576,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3577:3367": {
+            "x": 3577,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3578:3367": {
+            "x": 3578,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3579:3367": {
+            "x": 3579,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3580:3367": {
+            "x": 3580,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3581:3367": {
+            "x": 3581,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3582:3367": {
+            "x": 3582,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3583:3367": {
+            "x": 3583,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3584:3367": {
+            "x": 3584,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3585:3367": {
+            "x": 3585,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3586:3367": {
+            "x": 3586,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3587:3367": {
+            "x": 3587,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3588:3367": {
+            "x": 3588,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3589:3367": {
+            "x": 3589,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3590:3367": {
+            "x": 3590,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3591:3367": {
+            "x": 3591,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3592:3367": {
+            "x": 3592,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3593:3367": {
+            "x": 3593,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3594:3367": {
+            "x": 3594,
+            "y": 3367,
+            "object_code": "black_ball"
+        },
+        "3561:3377": {
+            "x": 3561,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3561:3378": {
+            "x": 3561,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3561:3379": {
+            "x": 3561,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3561:3380": {
+            "x": 3561,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3561:3381": {
+            "x": 3561,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3561:3382": {
+            "x": 3561,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3561:3383": {
+            "x": 3561,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3561:3384": {
+            "x": 3561,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3561:3385": {
+            "x": 3561,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3561:3386": {
+            "x": 3561,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3561:3387": {
+            "x": 3561,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3561:3388": {
+            "x": 3561,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3561:3389": {
+            "x": 3561,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3561:3390": {
+            "x": 3561,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3562:3390": {
+            "x": 3562,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3563:3390": {
+            "x": 3563,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3564:3390": {
+            "x": 3564,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3565:3390": {
+            "x": 3565,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3566:3390": {
+            "x": 3566,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3567:3390": {
+            "x": 3567,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3568:3390": {
+            "x": 3568,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3569:3390": {
+            "x": 3569,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3570:3390": {
+            "x": 3570,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3575:3390": {
+            "x": 3575,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3574:3390": {
+            "x": 3574,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3573:3390": {
+            "x": 3573,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3572:3390": {
+            "x": 3572,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3571:3390": {
+            "x": 3571,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3576:3390": {
+            "x": 3576,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3577:3390": {
+            "x": 3577,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3578:3390": {
+            "x": 3578,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3579:3389": {
+            "x": 3579,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3579:3388": {
+            "x": 3579,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3579:3387": {
+            "x": 3579,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3579:3386": {
+            "x": 3579,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3579:3385": {
+            "x": 3579,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3579:3384": {
+            "x": 3579,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3579:3383": {
+            "x": 3579,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3579:3382": {
+            "x": 3579,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3579:3381": {
+            "x": 3579,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3579:3380": {
+            "x": 3579,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3579:3379": {
+            "x": 3579,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3579:3378": {
+            "x": 3579,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3579:3377": {
+            "x": 3579,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3579:3376": {
+            "x": 3579,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3578:3376": {
+            "x": 3578,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3577:3376": {
+            "x": 3577,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3576:3376": {
+            "x": 3576,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3575:3376": {
+            "x": 3575,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3574:3376": {
+            "x": 3574,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3573:3376": {
+            "x": 3573,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3572:3376": {
+            "x": 3572,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3571:3376": {
+            "x": 3571,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3570:3376": {
+            "x": 3570,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3569:3376": {
+            "x": 3569,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3568:3376": {
+            "x": 3568,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3567:3376": {
+            "x": 3567,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3566:3376": {
+            "x": 3566,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3565:3376": {
+            "x": 3565,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3564:3376": {
+            "x": 3564,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3563:3376": {
+            "x": 3563,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3562:3376": {
+            "x": 3562,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3561:3376": {
+            "x": 3561,
+            "y": 3376,
+            "object_code": "white_ball"
+        },
+        "3579:3390": {
+            "x": 3579,
+            "y": 3390,
+            "object_code": "white_ball"
+        },
+        "3562:3377": {
+            "x": 3562,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3562:3378": {
+            "x": 3562,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3562:3379": {
+            "x": 3562,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3562:3380": {
+            "x": 3562,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3562:3381": {
+            "x": 3562,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3562:3382": {
+            "x": 3562,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3562:3383": {
+            "x": 3562,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3562:3384": {
+            "x": 3562,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3562:3385": {
+            "x": 3562,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3562:3386": {
+            "x": 3562,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3562:3387": {
+            "x": 3562,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3562:3388": {
+            "x": 3562,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3562:3389": {
+            "x": 3562,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3563:3389": {
+            "x": 3563,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3564:3389": {
+            "x": 3564,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3565:3389": {
+            "x": 3565,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3566:3389": {
+            "x": 3566,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3567:3389": {
+            "x": 3567,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3568:3389": {
+            "x": 3568,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3569:3389": {
+            "x": 3569,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3570:3389": {
+            "x": 3570,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3571:3389": {
+            "x": 3571,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3572:3389": {
+            "x": 3572,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3573:3389": {
+            "x": 3573,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3574:3389": {
+            "x": 3574,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3575:3389": {
+            "x": 3575,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3576:3389": {
+            "x": 3576,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3577:3389": {
+            "x": 3577,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3578:3389": {
+            "x": 3578,
+            "y": 3389,
+            "object_code": "white_ball"
+        },
+        "3578:3388": {
+            "x": 3578,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3578:3387": {
+            "x": 3578,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3578:3386": {
+            "x": 3578,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3578:3385": {
+            "x": 3578,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3578:3384": {
+            "x": 3578,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3578:3383": {
+            "x": 3578,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3578:3382": {
+            "x": 3578,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3578:3381": {
+            "x": 3578,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3578:3380": {
+            "x": 3578,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3578:3379": {
+            "x": 3578,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3578:3378": {
+            "x": 3578,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3578:3377": {
+            "x": 3578,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3577:3377": {
+            "x": 3577,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3576:3377": {
+            "x": 3576,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3575:3377": {
+            "x": 3575,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3574:3377": {
+            "x": 3574,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3573:3377": {
+            "x": 3573,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3572:3377": {
+            "x": 3572,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3571:3377": {
+            "x": 3571,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3570:3377": {
+            "x": 3570,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3569:3377": {
+            "x": 3569,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3568:3377": {
+            "x": 3568,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3567:3377": {
+            "x": 3567,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3566:3377": {
+            "x": 3566,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3565:3377": {
+            "x": 3565,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3564:3377": {
+            "x": 3564,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3563:3377": {
+            "x": 3563,
+            "y": 3377,
+            "object_code": "white_ball"
+        },
+        "3563:3378": {
+            "x": 3563,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3563:3379": {
+            "x": 3563,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3563:3380": {
+            "x": 3563,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3563:3381": {
+            "x": 3563,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3563:3382": {
+            "x": 3563,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3563:3383": {
+            "x": 3563,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3563:3384": {
+            "x": 3563,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3563:3385": {
+            "x": 3563,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3563:3386": {
+            "x": 3563,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3563:3387": {
+            "x": 3563,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3563:3388": {
+            "x": 3563,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3564:3388": {
+            "x": 3564,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3565:3388": {
+            "x": 3565,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3566:3388": {
+            "x": 3566,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3567:3388": {
+            "x": 3567,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3568:3388": {
+            "x": 3568,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3569:3388": {
+            "x": 3569,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3570:3388": {
+            "x": 3570,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3571:3388": {
+            "x": 3571,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3572:3388": {
+            "x": 3572,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3573:3388": {
+            "x": 3573,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3574:3388": {
+            "x": 3574,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3575:3388": {
+            "x": 3575,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3576:3388": {
+            "x": 3576,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3577:3388": {
+            "x": 3577,
+            "y": 3388,
+            "object_code": "white_ball"
+        },
+        "3577:3387": {
+            "x": 3577,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3577:3386": {
+            "x": 3577,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3577:3385": {
+            "x": 3577,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3577:3384": {
+            "x": 3577,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3577:3383": {
+            "x": 3577,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3577:3382": {
+            "x": 3577,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3577:3381": {
+            "x": 3577,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3577:3380": {
+            "x": 3577,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3577:3379": {
+            "x": 3577,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3577:3378": {
+            "x": 3577,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3576:3378": {
+            "x": 3576,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3575:3378": {
+            "x": 3575,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3574:3378": {
+            "x": 3574,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3573:3378": {
+            "x": 3573,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3572:3378": {
+            "x": 3572,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3571:3378": {
+            "x": 3571,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3570:3378": {
+            "x": 3570,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3569:3378": {
+            "x": 3569,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3568:3378": {
+            "x": 3568,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3567:3378": {
+            "x": 3567,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3566:3378": {
+            "x": 3566,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3565:3378": {
+            "x": 3565,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3564:3378": {
+            "x": 3564,
+            "y": 3378,
+            "object_code": "white_ball"
+        },
+        "3564:3379": {
+            "x": 3564,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3564:3380": {
+            "x": 3564,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3564:3381": {
+            "x": 3564,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3564:3382": {
+            "x": 3564,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3564:3383": {
+            "x": 3564,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3564:3384": {
+            "x": 3564,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3564:3385": {
+            "x": 3564,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3564:3386": {
+            "x": 3564,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3564:3387": {
+            "x": 3564,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3565:3387": {
+            "x": 3565,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3566:3387": {
+            "x": 3566,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3567:3387": {
+            "x": 3567,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3568:3387": {
+            "x": 3568,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3569:3387": {
+            "x": 3569,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3570:3387": {
+            "x": 3570,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3571:3387": {
+            "x": 3571,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3572:3387": {
+            "x": 3572,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3573:3387": {
+            "x": 3573,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3574:3387": {
+            "x": 3574,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3575:3387": {
+            "x": 3575,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3576:3387": {
+            "x": 3576,
+            "y": 3387,
+            "object_code": "white_ball"
+        },
+        "3576:3386": {
+            "x": 3576,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3576:3385": {
+            "x": 3576,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3576:3384": {
+            "x": 3576,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3576:3383": {
+            "x": 3576,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3576:3382": {
+            "x": 3576,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3576:3381": {
+            "x": 3576,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3576:3380": {
+            "x": 3576,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3576:3379": {
+            "x": 3576,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3575:3379": {
+            "x": 3575,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3574:3379": {
+            "x": 3574,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3573:3379": {
+            "x": 3573,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3572:3379": {
+            "x": 3572,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3571:3379": {
+            "x": 3571,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3570:3379": {
+            "x": 3570,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3569:3379": {
+            "x": 3569,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3568:3379": {
+            "x": 3568,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3567:3379": {
+            "x": 3567,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3566:3379": {
+            "x": 3566,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3565:3379": {
+            "x": 3565,
+            "y": 3379,
+            "object_code": "white_ball"
+        },
+        "3565:3380": {
+            "x": 3565,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3565:3381": {
+            "x": 3565,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3565:3382": {
+            "x": 3565,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3565:3383": {
+            "x": 3565,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3565:3384": {
+            "x": 3565,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3565:3385": {
+            "x": 3565,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3565:3386": {
+            "x": 3565,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3566:3386": {
+            "x": 3566,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3567:3386": {
+            "x": 3567,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3568:3386": {
+            "x": 3568,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3569:3386": {
+            "x": 3569,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3570:3386": {
+            "x": 3570,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3571:3386": {
+            "x": 3571,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3572:3386": {
+            "x": 3572,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3573:3386": {
+            "x": 3573,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3574:3386": {
+            "x": 3574,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3575:3386": {
+            "x": 3575,
+            "y": 3386,
+            "object_code": "white_ball"
+        },
+        "3575:3385": {
+            "x": 3575,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3575:3384": {
+            "x": 3575,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3575:3383": {
+            "x": 3575,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3575:3382": {
+            "x": 3575,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3575:3381": {
+            "x": 3575,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3575:3380": {
+            "x": 3575,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3574:3380": {
+            "x": 3574,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3573:3380": {
+            "x": 3573,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3572:3380": {
+            "x": 3572,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3571:3380": {
+            "x": 3571,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3570:3380": {
+            "x": 3570,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3569:3380": {
+            "x": 3569,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3568:3380": {
+            "x": 3568,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3567:3380": {
+            "x": 3567,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3566:3380": {
+            "x": 3566,
+            "y": 3380,
+            "object_code": "white_ball"
+        },
+        "3566:3381": {
+            "x": 3566,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3566:3382": {
+            "x": 3566,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3566:3383": {
+            "x": 3566,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3566:3384": {
+            "x": 3566,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3567:3384": {
+            "x": 3567,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3567:3385": {
+            "x": 3567,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3568:3385": {
+            "x": 3568,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3569:3385": {
+            "x": 3569,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3570:3385": {
+            "x": 3570,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3571:3385": {
+            "x": 3571,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3572:3385": {
+            "x": 3572,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3573:3385": {
+            "x": 3573,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3574:3385": {
+            "x": 3574,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3574:3384": {
+            "x": 3574,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3574:3383": {
+            "x": 3574,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3574:3382": {
+            "x": 3574,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3574:3381": {
+            "x": 3574,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3573:3381": {
+            "x": 3573,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3572:3381": {
+            "x": 3572,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3571:3381": {
+            "x": 3571,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3570:3381": {
+            "x": 3570,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3569:3381": {
+            "x": 3569,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3568:3381": {
+            "x": 3568,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3567:3381": {
+            "x": 3567,
+            "y": 3381,
+            "object_code": "white_ball"
+        },
+        "3566:3385": {
+            "x": 3566,
+            "y": 3385,
+            "object_code": "white_ball"
+        },
+        "3568:3384": {
+            "x": 3568,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3569:3384": {
+            "x": 3569,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3570:3384": {
+            "x": 3570,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3571:3384": {
+            "x": 3571,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3572:3384": {
+            "x": 3572,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3573:3384": {
+            "x": 3573,
+            "y": 3384,
+            "object_code": "white_ball"
+        },
+        "3573:3383": {
+            "x": 3573,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3573:3382": {
+            "x": 3573,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3572:3382": {
+            "x": 3572,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3571:3382": {
+            "x": 3571,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3570:3382": {
+            "x": 3570,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3569:3382": {
+            "x": 3569,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3568:3382": {
+            "x": 3568,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3567:3382": {
+            "x": 3567,
+            "y": 3382,
+            "object_code": "white_ball"
+        },
+        "3567:3383": {
+            "x": 3567,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3568:3383": {
+            "x": 3568,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3569:3383": {
+            "x": 3569,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3570:3383": {
+            "x": 3570,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3571:3383": {
+            "x": 3571,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3572:3383": {
+            "x": 3572,
+            "y": 3383,
+            "object_code": "white_ball"
+        },
+        "3546:3404": {
+            "x": 3546,
+            "y": 3404,
+            "object_code": "red_ball"
+        },
+        "3547:3403": {
+            "x": 3547,
+            "y": 3403,
+            "object_code": "red_ball"
+        },
+        "3548:3402": {
+            "x": 3548,
+            "y": 3402,
+            "object_code": "red_ball"
+        },
+        "3549:3401": {
+            "x": 3549,
+            "y": 3401,
+            "object_code": "red_ball"
+        },
+        "3550:3400": {
+            "x": 3550,
+            "y": 3400,
+            "object_code": "red_ball"
+        },
+        "3551:3399": {
+            "x": 3551,
+            "y": 3399,
+            "object_code": "red_ball"
+        },
+        "3552:3398": {
+            "x": 3552,
+            "y": 3398,
+            "object_code": "red_ball"
+        },
+        "3553:3397": {
+            "x": 3553,
+            "y": 3397,
+            "object_code": "red_ball"
+        },
+        "3554:3396": {
+            "x": 3554,
+            "y": 3396,
+            "object_code": "red_ball"
+        },
+        "3555:3395": {
+            "x": 3555,
+            "y": 3395,
+            "object_code": "red_ball"
+        },
+        "3556:3394": {
+            "x": 3556,
+            "y": 3394,
+            "object_code": "red_ball"
+        },
+        "3557:3393": {
+            "x": 3557,
+            "y": 3393,
+            "object_code": "red_ball"
+        },
+        "3558:3392": {
+            "x": 3558,
+            "y": 3392,
+            "object_code": "red_ball"
+        },
+        "3559:3391": {
+            "x": 3559,
+            "y": 3391,
+            "object_code": "red_ball"
+        },
+        "3560:3390": {
+            "x": 3560,
+            "y": 3390,
+            "object_code": "red_ball"
+        },
+        "3560:3377": {
+            "x": 3560,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3559:3377": {
+            "x": 3559,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3558:3377": {
+            "x": 3558,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3557:3377": {
+            "x": 3557,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3556:3377": {
+            "x": 3556,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3555:3377": {
+            "x": 3555,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3554:3377": {
+            "x": 3554,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3553:3377": {
+            "x": 3553,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3552:3377": {
+            "x": 3552,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3551:3377": {
+            "x": 3551,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3550:3377": {
+            "x": 3550,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3549:3377": {
+            "x": 3549,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3548:3377": {
+            "x": 3548,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3547:3377": {
+            "x": 3547,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3564:3372": {
+            "x": 3564,
+            "y": 3372,
+            "object_code": "green_ball"
+        },
+        "3563:3374": {
+            "x": 3563,
+            "y": 3374,
+            "object_code": "green_ball"
+        },
+        "3571:3371": {
+            "x": 3571,
+            "y": 3371,
+            "object_code": "green_ball"
+        },
+        "3567:3370": {
+            "x": 3567,
+            "y": 3370,
+            "object_code": "green_ball"
+        },
+        "3567:3373": {
+            "x": 3567,
+            "y": 3373,
+            "object_code": "green_ball"
+        },
+        "3562:3370": {
+            "x": 3562,
+            "y": 3370,
+            "object_code": "green_ball"
+        },
+        "3572:3373": {
+            "x": 3572,
+            "y": 3373,
+            "object_code": "green_ball"
+        },
+        "3574:3370": {
+            "x": 3574,
+            "y": 3370,
+            "object_code": "green_ball"
+        },
+        "3576:3373": {
+            "x": 3576,
+            "y": 3373,
+            "object_code": "green_ball"
+        },
+        "3578:3370": {
+            "x": 3578,
+            "y": 3370,
+            "object_code": "green_ball"
+        },
+        "3578:3374": {
+            "x": 3578,
+            "y": 3374,
+            "object_code": "green_ball"
+        },
+        "3561:3372": {
+            "x": 3561,
+            "y": 3372,
+            "object_code": "green_ball"
+        },
+        "3580:3373": {
+            "x": 3580,
+            "y": 3373,
+            "object_code": "green_ball"
+        },
+        "3580:3391": {
+            "x": 3580,
+            "y": 3391,
+            "object_code": "red_ball"
+        },
+        "3581:3392": {
+            "x": 3581,
+            "y": 3392,
+            "object_code": "red_ball"
+        },
+        "3582:3393": {
+            "x": 3582,
+            "y": 3393,
+            "object_code": "red_ball"
+        },
+        "3583:3394": {
+            "x": 3583,
+            "y": 3394,
+            "object_code": "red_ball"
+        },
+        "3584:3395": {
+            "x": 3584,
+            "y": 3395,
+            "object_code": "red_ball"
+        },
+        "3585:3396": {
+            "x": 3585,
+            "y": 3396,
+            "object_code": "red_ball"
+        },
+        "3586:3397": {
+            "x": 3586,
+            "y": 3397,
+            "object_code": "red_ball"
+        },
+        "3587:3398": {
+            "x": 3587,
+            "y": 3398,
+            "object_code": "red_ball"
+        },
+        "3588:3399": {
+            "x": 3588,
+            "y": 3399,
+            "object_code": "red_ball"
+        },
+        "3589:3400": {
+            "x": 3589,
+            "y": 3400,
+            "object_code": "red_ball"
+        },
+        "3590:3401": {
+            "x": 3590,
+            "y": 3401,
+            "object_code": "red_ball"
+        },
+        "3591:3402": {
+            "x": 3591,
+            "y": 3402,
+            "object_code": "red_ball"
+        },
+        "3592:3403": {
+            "x": 3592,
+            "y": 3403,
+            "object_code": "red_ball"
+        },
+        "3593:3404": {
+            "x": 3593,
+            "y": 3404,
+            "object_code": "red_ball"
+        },
+        "3580:3377": {
+            "x": 3580,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3581:3377": {
+            "x": 3581,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3582:3377": {
+            "x": 3582,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3583:3377": {
+            "x": 3583,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3584:3377": {
+            "x": 3584,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3585:3377": {
+            "x": 3585,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3586:3377": {
+            "x": 3586,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3587:3377": {
+            "x": 3587,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3588:3377": {
+            "x": 3588,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3589:3377": {
+            "x": 3589,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3590:3377": {
+            "x": 3590,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3591:3377": {
+            "x": 3591,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3592:3377": {
+            "x": 3592,
+            "y": 3377,
+            "object_code": "blue_ball"
+        },
+        "3593:3377": {
+            "x": 3593,
+            "y": 3377,
+            "object_code": "blue_ball"
         }
     },
     "player_position": {
         "x": 3571,
         "y": 3571
     },
-    "min_score_to_win": 200,
+    "min_score_to_win": 7000,
     "time_limit": 30,
     "acceleration": 12,
-    "max_speed": 150,
+    "max_speed": 250,
     "zoom_value": 10,
     "add_powers": false,
     "map_edge_type": "deadly",
-    "edge_distance": 30,
+    "edge_distance": 300,
     "next_level":"{{home}}/47.json",
     "slow_time": "0.5",
     "slow_time_duration": "1",

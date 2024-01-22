@@ -36,7 +36,7 @@
         "y": 2777
     },
     "min_score_to_win": 4,
-    "time_limit": 60,
+    "time_limit": null,
     "max_speed": 250,
     "acceleration": 12,
     "zoom_value": 20,
