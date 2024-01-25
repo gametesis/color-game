@@ -1238,7 +1238,15 @@ async function initGloabalVars() {
 
   } else {
     url = url.replace("#level=", "");
-    data = await fetchJson(url, true);
+    if(url.includes("https://raw.githubusercontent.com/")){
+      try{
+        data = await fetchJson(url, false);//try to fetch not using proxy
+      }catch{
+        data = await fetchJson(url, true);
+      }
+    }else{
+      data = await fetchJson(url, true);// use proxy do fetch data
+    }
   }
   //initialize global vars....
 
