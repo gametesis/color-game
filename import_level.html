@@ -144,24 +144,44 @@
             if (text_area.value.slice(0, 4).includes("http")) { //is url
                 let data = JSON.parse(localStorage["color game"])
                 let finish = false
-                //use proxy to get data and insert in localStorage
+                // get data and insert in localStorage
+                if (text_area.value.includes("https://raw.githubusercontent.com/")) {
+                    try {
+                        fetch(text_area.value)
+                            .then(res => { return res.json() })
+                            .then(json_data => {
+                                data.created_level_info = json_data
+                                console.log(data)
 
-                try {
-                    fetch('https://corsproxy.io/?' + encodeURIComponent(text_area.value))
-                        .then(res => { return res.json() })
-                        .then(json_data => {
-                            data.created_level_info = json_data
-                            console.log(data)
+                                localStorage["color game"] = JSON.stringify(data)
+                                setTimeout(() => {
+                                    window.location.href = window.location.origin + "/color-game/level_creation_form.html?continue"
+                                }, 100);
+                            })
 
-                            localStorage["color game"] = JSON.stringify(data)
-                            setTimeout(() => {
-                                window.location.href = window.location.origin + "/color-game/level_creation_form.html?continue"
-                            }, 100);
-                        })
+                    } catch (err) {
+                        alert(err)
+                    }
+                } else {
+                    //use proxy to get data
+                    try {
+                        fetch('https://corsproxy.io/?' + encodeURIComponent(text_area.value))
+                            .then(res => { return res.json() })
+                            .then(json_data => {
+                                data.created_level_info = json_data
+                                console.log(data)
 
-                } catch (err) {
-                    alert(err)
+                                localStorage["color game"] = JSON.stringify(data)
+                                setTimeout(() => {
+                                    window.location.href = window.location.origin + "/color-game/level_creation_form.html?continue"
+                                }, 100);
+                            })
+
+                    } catch (err) {
+                        alert(err)
+                    }
                 }
+
 
 
             } else {// is json
@@ -181,23 +201,42 @@
                 let data = JSON.parse(localStorage["color game"])
                 let finish = false
                 //use proxy to get data and insert in localStorage
+                if (text_area.value.includes("https://raw.githubusercontent.com/")) {
+                    try {
+                        fetch(text_area.value)
+                            .then(res => { return res.json() })
+                            .then(json_data => {
+                                data.community = json_data
+                                console.log(data)
 
-                try {
-                    fetch('https://corsproxy.io/?' + encodeURIComponent(text_area.value))
-                        .then(res => { return res.json() })
-                        .then(json_data => {
-                            data.community = json_data
-                            console.log(data)
+                                localStorage["color game"] = JSON.stringify(data)
+                                setTimeout(() => {
+                                    window.location.href = window.location.origin + "/color-game/game.html#level=community"
+                                }, 100);
+                            })
 
-                            localStorage["color game"] = JSON.stringify(data)
-                            setTimeout(() => {
-                                window.location.href = window.location.origin + "/color-game/game.html#level=community"
-                            }, 100);
-                        })
+                    } catch (err) {
+                        alert(err)
+                    }
+                } else {// get data via proxy
+                    try {
+                        fetch('https://corsproxy.io/?' + encodeURIComponent(text_area.value))
+                            .then(res => { return res.json() })
+                            .then(json_data => {
+                                data.community = json_data
+                                console.log(data)
 
-                } catch (err) {
-                    alert(err)
+                                localStorage["color game"] = JSON.stringify(data)
+                                setTimeout(() => {
+                                    window.location.href = window.location.origin + "/color-game/game.html#level=community"
+                                }, 100);
+                            })
+
+                    } catch (err) {
+                        alert(err)
+                    }
                 }
+
             } else {// is json
 
                 let data = JSON.parse(localStorage["color game"])
