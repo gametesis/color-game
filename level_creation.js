@@ -201,7 +201,7 @@ function init() {
     getElement("game_window").style["overflow"] = "scroll";
   }
 
-  can_create = true;
+  can_create = false;
 
   setTimeout(() => {
     createInputButtons();
@@ -317,6 +317,40 @@ function updateMaxScore(color_vector, option) {
   total_score = Math.max(total_score, 0);
   getElement("max_score").innerText = `max score: ${total_score}`;
 }
+
+
+function fullScreenQuestion(state){
+  if(state=="start"){
+    let div=document.createElement("div")
+    div.id="fullScreenQuestion"
+    div.style.position = "absolute"
+    div.style.backgroundColor = "rgb(0,0,0)"
+    div.style.width = "100%"
+    div.style.height = "100%"
+    div.style.color="white"
+    div.style["z-index"]=2000
+    div.style["fontFamily"]="Arial, sans-serif"
+    div.style.fontSize="x-Large"
+    div.innerHTML="<h1 >Click to Enter Full Screen</h1>"
+    div.style.textAlign="center"
+    div.style.display= "flex"
+    div.style["justify-content"]="center"
+    div.style["align-items"]="center"
+    div.style.top="0px"
+    div.style.left="0px"
+    div.addEventListener("click",()=>{fullScreenQuestion("delete")})
+    document.body.appendChild(div)
+  } else{
+    let el = getElement("fullScreenQuestion")
+    el.parentElement.removeChild(el)
+    can_create=true
+    
+  }
+  
+
+}
+
+
 
 function deleteFromLevelMap(x, y) {
   updateMaxScore(level_map[`${x}:${y}`].object.color_vector, "-");
@@ -859,3 +893,4 @@ function screenResize() {
 
 init();
 main();
+fullScreenQuestion("start")
