@@ -552,7 +552,7 @@ function helpInterface() {
   ) {
     getElement("blue_button").style[
       "box-shadow"
-    ] = `0px 0px 50px 7px ${blue_color}`;
+    ] = `0px 0px 50px 17px ${blue_color}`;
   }
   if (
     selection_vector[2] == 0 &&
@@ -567,11 +567,11 @@ function helpInterface() {
     if (
       getElement("game_window").style["overflow"] == "scroll" &&
       getElement("displacement_button").style["box-shadow"] !=
-      `0px 0px 50px 7px rgb(100,100,100)`
+      `0px 0px 50px 17px rgb(100,100,100)`
     ) {
       getElement("displacement_button").style[
         "box-shadow"
-      ] = `0px 0px 50px 7px rgb(100,100,100)`;
+      ] = `0px 0px 50px 17px rgb(100,100,100)`;
     }
 
     if (
@@ -587,7 +587,7 @@ function helpInterface() {
   ) {
     getElement("delete_button").style[
       "box-shadow"
-    ] = `0px 0px 50px 7px rgb(100,100,100)`;
+    ] = `0px 0px 50px 17px rgb(100,100,100)`;
   }
 
   if (
@@ -831,7 +831,7 @@ function createInputButtons() {
       selection_vector[2] = 1;
       getElement("blue_button").style[
         "box-shadow"
-      ] = `0px 0px 50px 7px ${blue_color}`;
+      ] = `0px 0px 50px 17px ${blue_color}`;
       helpButtonSelection("rgb");
     } else {
       selection_vector[2] = 0;
@@ -846,7 +846,7 @@ function createInputButtons() {
         can_create = false;
         getElement("displacement_button").style[
           "box-shadow"
-        ] = `0px 0px 50px 7px rgb(100,100,100)`;
+        ] = `0px 0px 50px 17px rgb(100,100,100)`;
       } else {
         getElement("game_window").style["overflow"] = "hidden";
         can_create = true;
@@ -861,7 +861,7 @@ function createInputButtons() {
       object_code = "delete";
       getElement("delete_button").style[
         "box-shadow"
-      ] = `0px 0px 50px 7px rgb(100,100,100)`;
+      ] = `0px 0px 50px 17px rgb(100,100,100)`;
     } else {
       object_code = null;
       getElement("delete_button").style["box-shadow"] = ``;
