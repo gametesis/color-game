@@ -1238,13 +1238,13 @@ async function initGloabalVars() {
 
   } else {
     url = url.replace("#level=", "");
-    if(url.includes("https://raw.githubusercontent.com/")){
-      try{
+    if (url.includes("https://raw.githubusercontent.com/")) {
+      try {
         data = await fetchJson(url, false);//try to fetch not using proxy
-      }catch{
+      } catch {
         data = await fetchJson(url, true);
       }
-    }else{
+    } else {
       data = await fetchJson(url, true);// use proxy do fetch data
     }
   }
@@ -1330,7 +1330,7 @@ function createInputButton(position) {
           if (window.innerWidth / window.innerHeight < 1.0) {
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 0;
-            self.shape.parentNode.style.top = window.innerHeight - button_width*2;
+            self.shape.parentNode.style.top = window.innerHeight - button_width * 2;
 
             self.shape.style.position = "relative";
             goToPosition(self, 0.25 * button_width, 0.25 * button_width, 10);
@@ -1419,7 +1419,7 @@ function createInputButton(position) {
           if (window.innerWidth / window.innerHeight < 1.0) {
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 1;
-            self.shape.parentNode.style.top = window.innerHeight - button_width*2;
+            self.shape.parentNode.style.top = window.innerHeight - button_width * 2;
 
             self.shape.style.position = "relative";
             goToPosition(self, 0.25 * button_width, 0.25 * button_width, 10);
@@ -1505,7 +1505,7 @@ function createInputButton(position) {
           if (window.innerWidth / window.innerHeight < 1.0) {
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 2;
-            self.shape.parentNode.style.top = window.innerHeight - button_width*2;
+            self.shape.parentNode.style.top = window.innerHeight - button_width * 2;
 
             self.shape.style.position = "relative";
             goToPosition(self, 0.25 * button_width, 0.25 * button_width, 10);
@@ -1681,7 +1681,7 @@ function createInputButtons() {
               reloadGame()
             } else {
               //window.location.href = "https://www.buymeacoffee.com/gametesisq";
-              window.location.href ="https://www.paypal.com/donate/?hosted_button_id=6ATPH2C66W9EQ"
+              window.location.href = "https://www.paypal.com/donate/?hosted_button_id=6ATPH2C66W9EQ"
             }
           } else {
             //location.reload();
@@ -2289,48 +2289,59 @@ function updateGameTimer(delta) {
     getElement("timer_text").innerText = `${number.toFixed(3)}s`;
   }
 }
+let lastTimestamp = 0;
+const targetFps = 60;
+const frameDelay = 1000 / targetFps;
 function main(timestamp) {
 
   if (finish_loading_global_vars && getElement("timer_text") != undefined && player.animation != undefined) {
+    // Calculate the time difference since the last frame
+    const deltaTime = timestamp - lastTimestamp;
 
-    if (!time) {
-      time = timestamp;
-    }
-
-    dt = (timestamp - time) * 1e-3;
-    real_time += dt;
-
-    updateGameTimer(dt * player.slow_time);
-    triggerWinLoseGame();
-    getElement("game_window").scroll({
-      top: player.y - window.innerHeight / 2,
-      left: player.x - window.innerWidth / 2,
-    });
-    //FPS
-    //getElement("min_score_text").innerText=(1/dt).toFixed(2)
-
-    player.play();
-
-    for (c in effect_particles) {
-      effect_particles[c].play();
-    }
-
-    for (c in contact_balls) {
-      contact_balls[c].play();
-    }
-    for (c in point_vectores) {
-      point_vectores[c].play();
-    }
-
-    for (b in buttons_array) {
-      if (buttons_array[b].animation != undefined) {
-        buttons_array[b].play();
+    // Check if enough time has passed to render the next frame
+    if (deltaTime >= frameDelay) {
+      // Your animation/rendering code here
+      if (!time) {
+        time = timestamp;
       }
+
+      dt = (timestamp - time) * 1e-3;
+      real_time += dt;
+
+      updateGameTimer(dt * player.slow_time);
+      triggerWinLoseGame();
+      getElement("game_window").scroll({
+        top: player.y - window.innerHeight / 2,
+        left: player.x - window.innerWidth / 2,
+      });
+      //FPS
+      //getElement("min_score_text").innerText=(1/dt).toFixed(2)
+
+      player.play();
+
+      for (c in effect_particles) {
+        effect_particles[c].play();
+      }
+
+      for (c in contact_balls) {
+        contact_balls[c].play();
+      }
+      for (c in point_vectores) {
+        point_vectores[c].play();
+      }
+
+      for (b in buttons_array) {
+        if (buttons_array[b].animation != undefined) {
+          buttons_array[b].play();
+        }
+      }
+
+      cleanUnusedProjectiles();
+
+      time = timestamp //update time var 
+      // Update lastTimestamp for the next frame
+      lastTimestamp = timestamp - (deltaTime % frameDelay);
     }
-
-    cleanUnusedProjectiles();
-
-    time = timestamp //update time var 
   }
   if (game_is_running) {
     requestAnimationFrame(main);
@@ -2561,33 +2572,33 @@ function reloadGame() {
   setTimeout(() => { is_pressing_key = false }, 100)
 }
 
-function fullScreenQuestion(state){
-  if(state=="start"){
-    let div=document.createElement("div")
-    div.id="fullScreenQuestion"
+function fullScreenQuestion(state) {
+  if (state == "start") {
+    let div = document.createElement("div")
+    div.id = "fullScreenQuestion"
     div.style.position = "absolute"
     div.style.backgroundColor = "rgb(0,0,0)"
     div.style.width = "100%"
     div.style.height = "100%"
-    div.style.color="white"
-    div.style["z-index"]=2000
-    div.style["fontFamily"]="Arial, sans-serif"
-    div.style.fontSize="x-Large"
-    div.innerHTML="<h1 >Click to Enter Full Screen</h1>"
-    div.style.textAlign="center"
-    div.style.display= "flex"
-    div.style["justify-content"]="center"
-    div.style["align-items"]="center"
-    div.style.top="0px"
-    div.style.left="0px"
-    div.addEventListener("click",()=>{fullScreenQuestion("delete")})
+    div.style.color = "white"
+    div.style["z-index"] = 2000
+    div.style["fontFamily"] = "Arial, sans-serif"
+    div.style.fontSize = "x-Large"
+    div.innerHTML = "<h1 >Click to Enter Full Screen</h1>"
+    div.style.textAlign = "center"
+    div.style.display = "flex"
+    div.style["justify-content"] = "center"
+    div.style["align-items"] = "center"
+    div.style.top = "0px"
+    div.style.left = "0px"
+    div.addEventListener("click", () => { fullScreenQuestion("delete") })
     document.body.appendChild(div)
-  } else{
+  } else {
     let el = getElement("fullScreenQuestion")
     el.parentElement.removeChild(el)
-    
+
   }
-  
+
 
 }
 
