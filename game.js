@@ -1327,7 +1327,7 @@ function createInputButton(position) {
       animation: (self) => {
         if (buttons_menu_state == "") {
           //back to default place
-          if (window.innerWidth / window.innerHeight < 1.0) {
+          if (window.innerWidth / window.innerHeight < 1.0) {//mobile
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 0;
             self.shape.parentNode.style.top = window.innerHeight - button_width * 2;
@@ -1356,7 +1356,7 @@ function createInputButton(position) {
           goToPosition(
             self,
             window.innerWidth / 2 - self.width / 2,
-            window.innerHeight * 0.3,
+            window.innerHeight * 0.25,
             10
           );
           self.shape.innerText = "exit";
@@ -1372,7 +1372,7 @@ function createInputButton(position) {
           goToPosition(
             self,
             window.innerWidth / 2 - self.width / 2,
-            window.innerHeight * 0.3,
+            window.innerHeight * 0.25,
             10
           );
           if (next_level_pointer != "") {
@@ -1394,7 +1394,7 @@ function createInputButton(position) {
           goToPosition(
             self,
             window.innerWidth / 2 - self.width / 2,
-            window.innerHeight * 0.3,
+            window.innerHeight * 0.25,
             10
           );
           self.shape.innerText = "replay";
@@ -1416,7 +1416,7 @@ function createInputButton(position) {
       animation: (self) => {
         if (buttons_menu_state == "") {
           //back to default place
-          if (window.innerWidth / window.innerHeight < 1.0) {
+          if (window.innerWidth / window.innerHeight < 1.0) {//mobile
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 1;
             self.shape.parentNode.style.top = window.innerHeight - button_width * 2;
@@ -1439,7 +1439,7 @@ function createInputButton(position) {
           goToPosition(
             self,
             window.innerWidth / 2 - self.width / 2,
-            window.innerHeight * 0.5,
+            window.innerHeight * 0.45,
             10
           );
           self.shape.innerText = "replay";
@@ -1456,7 +1456,7 @@ function createInputButton(position) {
           goToPosition(
             self,
             window.innerWidth / 2 - self.width / 2,
-            window.innerHeight * 0.5,
+            window.innerHeight * 0.45,
             10
           );
           self.shape.style["font-size"] =
@@ -1480,7 +1480,7 @@ function createInputButton(position) {
           goToPosition(
             self,
             window.innerWidth / 2 - self.width / 2,
-            window.innerHeight * 0.5,
+            window.innerHeight * 0.45,
             10
           );
           self.shape.innerText = "";
@@ -1502,7 +1502,7 @@ function createInputButton(position) {
       animation: (self) => {
         if (buttons_menu_state == "") {
           //back to default place
-          if (window.innerWidth / window.innerHeight < 1.0) {
+          if (window.innerWidth / window.innerHeight < 1.0) {//mobile
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 2;
             self.shape.parentNode.style.top = window.innerHeight - button_width * 2;
@@ -1525,7 +1525,7 @@ function createInputButton(position) {
           goToPosition(
             self,
             window.innerWidth / 2 - self.width / 2,
-            window.innerHeight * 0.7,
+            window.innerHeight * 0.65,
             10
           );
           self.shape.innerText = "home";
@@ -1542,7 +1542,7 @@ function createInputButton(position) {
           goToPosition(
             self,
             window.innerWidth / 2 - self.width / 2,
-            window.innerHeight * 0.7,
+            window.innerHeight * 0.65,
             10
           );
           self.shape.innerText = "home";
@@ -1559,7 +1559,7 @@ function createInputButton(position) {
           goToPosition(
             self,
             window.innerWidth / 2 - self.width / 2,
-            window.innerHeight * 0.7,
+            window.innerHeight * 0.65,
             10
           );
           self.shape.innerText = "home";
@@ -1637,7 +1637,7 @@ function createInputButton(position) {
     "box-shadow"
   ] = `0px 0px 50px 7px ${mapping[position]["color"]}`;*/
   circle.shape.style.position = "relative";
-  return button;
+  return circle.shape; //actual button
 }
 function createInputButtons() {
   //if (checkMobileDevice()) {
