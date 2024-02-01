@@ -1680,8 +1680,8 @@ function createInputButtons() {
               //location.reload();
               reloadGame()
             } else {
-              //window.location.href = "https://www.buymeacoffee.com/gametesisq";
-              window.location.href = "https://www.paypal.com/donate/?hosted_button_id=6ATPH2C66W9EQ"
+              window.location.href = "https://www.buymeacoffee.com/gametesisq";
+              //window.location.href = "https://www.paypal.com/donate/?hosted_button_id=6ATPH2C66W9EQ"
             }
           } else {
             //location.reload();
