@@ -1330,7 +1330,7 @@ function createInputButton(position) {
           if (window.innerWidth / window.innerHeight < 1.0) {//mobile
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 0;
-            self.shape.parentNode.style.top = window.innerHeight - button_width * 2;
+            self.shape.parentNode.style.top = window.innerHeight - button_width * 1.9;
 
             self.shape.style.position = "relative";
             goToPosition(self, 0.25 * button_width, 0.25 * button_width, 10);
@@ -1419,7 +1419,7 @@ function createInputButton(position) {
           if (window.innerWidth / window.innerHeight < 1.0) {//mobile
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 1;
-            self.shape.parentNode.style.top = window.innerHeight - button_width * 2;
+            self.shape.parentNode.style.top = window.innerHeight - button_width * 1.9;
 
             self.shape.style.position = "relative";
             goToPosition(self, 0.25 * button_width, 0.25 * button_width, 10);
@@ -1505,7 +1505,7 @@ function createInputButton(position) {
           if (window.innerWidth / window.innerHeight < 1.0) {//mobile
             let button_width = window.innerWidth / 3;
             self.shape.parentNode.style.left = button_width * 2;
-            self.shape.parentNode.style.top = window.innerHeight - button_width * 2;
+            self.shape.parentNode.style.top = window.innerHeight - button_width * 1.9;
 
             self.shape.style.position = "relative";
             goToPosition(self, 0.25 * button_width, 0.25 * button_width, 10);
@@ -1590,7 +1590,7 @@ function createInputButton(position) {
       createCircle(
         0.25 * button_width,
         0.25 * button_width,
-        button_width * 0.5,
+        button_width * 0.6,
         mapping[position]["color"],
         mapping[position]["name"]
       )
