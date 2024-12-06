@@ -12193,7 +12193,7 @@
                                     }
 
                                 }
-                                if (GAME_LOGIC.game.buttons_menu_state == "menu" && !GAME_LOGIC.game.win_flag) {
+                                if (GAME_LOGIC.game.buttons_menu_state == "menu" ) {
                                     //menu actions
                                     self.shape.style.position = "fixed";
                                     self.shape.style.color="black"
@@ -12216,6 +12216,13 @@
                                         0.25 * parseFloat(self.shape.parentNode.style.height)
                                         }px`;
                                     GAME_LOGIC.game.menu_key_input_timer += self.dt
+
+
+                                    if(GAME_LOGIC.game.win_flag){// if already win 
+                                        GAME_LOGIC.game.buttons_menu_state="win"
+                                    }
+
+
                                 }
                                 if (GAME_LOGIC.game.buttons_menu_state == "win") {
                                     self.shape.style.position = "fixed";
