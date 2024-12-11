@@ -5329,190 +5329,194 @@
         }
     },
     "8": {
-        "map": {
-            "2173:2177": {
-                "x": 2173,
-                "y": 2177,
-                "object_code": "green_dash",
-                "other_options": {}
-            },
-            "2176:2185": {
-                "x": 2176,
-                "y": 2185,
-                "object_code": "green_dash",
-                "other_options": {
-                    "angle": 0,
-                    "go_to_position": true
-                }
-            },
-            "2198:2185": {
-                "x": 2198,
-                "y": 2185,
-                "object_code": "green_portal",
-                "other_options": {
-                    "portal_id": 0,
-                    "portal_entry": true,
-                    "action": " if(GAME_LOGIC.game.player.y>2185*GAME_LOGIC.game.ball_size && GAME_LOGIC.game.level_vars.trigger0==undefined){\n  GAME_LOGIC.game.level_vars.trigger0=true \n GAME_LOGIC.game.createX(2173*GAME_LOGIC.game.ball_size,2180*GAME_LOGIC.game.ball_size,\"black\") \n}"
-                }
-            },
-            "2191:2180": {
-                "x": 2191,
-                "y": 2180,
-                "object_code": "green_portal",
-                "other_options": {
-                    "portal_id": 1,
-                    "portal_entry": false,
-                    "action": "if(GAME_LOGIC.game.player.just_enter_portal && GAME_LOGIC.speed_run==0){GAME_LOGIC.game.player.slow_time_interval=1\n GAME_LOGIC.game.player.slow_time=0.3 }"
-                }
-            },
-            "2198:2180": {
-                "x": 2198,
-                "y": 2180,
-                "object_code": "red_portal",
-                "other_options": {
-                    "portal_id": 2,
-                    "portal_entry": true
-                }
-            },
-            "2191:2175": {
-                "x": 2191,
-                "y": 2175,
-                "object_code": "red_portal",
-                "other_options": {
-                    "portal_id": 3,
-                    "portal_entry": false
-                }
-            },
-            "2198:2175": {
-                "x": 2198,
-                "y": 2175,
-                "object_code": "blue_portal",
-                "other_options": {
-                    "portal_id": 4,
-                    "portal_entry": true
-                }
-            },
-            "2191:2170": {
-                "x": 2191,
-                "y": 2170,
-                "object_code": "blue_portal",
-                "other_options": {
-                    "portal_id": 5,
-                    "portal_entry": false
-                }
-            },
-            "2198:2170": {
-                "x": 2198,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2199:2170": {
-                "x": 2199,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2200:2170": {
-                "x": 2200,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2201:2170": {
-                "x": 2201,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2202:2170": {
-                "x": 2202,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2203:2170": {
-                "x": 2203,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2204:2170": {
-                "x": 2204,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2205:2170": {
-                "x": 2205,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2206:2170": {
-                "x": 2206,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2207:2170": {
-                "x": 2207,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2208:2170": {
-                "x": 2208,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2209:2170": {
-                "x": 2209,
-                "y": 2170,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2191:2182": {
-                "x": 2191,
-                "y": 2182,
-                "object_code": "black_X",
-                "other_options": {
-                    "action": " if(GAME_LOGIC.game.player.x>2193*GAME_LOGIC.game.ball_size && GAME_LOGIC.game.level_vars.trigger1==undefined){\n  GAME_LOGIC.game.level_vars.trigger1=true \n GAME_LOGIC.game.createX(2191*GAME_LOGIC.game.ball_size,2185*GAME_LOGIC.game.ball_size,\"black\") \n}"
-                }
-            }
-        },
-        "player_position": {
+    "map": {
+        "2173:2177": {
             "x": 2173,
-            "y": 2173
+            "y": 2177,
+            "object_code": "green_dash",
+            "other_options": {}
         },
-        "min_score_to_win": 14,
-        "time_limit": null,
-        "acceleration": 14,
-        "contact_radius_size": 300,
-        "max_speed": 350,
-        "zoom_value": 50,
-        "add_powers": false,
-        "map_edge_type": "normal",
-        "edge_distance": 100,
-        "next_level": "{{home}}/9.json",
-        "slow_time": "0.5",
-        "slow_time_duration": "1",
-        "size_power": "20",
-        "size_power_duration": "1",
-        "speed_power": "2",
-        "speed_power_duration": "1",
-        "tutorial": {
-            "n_deaths": {
-                "0": [
-                    "Portals!"
-                ]
+        "2176:2185": {
+            "x": 2176,
+            "y": 2185,
+            "object_code": "green_dash",
+            "other_options": {
+                "angle": 0,
+                "go_to_position": true
+                
             }
         },
-        "space_background": {
-            "collisions": true
+        "2198:2185": {
+            "x": 2198,
+            "y": 2185,
+            "object_code": "green_portal",
+            "other_options": {
+                "portal_id": 0,
+                "portal_entry": true,
+                "action":" if(GAME_LOGIC.game.player.y>2185*GAME_LOGIC.game.ball_size && GAME_LOGIC.game.level_vars.trigger0==undefined){\n  GAME_LOGIC.game.level_vars.trigger0=true \n GAME_LOGIC.game.createX(2173*GAME_LOGIC.game.ball_size,2180*GAME_LOGIC.game.ball_size,\"black\") \n}"
+            }
+        },
+        "2191:2180": {
+            "x": 2191,
+            "y": 2180,
+            "object_code": "green_portal",
+            "other_options": {
+                "portal_id": 1,
+                "portal_entry": false,
+                "angle":0
+                
+            }
+        },
+        "2198:2180": {
+            "x": 2198,
+            "y": 2180,
+            "object_code": "red_portal",
+            "other_options": {
+                "portal_id": 2,
+                "portal_entry": true
+            }
+        },
+        "2191:2175": {
+            "x": 2191,
+            "y": 2175,
+            "object_code": "red_portal",
+            "other_options": {
+                "portal_id": 3,
+                "portal_entry": false,
+                "angle":0
+            }
+        },
+        "2198:2175": {
+            "x": 2198,
+            "y": 2175,
+            "object_code": "blue_portal",
+            "other_options": {
+                "portal_id": 4,
+                "portal_entry": true
+            }
+        },
+        "2191:2170": {
+            "x": 2191,
+            "y": 2170,
+            "object_code": "blue_portal",
+            "other_options": {
+                "portal_id": 5,
+                "portal_entry": false,
+                "angle":0
+            }
+        },
+        "2198:2170": {
+            "x": 2198,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2199:2170": {
+            "x": 2199,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2200:2170": {
+            "x": 2200,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2201:2170": {
+            "x": 2201,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2202:2170": {
+            "x": 2202,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2203:2170": {
+            "x": 2203,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2204:2170": {
+            "x": 2204,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2205:2170": {
+            "x": 2205,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2206:2170": {
+            "x": 2206,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2207:2170": {
+            "x": 2207,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2208:2170": {
+            "x": 2208,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2209:2170": {
+            "x": 2209,
+            "y": 2170,
+            "object_code": "red_ball",
+            "other_options": {
+                "action": "if(GAME_LOGIC.game.player.just_enter_portal && GAME_LOGIC.speed_run==0){GAME_LOGIC.game.player.slow_time_interval=1\n GAME_LOGIC.game.player.slow_time=0.3 }"
+            }
+        },
+        "2191:2182": {
+            "x": 2191,
+            "y": 2182,
+            "object_code": "black_X",
+            "other_options": {
+                "action":" if(GAME_LOGIC.game.player.x>2193*GAME_LOGIC.game.ball_size && GAME_LOGIC.game.level_vars.trigger1==undefined){\n  GAME_LOGIC.game.level_vars.trigger1=true \n GAME_LOGIC.game.createX(2191*GAME_LOGIC.game.ball_size,2185*GAME_LOGIC.game.ball_size,\"black\") \n}"
+            }
         }
     },
+    "player_position": {
+        "x": 2173,
+        "y": 2173
+    },
+    "min_score_to_win": 14,
+    "time_limit": null,
+    "acceleration": 14,
+    "contact_radius_size": 300,
+    "max_speed": 350,
+    "zoom_value": 50,
+    "add_powers": false,
+    "map_edge_type": "normal",
+    "edge_distance": 100,
+    "next_level":"{{home}}/9.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1",
+    "tutorial": {
+        "n_deaths":{
+            "0":["Portals!"]
+        }
+    },
+    "space_background": {
+        "collisions":true
+    }
+},
     "9": {
         "map": {
             "2086:2070": {
@@ -10501,6 +10505,7 @@
                 GAME_LOGIC.intro_page.green_go_back_menu_flag = false;
                 
                 GAME_LOGIC.speed_run = 0
+                GAME_LOGIC.pc_power=calculatePCPower()
 
                 GAME_LOGIC.intro_page.animation_radius = (window.innerWidth + window.innerHeight) * 0.05;
                 GAME_LOGIC.intro_page.animation_speed = 1;
@@ -12877,7 +12882,7 @@
                 GAME_LOGIC.game.trailEffect = (player) => {
                     // let player = GAME_LOGIC.game.player
 
-                    let creation_timer = 0.01;
+                    let creation_timer = (0.01+ 10/GAME_LOGIC.pc_power);
                     let trail_effect_desapear_speed = 1;
 
 
@@ -14677,7 +14682,7 @@
                         animation.appendAnimation((self) => {
                             let deal_with_slowtime = GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global
                             let ball_size = GAME_LOGIC.game.ball_size
-                            if (self.real_time * deal_with_slowtime > 0.1) {
+                            if (self.real_time * deal_with_slowtime > (0.1 + 50/GAME_LOGIC.pc_power)) {
                                 self.real_time = 0
                                 let c = new GameObject().append(createCircle(ball.x, ball.y, ball_size, GAME_LOGIC.game.vectorToColor(ball.color_vector)))
                                 c.shape.style.opacity = 0.2
@@ -14785,9 +14790,9 @@
                     GAME_LOGIC.game.animated_objects.push(dash)
 
                     //particle animation
+                    let max_particles=(GAME_LOGIC.pc_power<800)?1:3
 
-
-                    for (let i = 0; i <= 3; i++) {
+                    for (let i = 0; i <= max_particles; i++) {
                         let p = new GameObject()
                         p.append(createCircle(ball.x + ball.width / 2, ball.y + ball.height / 2, ball.width * 0.3, GAME_LOGIC.game.getColorInfo(color)["rgb"]))
                         p.p_index = i
@@ -14857,7 +14862,7 @@
                     particles_animation.appendAnimation((self) => {
                         let deal_with_slowtime = GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global
 
-                        if (self.real_time * deal_with_slowtime > 0.05) {
+                        if (self.real_time * deal_with_slowtime > (0.05 + 50/GAME_LOGIC.pc_power)) {
                             let p = new GameObject()
                             p.append(
                                 createCircle(
@@ -15044,7 +15049,7 @@
 
 
                 GAME_LOGIC.game.attractionForceAnimation = (self, ball, ball_size, color, distance) => {
-                    if (self.real_time * GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global > 0.05) {
+                    if (self.real_time * GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global > (0.05 + 100/GAME_LOGIC.pc_power)) {
 
                         let p = new GameObject()
                         p.parent_object=ball
@@ -15092,7 +15097,7 @@
 
                 GAME_LOGIC.game.repulsiveForceAnimation = (self, ball, ball_size, color, distance) => {
 
-                    if (self.real_time * GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global > 0.05) {
+                    if (self.real_time * GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global > (0.05 + 100/GAME_LOGIC.pc_power)) {
 
                         let p = new GameObject()
                         p.parent_object=ball
@@ -15288,7 +15293,7 @@
                     GAME_LOGIC.game.createEdgeMapBarriers();
 
 
-                    if (GAME_LOGIC.game.space_background_global != undefined) {
+                    if (GAME_LOGIC.game.space_background_global != undefined && GAME_LOGIC.pc_power>800) {
                         GAME_LOGIC.game.createSpaceBackGround();
                     }
 
@@ -15731,9 +15736,9 @@
 
                 GAME_LOGIC.game.explosionAnimation = (obj) => {
 
+                    let max_particles=Math.min(Math.floor(GAME_LOGIC.pc_power/7),300)
 
-
-                    for (let i = 0; i < 200; i++) {
+                    for (let i = 0; i < max_particles; i++) {
                         let p = new GameObject()
                         p.append(createCircle(obj.x, obj.y, obj.width * 0.5, obj.shape.style.backgroundColor))
                         const range = 30
@@ -16371,6 +16376,11 @@
             }
         });
         return new_projectiles_array;
+    }
+
+    function calculatePCPower(){
+        const memory = performance.memory || {};
+        return Math.round((memory.jsHeapSizeLimit/100000 * navigator.hardwareConcurrency)*0.01)
     }
 
 
