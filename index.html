@@ -9071,85 +9071,93 @@
         "space_background": {}
     },
     "20": {
-        "map": {
-            "2285:2230": {
-                "x": 2285,
-                "y": 2230,
-                "object_code": "red_ball",
-                "other_options": {
-                    "distance": 2500,
-                    "strength": -0.000001,
-                    "action": "let deal_with_slowtime=GAME_LOGIC.game.player.slow_time*GAME_LOGIC.game.game_speed_global \n if(self.real_time*deal_with_slowtime>0.1){\nself.real_time=0\n GAME_LOGIC.game.player.speedy+=50 \n let p=new GameObject()\n GAME_LOGIC.game.effect_particles.push(p) \n  p.append(createCircle(GAME_LOGIC.game.player.x +Math.random()*1000-500,GAME_LOGIC.game.player.y +Math.random()*250-700,GAME_LOGIC.game.ball_size*0.3,GAME_LOGIC.game.red_color))\n p.appendAnimation((particle)=>{\n let deal_with_slowtime2=GAME_LOGIC.game.player.slow_time*GAME_LOGIC.game.game_speed_global \n particle.move(particle.x,particle.y+10*deal_with_slowtime2) \n  if(particle.real_time*deal_with_slowtime2>5){particle.destroy()} \n}) \n}"
-                }
-            },
-            "2277:2278": {
-                "x": 2277,
-                "y": 2278,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2286:2278": {
-                "x": 2286,
-                "y": 2278,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2295:2278": {
-                "x": 2295,
-                "y": 2278,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2277:2283": {
-                "x": 2277,
-                "y": 2283,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2286:2283": {
-                "x": 2286,
-                "y": 2283,
-                "object_code": "red_ball",
-                "other_options": {}
-            },
-            "2295:2283": {
-                "x": 2295,
-                "y": 2283,
-                "object_code": "red_ball",
-                "other_options": {}
+    "map": {
+        "2285:2229": {
+            "x": 2285,
+            "y": 2229,
+            "object_code": "black_ball",
+            "other_options": {
+                "action": "let deal_with_slowtime=GAME_LOGIC.game.player.slow_time*GAME_LOGIC.game.game_speed_global \n if(self.real_time*deal_with_slowtime>(0.1+100/GAME_LOGIC.pc_power) && GAME_LOGIC.pc_power>800){\n  self.real_time=0 \n  let p=new GameObject()\n GAME_LOGIC.game.effect_particles.push(p) \n  p.append(createCircle(GAME_LOGIC.game.player.x +Math.random()*1000-500,GAME_LOGIC.game.player.y +Math.random()*250-700,GAME_LOGIC.game.ball_size*0.3,GAME_LOGIC.game.red_color))\n p.appendAnimation((particle)=>{\n let deal_with_slowtime2=GAME_LOGIC.game.player.slow_time*GAME_LOGIC.game.game_speed_global \n particle.move(particle.x,particle.y+10*deal_with_slowtime2) \n  if(particle.real_time*deal_with_slowtime2>5){particle.destroy()} \n})  \n}"
             }
         },
-        "player_position": {
-            "x": 2272,
-            "y": 2272
-        },
-        "min_score_to_win": 6,
-        "time_limit": null,
-        "acceleration": 30,
-        "contact_radius_size": 600,
-        "max_speed": 450,
-        "zoom_value": 30,
-        "add_powers": false,
-        "map_edge_type": "deadly",
-        "edge_distance": 400,
-        "next_level": "{{home}}/21.json",
-        "slow_time": "0.5",
-        "slow_time_duration": "1",
-        "size_power": "20",
-        "size_power_duration": "1",
-        "speed_power": "2",
-        "speed_power_duration": "1",
-        "tutorial": {
-            "n_deaths": {
-                "0": [
-                    "Gravity!"
-                ]
+        "2285:2230": {
+            "x": 2285,
+            "y": 2230,
+            "object_code": "red_ball",
+            "other_options": {
+                "distance":2500,
+                "strength":-0.000001,
+                "action": "let deal_with_slowtime=GAME_LOGIC.game.player.slow_time*GAME_LOGIC.game.game_speed_global \n if(self.real_time*deal_with_slowtime>0.1){\nself.real_time=0\n GAME_LOGIC.game.player.speedy+=50 \n}"
             }
         },
-        "space_background": {
-            "collisions": false
+        "2277:2278": {
+            "x": 2277,
+            "y": 2278,
+            "object_code": "red_ball",
+            "other_options": {
+                
+            }
+        },
+        "2286:2278": {
+            "x": 2286,
+            "y": 2278,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2295:2278": {
+            "x": 2295,
+            "y": 2278,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2277:2283": {
+            "x": 2277,
+            "y": 2283,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2286:2283": {
+            "x": 2286,
+            "y": 2283,
+            "object_code": "red_ball",
+            "other_options": {}
+        },
+        "2295:2283": {
+            "x": 2295,
+            "y": 2283,
+            "object_code": "red_ball",
+            "other_options": {}
         }
     },
+    "player_position": {
+        "x": 2272,
+        "y": 2272
+    },
+    "min_score_to_win": 6,
+    "time_limit": null,
+    "acceleration": 30,
+    "contact_radius_size": 600,
+    "max_speed": 450,
+    "zoom_value": 30,
+    "add_powers": false,
+    "map_edge_type": "deadly",
+    "edge_distance": 400,
+    "next_level":"{{home}}/21.json",
+    "slow_time": "0.5",
+    "slow_time_duration": "1",
+    "size_power": "20",
+    "size_power_duration": "1",
+    "speed_power": "2",
+    "speed_power_duration": "1",
+    "tutorial": {
+        "n_deaths":{
+            "0":["Gravity!"]
+        }
+    },
+    "space_background": {
+        "collisions":false
+    }
+},
     "21": {
         "map": {
             "2634:2631": {
