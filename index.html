@@ -9077,7 +9077,7 @@
             "y": 2229,
             "object_code": "black_ball",
             "other_options": {
-                "action": "let deal_with_slowtime=GAME_LOGIC.game.player.slow_time*GAME_LOGIC.game.game_speed_global \n if(self.real_time*deal_with_slowtime>(0.1+100/GAME_LOGIC.pc_power) && GAME_LOGIC.pc_power>800){\n  self.real_time=0 \n  let p=new GameObject()\n GAME_LOGIC.game.effect_particles.push(p) \n  p.append(createCircle(GAME_LOGIC.game.player.x +Math.random()*1000-500,GAME_LOGIC.game.player.y +Math.random()*250-700,GAME_LOGIC.game.ball_size*0.3,GAME_LOGIC.game.red_color))\n p.appendAnimation((particle)=>{\n let deal_with_slowtime2=GAME_LOGIC.game.player.slow_time*GAME_LOGIC.game.game_speed_global \n particle.move(particle.x,particle.y+10*deal_with_slowtime2) \n  if(particle.real_time*deal_with_slowtime2>5){particle.destroy()} \n})  \n}"
+                "action": "let deal_with_slowtime=GAME_LOGIC.game.player.slow_time*GAME_LOGIC.game.game_speed_global \n if(self.real_time*deal_with_slowtime>(0.1+100/GAME_LOGIC.pc_power) && GAME_LOGIC.pc_power>300){\n  self.real_time=0 \n  let p=new GameObject()\n GAME_LOGIC.game.effect_particles.push(p) \n  p.append(createCircle(GAME_LOGIC.game.player.x +Math.random()*1000-500,GAME_LOGIC.game.player.y +Math.random()*250-700,GAME_LOGIC.game.ball_size*0.3,GAME_LOGIC.game.red_color))\n p.appendAnimation((particle)=>{\n let deal_with_slowtime2=GAME_LOGIC.game.player.slow_time*GAME_LOGIC.game.game_speed_global \n particle.move(particle.x,particle.y+10*deal_with_slowtime2) \n  if(particle.real_time*deal_with_slowtime2>5){particle.destroy()} \n})  \n}"
             }
         },
         "2285:2230": {
@@ -12890,7 +12890,7 @@
                 GAME_LOGIC.game.trailEffect = (player) => {
                     // let player = GAME_LOGIC.game.player
 
-                    let creation_timer = (0.01+ 10/GAME_LOGIC.pc_power);
+                    let creation_timer = (0.01+ 7/GAME_LOGIC.pc_power);
                     let trail_effect_desapear_speed = 1;
 
 
@@ -14690,7 +14690,7 @@
                         animation.appendAnimation((self) => {
                             let deal_with_slowtime = GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global
                             let ball_size = GAME_LOGIC.game.ball_size
-                            if (self.real_time * deal_with_slowtime > (0.1 + 50/GAME_LOGIC.pc_power)) {
+                            if (self.real_time * deal_with_slowtime > (0.1 + 30/GAME_LOGIC.pc_power)) {
                                 self.real_time = 0
                                 let c = new GameObject().append(createCircle(ball.x, ball.y, ball_size, GAME_LOGIC.game.vectorToColor(ball.color_vector)))
                                 c.shape.style.opacity = 0.2
@@ -14798,7 +14798,7 @@
                     GAME_LOGIC.game.animated_objects.push(dash)
 
                     //particle animation
-                    let max_particles=(GAME_LOGIC.pc_power<800)?1:3
+                    let max_particles=(GAME_LOGIC.pc_power<300)?0:3
 
                     for (let i = 0; i <= max_particles; i++) {
                         let p = new GameObject()
@@ -14870,7 +14870,7 @@
                     particles_animation.appendAnimation((self) => {
                         let deal_with_slowtime = GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global
 
-                        if (self.real_time * deal_with_slowtime > (0.05 + 50/GAME_LOGIC.pc_power)) {
+                        if (self.real_time * deal_with_slowtime > (0.05 + 20/GAME_LOGIC.pc_power)) {
                             let p = new GameObject()
                             p.append(
                                 createCircle(
@@ -15057,7 +15057,7 @@
 
 
                 GAME_LOGIC.game.attractionForceAnimation = (self, ball, ball_size, color, distance) => {
-                    if (self.real_time * GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global > (0.05 + 100/GAME_LOGIC.pc_power)) {
+                    if (self.real_time * GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global > (0.05 + 50/GAME_LOGIC.pc_power)) {
 
                         let p = new GameObject()
                         p.parent_object=ball
@@ -15105,7 +15105,7 @@
 
                 GAME_LOGIC.game.repulsiveForceAnimation = (self, ball, ball_size, color, distance) => {
 
-                    if (self.real_time * GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global > (0.05 + 100/GAME_LOGIC.pc_power)) {
+                    if (self.real_time * GAME_LOGIC.game.player.slow_time * GAME_LOGIC.game.game_speed_global > (0.05 + 50/GAME_LOGIC.pc_power)) {
 
                         let p = new GameObject()
                         p.parent_object=ball
@@ -15301,7 +15301,7 @@
                     GAME_LOGIC.game.createEdgeMapBarriers();
 
 
-                    if (GAME_LOGIC.game.space_background_global != undefined && GAME_LOGIC.pc_power>800) {
+                    if (GAME_LOGIC.game.space_background_global != undefined && GAME_LOGIC.pc_power>110) {
                         GAME_LOGIC.game.createSpaceBackGround();
                     }
 
@@ -15744,7 +15744,7 @@
 
                 GAME_LOGIC.game.explosionAnimation = (obj) => {
 
-                    let max_particles=Math.min(Math.floor(GAME_LOGIC.pc_power/7),300)
+                    let max_particles=Math.min(Math.floor(GAME_LOGIC.pc_power/6),300)
 
                     for (let i = 0; i < max_particles; i++) {
                         let p = new GameObject()
@@ -16388,7 +16388,7 @@
 
     function calculatePCPower(){
         const memory = performance.memory || {};
-        return Math.round((memory.jsHeapSizeLimit/100000 * navigator.hardwareConcurrency)*0.01)
+        return Math.round((memory.jsHeapSizeLimit/100000)*0.01)
     }
 
 
